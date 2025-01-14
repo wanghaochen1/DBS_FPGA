@@ -1,64 +1,58 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2025/01/14 16:37:01
-// Design Name: 
-// Module Name: Hanning_read
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// 实现功能：Hanning窗函数数据读取
+//每次复位之后输出512个点hanning窗函数值，直到下次复位
+//每次rst_n之后只输出512，不会继续输出
 //////////////////////////////////////////////////////////////////////////////////
 
 
+`timescale 1ns / 1ps
+
 module Hanning_read(
- input wire clk,           // 时钟输入
-    input wire rst_n,         // 复位信号，低电平有效
-    output reg [15:0] data    // 输出数据(Hanning窗函数值)
+    input wire clk,           
+    input wire rst_n,         
+    output reg [15:0] data    
 );
 
 // 内部信号定义
-reg [8:0] addr_cnt;          // 地址计数器
-wire [15:0] douta;          // BRAM输出数据
+reg [8:0] addr_cnt;          
+reg count_done;              
+wire [15:0] douta;          
 
 // BRAM IP核实例化
 hanning_bram bram_inst (
     .clka(clk),              
-    .ena(1'b1),              // 持续使能
-    .wea(1'b0),              // 恒为读模式
-    .addra(addr_cnt),        // 地址输入
-    .dina(16'd0),            // 未使用
-    .douta(douta)            // 读出数据
+    .ena(!count_done),       
+    .wea(1'b0),              
+    .addra(addr_cnt),        
+    .dina(16'd0),            
+    .douta(douta)            
 );
 
-// 地址计数器逻辑
+// 合并控制逻辑：地址计数和完成标志
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
         addr_cnt <= 9'd0;
+        count_done <= 1'b0;
     end
     else begin
-        if (addr_cnt == 9'd511)  // 到达末尾后从头开始
-            addr_cnt <= 9'd0;
-        else
-            addr_cnt <= addr_cnt + 1'b1;
+        if (!count_done) begin  
+            if (addr_cnt == 9'd511) begin
+                count_done <= 1'b1;
+            end
+            else begin
+                addr_cnt <= addr_cnt + 1'b1;
+            end
+        end
     end
 end
 
-// 输出数据寄存
+// 数据输出控制
 always @(posedge clk or negedge rst_n) begin
     if (!rst_n) begin
         data <= 16'd0;
     end
-    else begin
+    else if (!count_done) begin
         data <= douta;
     end
 end
