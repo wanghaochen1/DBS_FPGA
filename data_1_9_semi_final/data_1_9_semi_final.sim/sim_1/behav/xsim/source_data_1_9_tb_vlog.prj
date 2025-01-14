@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../data_1_9_semi_final.gen/sources_1/ip/hanning_bram/sim/hanning_bram.v" \
+"../../../../data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v" \
+"../../../../data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v" \
+"../../../../data_1_9_semi_final.srcs/sim_1/new/Hanning_read_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
