@@ -5,6 +5,7 @@ Running: G:/Vivado/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'probe1' is not connected on this instance [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:38]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -16,6 +17,7 @@ Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
 Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
 Compiling module xil_defaultlib.hanning_bram
 Compiling module xil_defaultlib.Hanning_read
+Compiling module xil_defaultlib.ila_0
 Compiling module xil_defaultlib.source_data_1_9
 Compiling module xil_defaultlib.source_data_1_9_tb
 Compiling module xil_defaultlib.glbl

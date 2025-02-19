@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc} rfile:../../../data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN R4 IOSTANDARD LVCMOS15} [get_ports clk]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U7 IOSTANDARD LVCMOS15} [get_ports rst_n]

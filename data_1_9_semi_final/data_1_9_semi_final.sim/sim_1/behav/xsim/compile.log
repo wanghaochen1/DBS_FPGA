@@ -1,3 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/sim/hanning_bram.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module hanning_bram
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v" into library xil_defaultlib
