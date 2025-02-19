@@ -22,18 +22,32 @@
 
 module source_data_1_9(
     input wire clk,           // 时钟输入
-    input wire rst_n         // 复位信号，低电平有效
-    //output wire [15:0] hanning_data,    // 输出数据(Hanning窗函数�??)
-    //output wire data_valid   // 数据有效信号
+    input wire rst_n,         // 复位信号，低电平有效
+
+    output wire [15:0] hanning_data,    // 输出数据(Hanning窗函数�??)
+    output wire  [15:0] LFP_data,    // 输出数据(LFP数据)
+
+    output wire hanning_data_valid,   // 数据有效信号
+    output wire LFP_data_valid   // 数据有效信号
 );
 
-wire [15:0] hanning_data;
-wire data_valid;
+//wire [15:0] hanning_data;
+//wire data_valid;
+
+
+//Hanning窗函数数据读取模块实例化//
 Hanning_read hanning (
     .sys_clk(clk),
     .rst_n(rst_n),
     .data(hanning_data),
-    .data_valid(data_valid)
+    .data_valid(hanning_data_valid)
+);
+//LFP数据读取模块实例化
+LFP_read lfp (
+    .sys_clk(clk),
+    .rst_n(rst_n),
+    .data(LFP_data),
+    .data_valid(LFP_data_valid)
 );
 
 //ILA模块用来debug

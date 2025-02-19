@@ -2,6 +2,9 @@ Time resolution is 1 ps
  Block Memory Generator module loading initial data...
  Block Memory Generator data initialization complete.
 Block Memory Generator module source_data_1_9_tb.uut.hanning.bram_inst.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module source_data_1_9_tb.uut.lfp.bram_inst2.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Time =                    0, clk = 0, rst_n = 0, data = 0000
 Time =                 2000, clk = 1, rst_n = 0, data = 0000
 Time =                 4000, clk = 0, rst_n = 0, data = 0000
@@ -4159,4 +4162,19 @@ Time =              8306000, clk = 1, rst_n = 1, data = 000b
 Time =              8308000, clk = 0, rst_n = 1, data = 000b
 Time =              8310000, clk = 1, rst_n = 1, data = 000b
 Time =              8312000, clk = 0, rst_n = 1, data = 000b
-Time =              8
+Time =              8314000, clk = 1, rst_n = 1, data = 000b
+Time =              8316000, clk = 0, rst_n = 1, data = 000b
+Time =              8318000, clk = 1, rst_n = 1, data = 000b
+Time =              8320000, clk = 0, rst_n = 1, data = 000b
+Time =              8322000, clk = 1, rst_n = 1, data = 000b
+Time =              8324000, clk = 0, rst_n = 1, data = 000b
+Time =              8326000, clk = 1, rst_n = 1, data = 000b
+Time =              8328000, clk = 0, rst_n = 1, data = 000b
+Time =              8330000, clk = 1, rst_n = 1, data = 000b
+Time =              8332000, clk = 0, rst_n = 1, data = 000b
+Time =              8334000, clk = 1, rst_n = 1, data = 000b
+Time =              8336000, clk = 0, rst_n = 1, data = 000b
+Time =              8338000, clk = 1, rst_n = 1, data = 000b
+Time =              8340000, clk = 0, rst_n = 1, data = 000b
+Time =              8342000, clk = 1, rst_n = 1, data = 000b
+$finish called at time : 8344 ns : File "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/Hanning_read_tb.v" Line 53
