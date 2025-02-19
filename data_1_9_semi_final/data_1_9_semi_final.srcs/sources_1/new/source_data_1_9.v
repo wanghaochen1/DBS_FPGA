@@ -22,18 +22,19 @@
 
 module source_data_1_9(
     input wire clk,           // 时钟输入
-    input wire rst_n,         // 复位信号，低电平有效
+    input wire rst_n         // 复位信号，低电平有效
 
-    output wire [15:0] hanning_data,    // 输出数据(Hanning窗函数�??)
-    output wire  [15:0] LFP_data,    // 输出数据(LFP数据)
+    // output wire [15:0] hanning_data,    // 输出数据(Hanning窗函数�??)
+    // output wire  [15:0] LFP_data,    // 输出数据(LFP数据)
 
-    output wire hanning_data_valid,   // 数据有效信号
-    output wire LFP_data_valid   // 数据有效信号
+    // output wire hanning_data_valid,   // 数据有效信号
+    // output wire LFP_data_valid   // 数据有效信号
 );
 
-//wire [15:0] hanning_data;
-//wire data_valid;
-
+wire [15:0] hanning_data;
+wire hanning_data_valid;
+wire  [15:0] LFP_data;
+wire LFP_data_valid;
 
 //Hanning窗函数数据读取模块实例化//
 Hanning_read hanning (
@@ -54,7 +55,9 @@ LFP_read lfp (
 ila_0 ila_hanning (
 	.clk(clk), // input wire clk
 	.probe0(hanning_data), // input wire [15:0] probe0
-    .probe1(data_valid)
+    .probe1(hanning_data_valid),
+    .probe2(LFP_data), // input wire [15:0] probe2
+    .probe3(LFP_data_valid)
 );
 
 endmodule

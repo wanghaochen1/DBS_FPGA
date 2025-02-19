@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Tue Feb 18 20:29:52 2025
+| Date             : Wed Feb 19 19:03:01 2025
 | Host             : Wanghaochen running 64-bit major release  (build 9200)
 | Command          : report_power -file source_data_1_9_power_routed.rpt -pb source_data_1_9_power_summary_routed.pb -rpx source_data_1_9_power_routed.rpx
 | Design           : source_data_1_9
@@ -52,17 +52,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.004 |        4 |       --- |             --- |
-| Slice Logic              |    <0.001 |     8591 |       --- |             --- |
-|   LUT as Logic           |    <0.001 |     2578 |     63400 |            4.07 |
-|   Register               |    <0.001 |     4147 |    126800 |            3.27 |
+| Clocks                   |     0.005 |        4 |       --- |             --- |
+| Slice Logic              |    <0.001 |     9375 |       --- |             --- |
+|   LUT as Logic           |    <0.001 |     2750 |     63400 |            4.34 |
+|   Register               |    <0.001 |     4589 |    126800 |            3.62 |
 |   LUT as Distributed RAM |    <0.001 |      152 |     19000 |            0.80 |
-|   CARRY4                 |    <0.001 |      113 |     15850 |            0.71 |
-|   LUT as Shift Register  |    <0.001 |      256 |     19000 |            1.35 |
-|   F7/F8 Muxes            |    <0.001 |       91 |     63400 |            0.14 |
-|   Others                 |     0.000 |      586 |       --- |             --- |
-| Signals                  |    <0.001 |     5708 |       --- |             --- |
-| Block RAM                |    <0.001 |        1 |       135 |            0.74 |
+|   CARRY4                 |    <0.001 |      123 |     15850 |            0.78 |
+|   LUT as Shift Register  |    <0.001 |      293 |     19000 |            1.54 |
+|   F7/F8 Muxes            |    <0.001 |      108 |     63400 |            0.17 |
+|   Others                 |     0.000 |      634 |       --- |             --- |
+| Signals                  |    <0.001 |     6268 |       --- |             --- |
+| Block RAM                |    <0.001 |        2 |       135 |            1.48 |
 | I/O                      |    <0.001 |        2 |       285 |            0.70 |
 | Static Power             |     0.084 |          |           |                 |
 | Total                    |     0.090 |          |           |                 |
@@ -146,9 +146,9 @@ Table of Contents
 | Name                     | Power (W) |
 +--------------------------+-----------+
 | source_data_1_9          |     0.006 |
-|   dbg_hub                |     0.002 |
-|     inst                 |     0.002 |
-|       BSCANID.u_xsdbm_id |     0.002 |
+|   dbg_hub                |     0.001 |
+|     inst                 |     0.001 |
+|       BSCANID.u_xsdbm_id |     0.001 |
 |   ila_hanning            |     0.004 |
 |     inst                 |     0.004 |
 |       ila_core_inst      |     0.004 |

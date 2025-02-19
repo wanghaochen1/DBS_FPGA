@@ -122,8 +122,10 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
   set_param tcl.statsThreshold 360
   set_param chipscope.maxJobs 4
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 8  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tfgg484-2
@@ -139,8 +141,9 @@ OPTRACE "set parameters" START { }
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet {{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/source_data_1_9.dcp}}
-  read_ip -quiet {{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/ip/ila_0/ila_0.xci}}
+  read_ip -quiet {{g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/ip/lfp_bram/lfp_bram.xci}}
   read_ip -quiet {{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/ip/hanning_bram/hanning_bram.xci}}
+  read_ip -quiet {{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/ip/ila_0/ila_0.xci}}
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc}}
 OPTRACE "read constraints: implementation" END { }
