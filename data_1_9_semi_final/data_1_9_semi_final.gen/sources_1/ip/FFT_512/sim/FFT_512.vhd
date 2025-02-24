@@ -63,11 +63,11 @@ ENTITY FFT_512 IS
     s_axis_config_tdata : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
     s_axis_config_tvalid : IN STD_LOGIC;
     s_axis_config_tready : OUT STD_LOGIC;
-    s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    s_axis_data_tdata : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
     s_axis_data_tvalid : IN STD_LOGIC;
     s_axis_data_tready : OUT STD_LOGIC;
     s_axis_data_tlast : IN STD_LOGIC;
-    m_axis_data_tdata : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    m_axis_data_tdata : OUT STD_LOGIC_VECTOR(95 DOWNTO 0);
     m_axis_data_tuser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
     m_axis_data_tvalid : OUT STD_LOGIC;
     m_axis_data_tready : IN STD_LOGIC;
@@ -128,11 +128,11 @@ ARCHITECTURE FFT_512_arch OF FFT_512 IS
       s_axis_config_tdata : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
       s_axis_config_tvalid : IN STD_LOGIC;
       s_axis_config_tready : OUT STD_LOGIC;
-      s_axis_data_tdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+      s_axis_data_tdata : IN STD_LOGIC_VECTOR(63 DOWNTO 0);
       s_axis_data_tvalid : IN STD_LOGIC;
       s_axis_data_tready : OUT STD_LOGIC;
       s_axis_data_tlast : IN STD_LOGIC;
-      m_axis_data_tdata : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      m_axis_data_tdata : OUT STD_LOGIC_VECTOR(95 DOWNTO 0);
       m_axis_data_tuser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
       m_axis_data_tvalid : OUT STD_LOGIC;
       m_axis_data_tready : IN STD_LOGIC;
@@ -167,7 +167,7 @@ ARCHITECTURE FFT_512_arch OF FFT_512 IS
   ATTRIBUTE X_INTERFACE_INFO OF event_tlast_missing: SIGNAL IS "xilinx.com:signal:interrupt:1.0 event_tlast_missing_intf INTERRUPT";
   ATTRIBUTE X_INTERFACE_PARAMETER OF event_tlast_unexpected: SIGNAL IS "XIL_INTERFACENAME event_tlast_unexpected_intf, SENSITIVITY EDGE_RISING, PORTWIDTH 1";
   ATTRIBUTE X_INTERFACE_INFO OF event_tlast_unexpected: SIGNAL IS "xilinx.com:signal:interrupt:1.0 event_tlast_unexpected_intf INTERRUPT";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF m_axis_data_tdata: SIGNAL IS "XIL_INTERFACENAME M_AXIS_DATA, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 16, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF m_axis_data_tdata: SIGNAL IS "XIL_INTERFACENAME M_AXIS_DATA, TDATA_NUM_BYTES 12, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 16, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TDATA";
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TLAST";
   ATTRIBUTE X_INTERFACE_INFO OF m_axis_data_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 M_AXIS_DATA TREADY";
@@ -177,7 +177,7 @@ ARCHITECTURE FFT_512_arch OF FFT_512 IS
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_config_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_CONFIG TDATA";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_config_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_CONFIG TREADY";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_config_tvalid: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_CONFIG TVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axis_data_tdata: SIGNAL IS "XIL_INTERFACENAME S_AXIS_DATA, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axis_data_tdata: SIGNAL IS "XIL_INTERFACENAME S_AXIS_DATA, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 100000000, PHASE 0.0, LAYERED_METADATA undef, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tdata: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TDATA";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tlast: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TLAST";
   ATTRIBUTE X_INTERFACE_INFO OF s_axis_data_tready: SIGNAL IS "xilinx.com:interface:axis:1.0 S_AXIS_DATA TREADY";
@@ -188,8 +188,8 @@ BEGIN
       C_XDEVICEFAMILY => "artix7",
       C_PART => "xc7a100tfgg484-2",
       C_S_AXIS_CONFIG_TDATA_WIDTH => 8,
-      C_S_AXIS_DATA_TDATA_WIDTH => 32,
-      C_M_AXIS_DATA_TDATA_WIDTH => 64,
+      C_S_AXIS_DATA_TDATA_WIDTH => 64,
+      C_M_AXIS_DATA_TDATA_WIDTH => 96,
       C_M_AXIS_DATA_TUSER_WIDTH => 16,
       C_M_AXIS_STATUS_TDATA_WIDTH => 1,
       C_THROTTLE_SCHEME => 1,
@@ -198,12 +198,12 @@ BEGIN
       C_ARCH => 3,
       C_HAS_NFFT => 0,
       C_USE_FLT_PT => 0,
-      C_INPUT_WIDTH => 16,
+      C_INPUT_WIDTH => 32,
       C_TWIDDLE_WIDTH => 16,
-      C_OUTPUT_WIDTH => 26,
+      C_OUTPUT_WIDTH => 42,
       C_HAS_SCALING => 0,
       C_HAS_BFP => 0,
-      C_HAS_ROUNDING => 1,
+      C_HAS_ROUNDING => 0,
       C_HAS_ACLKEN => 0,
       C_HAS_ARESETN => 1,
       C_HAS_OVFLO => 0,

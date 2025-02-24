@@ -3,8 +3,8 @@
   <File Type="PA-TCL" Name="source_data_1_9.tcl"/>
   <File Type="REPORTS-TCL" Name="source_data_1_9_reports.tcl"/>
   <File Type="RDS-RDS" Name="source_data_1_9.vds"/>
-  <File Type="RDS-UTIL" Name="source_data_1_9_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="source_data_1_9_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="fft_512_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fft_512_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="source_data_1_9.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
