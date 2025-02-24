@@ -26,10 +26,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 27608
-INFO: [Synth 8-11241] undeclared symbol 'hanning_data_valid', assumed default net type 'wire' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:44]
+INFO: [Synth 8-7075] Helper process launched with PID 14020
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1320.234 ; gain = 410.883
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1321.836 ; gain = 410.898
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'source_data_1_9' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
 INFO: [Synth 8-6157] synthesizing module 'Hanning_read' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v:9]
@@ -192,13 +191,16 @@ INFO: [Synth 8-638] synthesizing module 'lfp_bram' [g:/NERCN_LFP/FPGA_final proj
 INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:236]
 INFO: [Synth 8-256] done synthesizing module 'lfp_bram' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:70]
 INFO: [Synth 8-6155] done synthesizing module 'LFP_read' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v:23]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:55]
-INFO: [Synth 8-6157] synthesizing module 'ila_0' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-16744-Wanghaochen/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-16744-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mult_hanning' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mult_hanning' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-18068-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-18068-Wanghaochen/realtime/ila_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'source_data_1_9' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:40]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:55]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'lfp'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:47]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:45]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mult_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:59]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'lfp'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:52]
 WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port DOUTB_I[15] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port DOUTB_I[14] in module blk_mem_output_block is either unconnected or has no load
@@ -301,18 +303,18 @@ WARNING: [Synth 8-7129] Port ENB in module blk_mem_input_block is either unconne
 WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_input_block is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1744.109 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1745.066 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -329,22 +331,22 @@ Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/d
 Finished Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1744.109 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1745.066 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1744.109 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1745.066 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -353,10 +355,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for lfp/bram_inst2. (constraint file 
 Applied set_property KEEP_HIERARCHY = SOFT for hanning/bram_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ila_hanning. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -365,9 +367,10 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input    9 Bit       Adders := 2     
 +---Registers : 
-	               16 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
 	                9 Bit    Registers := 2     
-	                1 Bit    Registers := 4     
+	                1 Bit    Registers := 7     
 +---Muxes : 
 	   2 Input    1 Bit        Muxes := 4     
 ---------------------------------------------------------------------------------
@@ -386,26 +389,43 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP mult_result0, operation Mode is: A*B.
+DSP Report: operator mult_result0 is absorbed into DSP mult_result0.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1745.066 ; gain = 834.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult_hanning | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -422,43 +442,50 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3295] tying undriven pin data_valid_inferred:in0 to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult_hanning | (A*B)'      | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
 
 Report BlackBoxes: 
 +------+--------------+----------+
@@ -473,39 +500,40 @@ Report Cell Usage:
 +------+---------+------+
 |1     |ila      |     1|
 |2     |BUFG     |     1|
-|3     |LUT1     |     5|
-|4     |LUT2     |     4|
-|5     |LUT3     |     4|
-|6     |LUT4     |     4|
-|7     |LUT5     |     6|
-|8     |LUT6     |     4|
-|9     |RAMB18E1 |     2|
-|11    |FDCE     |    51|
-|12    |FDPE     |     2|
-|13    |IBUF     |     2|
+|3     |DSP48E1  |     1|
+|4     |LUT1     |     5|
+|5     |LUT2     |    37|
+|6     |LUT3     |     5|
+|7     |LUT4     |     4|
+|8     |LUT5     |     6|
+|9     |LUT6     |     4|
+|10    |RAMB18E1 |     2|
+|12    |FDCE     |   120|
+|13    |FDPE     |     2|
+|14    |IBUF     |     2|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 328 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:39 . Memory (MB): peak = 1744.109 ; gain = 834.758
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1744.109 ; gain = 834.758
+Synthesis finished with 0 errors, 0 critical warnings and 327 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:40 . Memory (MB): peak = 1745.066 ; gain = 834.129
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1745.066 ; gain = 834.129
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1744.109 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1745.066 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1744.109 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1745.066 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 7fef02d2
+Synth Design complete | Checksum: b0eda3bb
 INFO: [Common 17-83] Releasing license: Synthesis
-42 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+44 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.statsThreshold, tcl.collectionResultDisplayLimit
 INFO: [Common 17-1381] The checkpoint 'G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/source_data_1_9.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file source_data_1_9_utilization_synth.rpt -pb source_data_1_9_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 19 19:00:23 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 17:33:52 2025...

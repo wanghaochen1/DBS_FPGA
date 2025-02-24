@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1739962764" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/source_data_1_9.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740043974" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/source_data_1_9.dcp">
   <File Type="PA-TCL" Name="source_data_1_9.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="source_data_1_9_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="source_data_1_9_reports.tcl"/>
   <File Type="RDS-RDS" Name="source_data_1_9.vds"/>
   <File Type="RDS-UTIL" Name="source_data_1_9_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="source_data_1_9_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="source_data_1_9.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="source_data_1_9_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="source_data_1_9_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/lfp_bram/lfp_bram.xci">
@@ -33,6 +30,13 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/LFP_read.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mult_hanning.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

@@ -72,6 +72,7 @@ proc create_report { reportName command } {
 OPTRACE "ila_0_synth_1" START { ROLLUP_AUTO }
 set_param tcl.collectionResultDisplayLimit 0
 set_param tcl.statsThreshold 360
+set_param chipscope.maxJobs 4
 set_param xicom.use_bs_reader 1
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run

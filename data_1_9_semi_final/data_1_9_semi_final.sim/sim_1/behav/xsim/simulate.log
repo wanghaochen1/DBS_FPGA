@@ -4177,4 +4177,4 @@ Time =              8336000, clk = 0, rst_n = 1, data = 000b
 Time =              8338000, clk = 1, rst_n = 1, data = 000b
 Time =              8340000, clk = 0, rst_n = 1, data = 000b
 Time =              8342000, clk = 1, rst_n = 1, data = 000b
-$finish called at time : 8344 ns : File "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/Hanning_read_tb.v" Line 53
+$finish called at time : 8344 ns : File "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/Hanning_read_tb.v" Line 60

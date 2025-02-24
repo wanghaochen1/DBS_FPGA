@@ -102,7 +102,7 @@
                                 "portIndex": 1,
                                 "nets": [
                                     {
-                                        "name": "data_valid",
+                                        "name": "hanning_data_valid",
                                         "isBus": false
                                     }
                                 ]
@@ -185,6 +185,136 @@
                                 "nets": [
                                     {
                                         "name": "LFP_data_valid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "mult_result",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "mult_result[31]"
+                                            },
+                                            {
+                                                "name": "mult_result[30]"
+                                            },
+                                            {
+                                                "name": "mult_result[29]"
+                                            },
+                                            {
+                                                "name": "mult_result[28]"
+                                            },
+                                            {
+                                                "name": "mult_result[27]"
+                                            },
+                                            {
+                                                "name": "mult_result[26]"
+                                            },
+                                            {
+                                                "name": "mult_result[25]"
+                                            },
+                                            {
+                                                "name": "mult_result[24]"
+                                            },
+                                            {
+                                                "name": "mult_result[23]"
+                                            },
+                                            {
+                                                "name": "mult_result[22]"
+                                            },
+                                            {
+                                                "name": "mult_result[21]"
+                                            },
+                                            {
+                                                "name": "mult_result[20]"
+                                            },
+                                            {
+                                                "name": "mult_result[19]"
+                                            },
+                                            {
+                                                "name": "mult_result[18]"
+                                            },
+                                            {
+                                                "name": "mult_result[17]"
+                                            },
+                                            {
+                                                "name": "mult_result[16]"
+                                            },
+                                            {
+                                                "name": "mult_result[15]"
+                                            },
+                                            {
+                                                "name": "mult_result[14]"
+                                            },
+                                            {
+                                                "name": "mult_result[13]"
+                                            },
+                                            {
+                                                "name": "mult_result[12]"
+                                            },
+                                            {
+                                                "name": "mult_result[11]"
+                                            },
+                                            {
+                                                "name": "mult_result[10]"
+                                            },
+                                            {
+                                                "name": "mult_result[9]"
+                                            },
+                                            {
+                                                "name": "mult_result[8]"
+                                            },
+                                            {
+                                                "name": "mult_result[7]"
+                                            },
+                                            {
+                                                "name": "mult_result[6]"
+                                            },
+                                            {
+                                                "name": "mult_result[5]"
+                                            },
+                                            {
+                                                "name": "mult_result[4]"
+                                            },
+                                            {
+                                                "name": "mult_result[3]"
+                                            },
+                                            {
+                                                "name": "mult_result[2]"
+                                            },
+                                            {
+                                                "name": "mult_result[1]"
+                                            },
+                                            {
+                                                "name": "mult_result[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "mult_result_valid",
                                         "isBus": false
                                     }
                                 ]

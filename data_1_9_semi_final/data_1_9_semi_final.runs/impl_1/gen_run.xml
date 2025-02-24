@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1739962764">
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740043974">
   <File Type="ROUTE-PWR" Name="source_data_1_9_power_routed.rpt"/>
   <File Type="PA-TCL" Name="source_data_1_9.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="source_data_1_9_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="source_data_1_9_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="source_data_1_9_rqa_opted.pb"/>
+  <File Type="BITSTR-MSK" Name="source_data_1_9.msk"/>
+  <File Type="ROUTE-CLK" Name="source_data_1_9_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="source_data_1_9.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="source_data_1_9_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="source_data_1_9.bit"/>
+  <File Type="BG-DRC" Name="source_data_1_9.drc"/>
+  <File Type="BG-BGN" Name="source_data_1_9.bgn"/>
+  <File Type="BG-BIN" Name="source_data_1_9.bin"/>
+  <File Type="BITSTR-RBT" Name="source_data_1_9.rbt"/>
+  <File Type="BITSTR-NKY" Name="source_data_1_9.nky"/>
+  <File Type="BITSTR-BMM" Name="source_data_1_9_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="source_data_1_9.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="source_data_1_9_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="source_data_1_9_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="source_data_1_9_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="source_data_1_9_opt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="source_data_1_9_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="source_data_1_9.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="source_data_1_9.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="source_data_1_9_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="source_data_1_9.hwdef"/>
-  <File Type="PWROPT-DCP" Name="source_data_1_9_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="source_data_1_9_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="source_data_1_9_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="source_data_1_9_placed.dcp"/>
   <File Type="PLACE-IO" Name="source_data_1_9_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="source_data_1_9_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="source_data_1_9_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="source_data_1_9_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="source_data_1_9_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="source_data_1_9_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="source_data_1_9_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="source_data_1_9.bin"/>
-  <File Type="PLACE-TIMING" Name="source_data_1_9_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="source_data_1_9_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="source_data_1_9_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="source_data_1_9_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="source_data_1_9.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="source_data_1_9_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="source_data_1_9_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="source_data_1_9_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="source_data_1_9.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="source_data_1_9_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="source_data_1_9_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="source_data_1_9_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="source_data_1_9_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="source_data_1_9_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="source_data_1_9_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="source_data_1_9_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="source_data_1_9_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="source_data_1_9_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="source_data_1_9_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="source_data_1_9_rqs_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="source_data_1_9_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="source_data_1_9_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="source_data_1_9_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="source_data_1_9_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="source_data_1_9_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="source_data_1_9_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="source_data_1_9_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="source_data_1_9_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="source_data_1_9_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="source_data_1_9_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="source_data_1_9_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="source_data_1_9_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="source_data_1_9_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="source_data_1_9_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="source_data_1_9_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="source_data_1_9_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="source_data_1_9_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="source_data_1_9_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="source_data_1_9_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="source_data_1_9_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="source_data_1_9_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="source_data_1_9_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="source_data_1_9_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="source_data_1_9_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="source_data_1_9_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="source_data_1_9.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="source_data_1_9_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="source_data_1_9_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="source_data_1_9.nky"/>
-  <File Type="BITSTR-BMM" Name="source_data_1_9_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="source_data_1_9_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="source_data_1_9_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="source_data_1_9_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="source_data_1_9.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="source_data_1_9_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="source_data_1_9_pld.pdi"/>
@@ -73,13 +66,6 @@
   <File Type="RNPI_FILE" Name="source_data_1_9.rnpi"/>
   <File Type="NPI_FILE" Name="source_data_1_9.npi"/>
   <File Type="RBD_FILE" Name="source_data_1_9.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="source_data_1_9.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="source_data_1_9.sysdef"/>
-  <File Type="BG-BGN" Name="source_data_1_9.bgn"/>
-  <File Type="BG-DRC" Name="source_data_1_9.drc"/>
-  <File Type="RDI-RDI" Name="source_data_1_9.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="source_data_1_9_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="source_data_1_9_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -108,6 +94,13 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/LFP_read.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mult_hanning.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -177,6 +170,7 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
 </GenRun>

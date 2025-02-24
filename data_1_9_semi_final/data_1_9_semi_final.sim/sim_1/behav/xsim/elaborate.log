@@ -20,6 +20,7 @@ Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
 Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
 Compiling module xil_defaultlib.lfp_bram
 Compiling module xil_defaultlib.LFP_read
+Compiling module xil_defaultlib.mult_hanning
 Compiling module xil_defaultlib.ila_0
 Compiling module xil_defaultlib.source_data_1_9
 Compiling module xil_defaultlib.source_data_1_9_tb
