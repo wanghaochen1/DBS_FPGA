@@ -1,0 +1,1040 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Feb 25 17:00:23 2025
+# Process ID: 23700
+# Current directory: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1
+# Command line: vivado.exe -log fft_512_only.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft_512_only.tcl
+# Log file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/fft_512_only.vds
+# Journal file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1\vivado.jou
+# Running On: Wanghaochen, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34090 MB
+#-----------------------------------------------------------
+source fft_512_only.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/utils_1/imports/synth_1/source_data_1_9.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/utils_1/imports/synth_1/source_data_1_9.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top fft_512_only -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14532
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:68]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:69]
+WARNING: [Synth 8-6901] identifier 'fft_m_data_tvalid' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:111]
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:112]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:113]
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+WARNING: [Synth 8-6901] identifier 'fft_m_data_tvalid' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:111]
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:112]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:113]
+INFO: [Synth 8-11241] undeclared symbol 'rddata_rst_i', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:2188]
+INFO: [Synth 8-11241] undeclared symbol 'datard_overflow', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:2235]
+INFO: [Synth 8-11241] undeclared symbol 'datard_underflow', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:2236]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6379]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6381]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6412]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6414]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6447]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6449]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6554]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6556]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6589]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:6591]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10347]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10349]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10380]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10382]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10413]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/xsdbm_v3_0_vl_rfs.v:10415]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:65]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:67]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:100]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:102]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:135]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:137]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:170]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:172]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:205]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:207]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:240]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:242]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:275]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:277]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:310]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:312]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:345]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:347]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:380]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:382]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:415]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:450]
+INFO: [Common 17-14] Message 'Synth 8-11241' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4527]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4528]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4529]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4530]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4531]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4532]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4586]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4587]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:4588]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/hdl/ila_v6_2_syn_rfs.v:5486]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1345.531 ; gain = 425.902
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fft_512_only' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:2]
+INFO: [Synth 8-6157] synthesizing module 'source_data_1_9' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Hanning_read' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v:9]
+INFO: [Synth 8-638] synthesizing module 'hanning_bram' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:70]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 2 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: hanning_bram.mif - type: string 
+	Parameter C_INIT_FILE bound to: hanning_bram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.57205 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'hanning_bram' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'Hanning_read' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v:9]
+INFO: [Synth 8-6157] synthesizing module 'LFP_read' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v:23]
+INFO: [Synth 8-638] synthesizing module 'lfp_bram' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:70]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 2 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: lfp_bram.mif - type: string 
+	Parameter C_INIT_FILE bound to: lfp_bram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.371299 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'lfp_bram' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'LFP_read' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mult_hanning' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mult_hanning' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-23700-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-23700-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'source_data_1_9' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:123]
+INFO: [Synth 8-6157] synthesizing module 'ila_fft_only' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:48]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1971]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1971]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132323]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132323]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132262]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132262]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39148]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39148]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_13_ila' has 1033 connections declared, but only 1027 given [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3215]
+INFO: [Synth 8-6155] done synthesizing module 'ila_fft_only' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:48]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_FFT_512' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:84]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_PART bound to: xc7a100tfgg484-2 - type: string 
+	Parameter C_S_AXIS_CONFIG_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXIS_DATA_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_M_AXIS_DATA_TDATA_WIDTH bound to: 96 - type: integer 
+	Parameter C_M_AXIS_DATA_TUSER_WIDTH bound to: 16 - type: integer 
+	Parameter C_M_AXIS_STATUS_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 1 - type: integer 
+	Parameter C_CHANNELS bound to: 1 - type: integer 
+	Parameter C_NFFT_MAX bound to: 9 - type: integer 
+	Parameter C_ARCH bound to: 3 - type: integer 
+	Parameter C_HAS_NFFT bound to: 0 - type: integer 
+	Parameter C_USE_FLT_PT bound to: 0 - type: integer 
+	Parameter C_INPUT_WIDTH bound to: 32 - type: integer 
+	Parameter C_TWIDDLE_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUTPUT_WIDTH bound to: 42 - type: integer 
+	Parameter C_HAS_SCALING bound to: 0 - type: integer 
+	Parameter C_HAS_BFP bound to: 0 - type: integer 
+	Parameter C_HAS_ROUNDING bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_HAS_OVFLO bound to: 0 - type: integer 
+	Parameter C_HAS_NATURAL_INPUT bound to: 1 - type: integer 
+	Parameter C_HAS_NATURAL_OUTPUT bound to: 1 - type: integer 
+	Parameter C_HAS_CYCLIC_PREFIX bound to: 0 - type: integer 
+	Parameter C_HAS_XK_INDEX bound to: 1 - type: integer 
+	Parameter C_DATA_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_TWIDDLE_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BRAM_STAGES bound to: 2 - type: integer 
+	Parameter C_REORDER_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_USE_HYBRID_RAM bound to: 0 - type: integer 
+	Parameter C_OPTIMIZE_GOAL bound to: 0 - type: integer 
+	Parameter C_CMPY_TYPE bound to: 1 - type: integer 
+	Parameter C_BFLY_TYPE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xfft_v9_1_9' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/xfft_v9_1_vh_rfs.vhd:103739' bound to instance 'U0' of component 'xfft_v9_1_9' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:193]
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_FFT_512' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:84]
+WARNING: [Synth 8-7071] port 'event_frame_started' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7071] port 'event_tlast_unexpected' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7071] port 'event_tlast_missing' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7071] port 'event_status_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7071] port 'event_data_in_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7071] port 'event_data_out_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+WARNING: [Synth 8-7023] instance 'u_fft' of module 'FFT_512' has 20 connections declared, but only 14 given [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+INFO: [Synth 8-6155] done synthesizing module 'fft_512_only' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:2]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:45]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mult_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:59]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'lfp'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:52]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'source_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:31]
+WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ila_fft_only does not have driver. [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:104]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_fft'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:139]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'logic_fft'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:123]
+WARNING: [Synth 8-6014] Unused sequential element data_finish_flag_reg was removed.  [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:66]
+WARNING: [Synth 8-7129] Port Q[0] in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[0] in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclr in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aset in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ainit in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sclr in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sset in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sinit in module c_shift_ram_v12_0_14_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[15] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[14] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[13] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[12] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[11] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[10] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[9] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[8] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[7] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[6] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[5] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[4] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[3] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[2] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[1] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[0] in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclr in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aset in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ainit in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sclr in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sset in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sinit in module c_shift_ram_v12_0_14_legacy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1 in module shift_ram__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port depthx2 in module r22_memory__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Q1 in module shift_ram__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1 in module shift_ram__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1 in module shift_ram__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized19 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module shift_ram__parameterized19 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized19 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized19 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Q1 in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1 in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1 in module shift_ram__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module shift_ram__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D[0] in module shift_ram__parameterized41 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port COMBI_SCLR in module shift_ram__parameterized41 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEPTHx2 in module shift_ram__parameterized41 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MUXCY_IN in module equ_rtl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AINIT in module c_reg_fd_v12_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLR in module c_reg_fd_v12_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ASET in module c_reg_fd_v12_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module c_reg_fd_v12_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module c_reg_fd_v12_0_6_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port add in module c_addsub_v12_0_15_lut6_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bypass in module c_addsub_v12_0_15_lut6_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sset in module c_addsub_v12_0_15_lut6_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sinit in module c_addsub_v12_0_15_lut6_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_in in module c_addsub_v12_0_15_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a_signed in module c_addsub_v12_0_15_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_signed in module c_addsub_v12_0_15_legacy__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[8] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[7] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[6] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[5] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[4] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[3] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[2] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[1] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MAX[0] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LOAD[8] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LOAD[7] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LOAD[6] in module cnt_tc_rtl_a__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:52 ; elapsed = 00:02:04 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:53 ; elapsed = 00:02:05 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:53 ; elapsed = 00:02:05 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.599 . Memory (MB): peak = 3486.547 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3439 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'source_inst/ila_hanning'
+Finished Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'source_inst/ila_hanning'
+Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/ila_v6_2/constraints/ila.xdc] for cell 'logic_fft/inst'
+Finished Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/ila_v6_2/constraints/ila.xdc] for cell 'logic_fft/inst'
+Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]
+Finished Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fft_512_only_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fft_512_only_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fft_512_only_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fft_512_only_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 3486.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 454 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 88 instances
+  CFGLUT5 => SRLC32E: 8 instances
+  FD => FDRE: 4 instances
+  FDE => FDRE: 318 instances
+  FDR => FDRE: 36 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.309 . Memory (MB): peak = 3486.547 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:07 ; elapsed = 00:02:19 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:07 ; elapsed = 00:02:19 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for logic_fft/inst. (constraint file  {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc}, line 23).
+Applied set_property KEEP_HIERARCHY = SOFT for source_inst/lfp/bram_inst2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for source_inst/hanning/bram_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for logic_fft. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for source_inst/ila_hanning. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:02:19 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:14 ; elapsed = 00:02:27 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.resets_4_pes[4].delay_reset_pe/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.resets_4_pes[3].delay_reset_pe/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.resets_4_pes[2].delay_reset_pe/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.resets_4_pes[1].delay_reset_pe/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.resets_4_pes[0].delay_reset_pe/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.delay_reset_3/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/FLOW/reset_sustain.delay_reset_7/tc_reg1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[3].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[2].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[2].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[2].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[2].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/FB_1.BF_1/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[2].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/hasbf2.FB_2.BF_2/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/hasbf2.FB_2.BF_2/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/hasbf2.FB_2.BF_2/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/hasbf2.FB_2.BF_2/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[1].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/hasbf2.FB_2.BF_2/wr_addr_del/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre0) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.srl_loop[0].i_fdre1) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[4].natural_order_input.PE/delay_addr_bf2/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[4].natural_order_input.PE/delay_addr_tw/no_sclr_lut.real_shift_ram.use_baseblock.use_hlutnm_srls.runt_srl_loop.i_fdre) is unused and will be removed from module xfft_v9_1_9_viv.
+INFO: [Synth 8-3332] Sequential element (xfft_inst/non_floating_point.arch_d.xfft_inst/has_bit_reverse.busy_gen/proc_start_delay/need_sclr_lut.real_shift_ram.FF_gen[0].reg) is unused and will be removed from module xfft_v9_1_9_viv.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:26 ; elapsed = 00:02:39 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:35 ; elapsed = 00:02:49 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:37 ; elapsed = 00:02:51 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[41] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[41]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[40] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[40]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[39] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[39]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[38] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[38]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[37] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[37]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[36] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[36]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[35] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[35]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[34] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[34]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[33] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[33]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[32] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[32]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[31] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[31]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[30] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[30]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[29] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[29]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[28] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[28]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[27] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[27]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[26] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[26]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[25] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[25]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[24] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[24]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[23] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[23]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[22] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[22]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[21] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[21]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[20] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[20]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[19] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[19]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[18] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[18]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[17] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[17]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[16] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[16]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[15] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[15]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[14] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[14]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[13] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[13]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[12] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[12]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[11] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[11]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[10] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[10]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[9] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[9]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[8] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[8]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[7] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[7]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[6] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[6]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[5] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[5]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[4] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[4]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[3] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[3]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[2] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[2]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[1] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[1]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_re_out_reg[0] ) from module (fft_512_only) as it has self-loop and (\fft_re_out_reg[0]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:68]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[41] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[41]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[40] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[40]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[39] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[39]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[38] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[38]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[37] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[37]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[36] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[36]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[35] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[35]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[34] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[34]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[33] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[33]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[32] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[32]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[31] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[31]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[30] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[30]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[29] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[29]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[28] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[28]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[27] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[27]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[26] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[26]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[25] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[25]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[24] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[24]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[23] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[23]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[22] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[22]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[21] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[21]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[20] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[20]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[19] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[19]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[18] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[18]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[17] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[17]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[16] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[16]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[15] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[15]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[14] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[14]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[13] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[13]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[12] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[12]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[11] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[11]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[10] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[10]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[9] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[9]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[8] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[8]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[7] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[7]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[6] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[6]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[5] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[5]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[4] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[4]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[3] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[3]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[2] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[2]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[1] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[1]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+INFO: [Synth 8-5966] Removing register instance (\fft_im_out_reg[0] ) from module (fft_512_only) as it has self-loop and (\fft_im_out_reg[0]__0 ) is actual driver [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:69]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:41 ; elapsed = 00:02:56 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin dummy_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:45 ; elapsed = 00:03:00 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:45 ; elapsed = 00:03:00 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:47 ; elapsed = 00:03:02 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:47 ; elapsed = 00:03:02 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:48 ; elapsed = 00:03:02 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:48 ; elapsed = 00:03:02 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name          | DSP Mapping                   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mult_hanning         | (A*B)'                        | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|dsp                  | (C'-(((D'+A'')'*B'')'))'      | 25     | 17     | 46     | 25     | 17     | 2    | 2    | 2    | 2    | 1     | 1    | 1    | 
+|dsp                  | (PCIN>>17-(((D'+A')'*B'')'))' | 0      | 18     | -      | 25     | 43     | 1    | 2    | -    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized0  | (C+(A''*B')')'                | 25     | 17     | 8      | -      | 17     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|dsp__parameterized0  | (PCIN>>17+(A'*B'')')'         | 0      | 18     | -      | -      | 43     | 1    | 2    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized1  | (C'+((D'-A'')'*B'')')'        | 25     | 17     | 46     | 25     | 17     | 2    | 2    | 2    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized1  | (PCIN>>17+((D'-A')'*B'')')'   | 0      | 18     | -      | 25     | 43     | 1    | 2    | -    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized2  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized2  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized3  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized3  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized4  | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized4  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized5  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized5  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized6  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized6  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized7  | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized7  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized8  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized8  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized9  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized9  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized10 | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized10 | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |ila      |     1|
+|2     |BUFG     |     1|
+|3     |CARRY4   |   156|
+|4     |CFGLUT5  |    96|
+|5     |DSP48E1  |    25|
+|13    |LUT1     |    83|
+|14    |LUT2     |   974|
+|15    |LUT3     |  2477|
+|16    |LUT4     |   470|
+|17    |LUT5     |   150|
+|18    |LUT6     |   565|
+|19    |MUXCY    |  1461|
+|20    |MUXF7    |     3|
+|21    |RAMB18E1 |    10|
+|25    |RAMB36E1 |     3|
+|26    |SRL16E   |  1890|
+|27    |SRLC16E  |     2|
+|28    |SRLC32E  |   256|
+|29    |VCC      |     1|
+|30    |XORCY    |  1450|
+|31    |FD       |     4|
+|32    |FDCE     |   153|
+|33    |FDE      |   318|
+|34    |FDPE     |     2|
+|35    |FDR      |    35|
+|36    |FDRE     |  8874|
+|37    |FDSE     |    38|
+|38    |IBUF     |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:48 ; elapsed = 00:03:02 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4518 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:46 ; elapsed = 00:02:53 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+Synthesis Optimization Complete : Time (s): cpu = 00:02:48 ; elapsed = 00:03:03 . Memory (MB): peak = 3486.547 ; gain = 2566.918
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.425 . Memory (MB): peak = 3486.547 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3561 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: logic_fft UUID: e349ad6d-544e-5498-adfe-4cfddd361ac2 
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3486.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 869 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 416 instances
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 88 instances
+  CFGLUT5 => SRLC32E: 8 instances
+  FD => FDRE: 4 instances
+  FDE => FDRE: 318 instances
+  FDR => FDRE: 35 instances
+
+Synth Design complete | Checksum: 38fdd3d1
+INFO: [Common 17-83] Releasing license: Synthesis
+342 Infos, 179 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Common 17-1381] The checkpoint 'G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/fft_512_only.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fft_512_only_utilization_synth.rpt -pb fft_512_only_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 25 17:03:47 2025...
