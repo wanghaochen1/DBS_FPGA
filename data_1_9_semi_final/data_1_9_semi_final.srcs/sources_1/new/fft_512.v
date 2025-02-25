@@ -3,25 +3,26 @@ module fft_512(
     input wire clk,               
     input wire rst_n,
     // debug //
-    output wire signed [95:0] fft_m_data_tdata,
-    output wire [31:0] mult_result,
-    output reg signed [63:0] fft_s_data_tdata,
-    output reg fft_s_data_tvalid,
-    output wire fft_s_config_tready,
-    output reg data_finish_flag,
-    output wire fft_s_data_tready,
-    output reg fft_s_data_tlast,
+        // output wire signed [95:0] fft_m_data_tdata,
+        // output wire [31:0] mult_result,
+        // output reg signed [63:0] fft_s_data_tdata,
+        // output reg fft_s_data_tvalid,
+        // output wire fft_s_config_tready,
+        // output reg data_finish_flag,
+        // output wire fft_s_data_tready,
+        // output reg fft_s_data_tlast,
+        // output reg fft_m_data_tready,
+        // output wire fft_m_data_tlast,
+        // output reg [9:0]     count,
+    // debug //
     output wire signed [15:0]  fft_m_data_tuser,
     output wire fft_m_data_tvalid,
-    output reg fft_m_data_tready,
-    output wire fft_m_data_tlast,
-    output reg [9:0]     count,
     output reg signed [41:0] fft_re_out,
     output reg signed [41:0] fft_im_out
 );
 
 // 实例化source_data_1_9获取乘法结果
-//wire [31:0] mult_result;
+wire [31:0] mult_result;
 wire mult_result_valid;
 
 source_data_1_9 source_inst (
@@ -32,29 +33,28 @@ source_data_1_9 source_inst (
 );
 
 // FFT 变量//
-//reg data_finish_flag;
+reg data_finish_flag;
 
-//wire              fft_s_config_tready;
+wire              fft_s_config_tready;
 
-// reg signed [63:0] fft_s_data_tdata;
-//reg               fft_s_data_tvalid;
-//wire              fft_s_data_tready;
-//reg               fft_s_data_tlast;
+reg signed [63:0] fft_s_data_tdata;
+reg               fft_s_data_tvalid;
+wire              fft_s_data_tready;
+reg               fft_s_data_tlast;
 
-//wire signed [89:0] fft_m_data_tdata;
-//wire signed [8:0]  fft_m_data_tuser;
-//wire               fft_m_data_tvalid;
-//reg                fft_m_data_tready;
-//wire               fft_m_data_tlast;
+wire signed [95:0] fft_m_data_tdata;
+    //wire signed [15:0]  fft_m_data_tuser;
+    //wire               fft_m_data_tvalid;
+reg                fft_m_data_tready;
+wire               fft_m_data_tlast;
 
-//reg [9:0]     count;
+reg [9:0]     count;
 
-// reg signed [41:0] fft_re_out;
-// reg signed [41:0] fft_im_out;
+    // reg signed [41:0] fft_re_out;
+    // reg signed [41:0] fft_im_out;
 // FFT变量 //
 
 // FFT输入变量 //
-
 always @ (posedge clk or negedge rst_n) begin
     if(!rst_n) begin  //进行初始化
         fft_s_data_tvalid <= 1'b0;
@@ -65,7 +65,7 @@ always @ (posedge clk or negedge rst_n) begin
         fft_re_out <= 42'd0;
         fft_im_out <= 42'd0;
     end
-    else if (fft_s_data_tready) begin   //如果IP已经准备好被输入
+    else if (fft_s_data_tready && mult_result_valid) begin   //如果IP已经准备好且乘法结果有效
         if(count == 10'd511) begin  //最后一位的数据输入
             fft_s_data_tvalid <= 1'b1;
             fft_s_data_tlast  <= 1'b1;
@@ -83,7 +83,7 @@ always @ (posedge clk or negedge rst_n) begin
             end
         end
     end
-    else begin //如果IP没有准备好被输入
+    else begin //如果IP没有准备好被输入或乘法结果无效
         fft_s_data_tvalid <= 1'b0;
         fft_s_data_tlast  <= 1'b0;
         fft_s_data_tdata <= fft_s_data_tdata;
