@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log fft_512_only.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft_512_only.tcl
+EAStep vivado -log power_spectrum.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source power_spectrum.tcl

@@ -1,0 +1,1426 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Feb 26 19:40:30 2025
+# Process ID: 1236
+# Current directory: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1
+# Command line: vivado.exe -log power_spectrum.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source power_spectrum.tcl
+# Log file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/power_spectrum.vds
+# Journal file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1\vivado.jou
+# Running On: Wanghaochen, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34090 MB
+#-----------------------------------------------------------
+source power_spectrum.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/utils_1/imports/synth_1/source_data_1_9.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/utils_1/imports/synth_1/source_data_1_9.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top power_spectrum -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6284
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:68]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:69]
+WARNING: [Synth 8-6901] identifier 'fft_m_data_tvalid' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:111]
+WARNING: [Synth 8-6901] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:112]
+WARNING: [Synth 8-6901] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:113]
+INFO: [Synth 8-11241] undeclared symbol 'rddata_rst_i', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:2188]
+INFO: [Synth 8-11241] undeclared symbol 'datard_overflow', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:2235]
+INFO: [Synth 8-11241] undeclared symbol 'datard_underflow', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:2236]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6379]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6381]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6412]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6414]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6447]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6449]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6554]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6556]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6589]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:6591]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10347]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10349]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10380]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10382]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10413]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/xsdbm_v3_0_vl_rfs.v:10415]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:65]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:67]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:100]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:102]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:135]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:137]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:170]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:172]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:205]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:207]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:240]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:242]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:275]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:277]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:310]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:312]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:345]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:347]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:380]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:382]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:415]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:450]
+INFO: [Common 17-14] Message 'Synth 8-11241' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4527]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4528]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4529]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4530]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4531]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4532]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4586]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4587]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:4588]
+WARNING: [Synth 8-10294] parameter declaration is not allowed here in this mode of Verilog [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/ila_v6_2_syn_rfs.v:5486]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1346.570 ; gain = 423.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'power_spectrum' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fft_512_only' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:2]
+INFO: [Synth 8-6157] synthesizing module 'source_data_1_9' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Hanning_read' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v:9]
+INFO: [Synth 8-638] synthesizing module 'hanning_bram' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:70]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 2 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: hanning_bram.mif - type: string 
+	Parameter C_INIT_FILE bound to: hanning_bram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.57205 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'hanning_bram' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/synth/hanning_bram.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'Hanning_read' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v:9]
+INFO: [Synth 8-6157] synthesizing module 'LFP_read' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v:23]
+INFO: [Synth 8-638] synthesizing module 'lfp_bram' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:70]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 2 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: lfp_bram.mif - type: string 
+	Parameter C_INIT_FILE bound to: lfp_bram.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 512 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 512 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 9 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.371299 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'lfp_bram' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/synth/lfp_bram.vhd:70]
+INFO: [Synth 8-6155] done synthesizing module 'LFP_read' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mult_hanning' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mult_hanning' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-1236-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/.Xil/Vivado-1236-Wanghaochen/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'source_data_1_9' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:122]
+INFO: [Synth 8-6157] synthesizing module 'ila_fft_only' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:48]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1971]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1971]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132323]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132323]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132262]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132262]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39148]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [G:/Vivado/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39148]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_13_ila' has 1033 connections declared, but only 1027 given [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:3217]
+INFO: [Synth 8-6155] done synthesizing module 'ila_fft_only' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:48]
+WARNING: [Synth 8-689] width (42) of port connection 'probe2' does not match port width (29) of module 'ila_fft_only' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:128]
+WARNING: [Synth 8-689] width (42) of port connection 'probe3' does not match port width (37) of module 'ila_fft_only' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:129]
+WARNING: [Synth 8-7071] port 'probe4' of module 'ila_fft_only' is unconnected for instance 'logic_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:122]
+WARNING: [Synth 8-7023] instance 'logic_fft' of module 'ila_fft_only' has 6 connections declared, but only 5 given [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:122]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_FFT_512' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:84]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_PART bound to: xc7a100tfgg484-2 - type: string 
+	Parameter C_S_AXIS_CONFIG_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_S_AXIS_DATA_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_M_AXIS_DATA_TDATA_WIDTH bound to: 96 - type: integer 
+	Parameter C_M_AXIS_DATA_TUSER_WIDTH bound to: 16 - type: integer 
+	Parameter C_M_AXIS_STATUS_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 1 - type: integer 
+	Parameter C_CHANNELS bound to: 1 - type: integer 
+	Parameter C_NFFT_MAX bound to: 9 - type: integer 
+	Parameter C_ARCH bound to: 3 - type: integer 
+	Parameter C_HAS_NFFT bound to: 0 - type: integer 
+	Parameter C_USE_FLT_PT bound to: 0 - type: integer 
+	Parameter C_INPUT_WIDTH bound to: 32 - type: integer 
+	Parameter C_TWIDDLE_WIDTH bound to: 16 - type: integer 
+	Parameter C_OUTPUT_WIDTH bound to: 42 - type: integer 
+	Parameter C_HAS_SCALING bound to: 0 - type: integer 
+	Parameter C_HAS_BFP bound to: 0 - type: integer 
+	Parameter C_HAS_ROUNDING bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_HAS_OVFLO bound to: 0 - type: integer 
+	Parameter C_HAS_NATURAL_INPUT bound to: 1 - type: integer 
+	Parameter C_HAS_NATURAL_OUTPUT bound to: 1 - type: integer 
+	Parameter C_HAS_CYCLIC_PREFIX bound to: 0 - type: integer 
+	Parameter C_HAS_XK_INDEX bound to: 1 - type: integer 
+	Parameter C_DATA_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_TWIDDLE_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BRAM_STAGES bound to: 2 - type: integer 
+	Parameter C_REORDER_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_USE_HYBRID_RAM bound to: 0 - type: integer 
+	Parameter C_OPTIMIZE_GOAL bound to: 0 - type: integer 
+	Parameter C_CMPY_TYPE bound to: 1 - type: integer 
+	Parameter C_BFLY_TYPE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xfft_v9_1_9' declared at 'g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/xfft_v9_1_vh_rfs.vhd:103739' bound to instance 'U0' of component 'xfft_v9_1_9' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:193]
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_FFT_512' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/synth/FFT_512.vhd:84]
+WARNING: [Synth 8-7071] port 'event_frame_started' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7071] port 'event_tlast_unexpected' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7071] port 'event_tlast_missing' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7071] port 'event_status_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7071] port 'event_data_in_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7071] port 'event_data_out_channel_halt' of module 'FFT_512' is unconnected for instance 'u_fft' [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+WARNING: [Synth 8-7023] instance 'u_fft' of module 'FFT_512' has 20 connections declared, but only 14 given [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+INFO: [Synth 8-6155] done synthesizing module 'fft_512_only' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:2]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:113]
+INFO: [Synth 8-6157] synthesizing module 'ila_spectrum' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:48]
+WARNING: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_13_ila' is unconnected for instance 'inst' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+WARNING: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_13_ila' has 1033 connections declared, but only 1027 given [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:3211]
+INFO: [Synth 8-6155] done synthesizing module 'ila_spectrum' (0#1) [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'power_spectrum' (0#1) [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:23]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:45]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_hanning'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:71]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mult_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:59]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'lfp'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v:52]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'source_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:31]
+WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ila_fft_only does not have driver. [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/synth/ila_fft_only.v:106]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_fft'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:138]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fft_inst'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:102]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'logic_fft'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:122]
+WARNING: [Synth 8-6014] Unused sequential element data_finish_flag_reg was removed.  [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v:66]
+WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ila_spectrum does not have driver. [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/synth/ila_spectrum.v:100]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'spectrum'. This will prevent further optimization [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:113]
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[58] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[57] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[56] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[55] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[54] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[53] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[52] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[51] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[50] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[49] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[48] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[47] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[46] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[45] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[44] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[43] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[42] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[41] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[40] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[39] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[38] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[37] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[36] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[35] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[34] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[33] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[32] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[31] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[30] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[29] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[28] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[27] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[26] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[25] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[24] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[23] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[22] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[21] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[20] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[19] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[18] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[17] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[16] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[15] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[14] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[13] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[12] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[11] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[10] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[9] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[8] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[7] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[6] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[5] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[4] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[3] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[2] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[1] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[0] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[35] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[34] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[33] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[32] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[31] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[30] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[29] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[28] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[27] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[26] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[25] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[24] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[23] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[22] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[21] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[20] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[19] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[18] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[17] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[16] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[15] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[14] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[13] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[12] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[11] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[10] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[9] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[8] in module blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper__parameterized5 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:59 ; elapsed = 00:02:16 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:59 ; elapsed = 00:02:16 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:59 ; elapsed = 00:02:16 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.722 . Memory (MB): peak = 3625.938 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3577 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'fft_inst/source_inst/ila_hanning'
+Finished Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'fft_inst/source_inst/ila_hanning'
+Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/ila_v6_2/constraints/ila.xdc] for cell 'spectrum/inst'
+Finished Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/ila_v6_2/constraints/ila.xdc] for cell 'spectrum/inst'
+Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/ila_v6_2/constraints/ila.xdc] for cell 'fft_inst/logic_fft/inst'
+Finished Parsing XDC File [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/ila_v6_2/constraints/ila.xdc] for cell 'fft_inst/logic_fft/inst'
+Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]
+Finished Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/constrs_1/new/date_1_25.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/power_spectrum_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/power_spectrum_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/power_spectrum_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/power_spectrum_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3625.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 557 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 184 instances
+  CFGLUT5 => SRLC32E: 15 instances
+  FD => FDRE: 4 instances
+  FDE => FDRE: 318 instances
+  FDR => FDRE: 36 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.423 . Memory (MB): peak = 3625.938 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:16 ; elapsed = 00:02:34 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:16 ; elapsed = 00:02:34 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for spectrum/inst. (constraint file  {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc}, line 22).
+Applied set_property KEEP_HIERARCHY = SOFT for fft_inst/logic_fft/inst. (constraint file  {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/dont_touch.xdc}, line 34).
+Applied set_property KEEP_HIERARCHY = SOFT for spectrum. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for fft_inst/source_inst/lfp/bram_inst2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for fft_inst/source_inst/hanning/bram_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for fft_inst/logic_fft. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for fft_inst/source_inst/ila_hanning. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:16 ; elapsed = 00:02:34 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+got a mismatch ila_fft_only
+got a mismatch ila_v6_2_13_ila
+got a mismatch ila_v6_2_13_ila_core
+got a mismatch ila_v6_2_13_ila_trigger
+got a mismatch ila_v6_2_13_ila_trig_match
+got a mismatch ltlib_v1_0_0_match__parameterized2
+got a mismatch ltlib_v1_0_0_allx_typeA__parameterized2
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized1
+got a mismatch ltlib_v1_0_0_match__parameterized2
+got a mismatch ltlib_v1_0_0_allx_typeA__parameterized2
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized1
+got a mismatch ltlib_v1_0_0_match__parameterized3
+got a mismatch ltlib_v1_0_0_allx_typeA__parameterized3
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized2
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch ila_v6_2_13_ila_trace_memory
+got a mismatch blk_mem_gen_v8_4_6__parameterized2
+got a mismatch blk_mem_gen_v8_4_6_synth__parameterized1
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_top__parameterized1
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_input_block__parameterized0
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_generic_cstr__parameterized1
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_prim_width__parameterized1
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_prim_wrapper
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_prim_width__parameterized5
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_prim_width__parameterized6
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_output_block__parameterized0
+got a mismatch ltlib_v1_0_0_generic_memrd
+got a mismatch ltlib_v1_0_0_generic_mux
+got a mismatch ltlib_v1_0_0_match__parameterized4
+got a mismatch ltlib_v1_0_0_allx_typeA__parameterized4
+got a mismatch ltlib_v1_0_0_match__parameterized5
+got a mismatch ltlib_v1_0_0_allx_typeA__parameterized5
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized4
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch ltlib_v1_0_0_all_typeA__parameterized3
+got a mismatch blk_mem_gen_v8_4_6_blk_mem_gen_prim_width__parameterized7
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:02:18 ; elapsed = 00:02:37 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:02:18 ; elapsed = 00:02:37 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'ltlib_v1_0_0_generic_memrd__parameterized0'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:25 ; elapsed = 00:02:45 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-4471] merging register 'pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][8:0]' into 'pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][8:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][8:0]' into 'pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][8:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][5:0]' into 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][5:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][5:0]' into 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][5:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[0][24:0]' into 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][24:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][24:0]' into 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][24:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/mult_gen_v12_0_vh_rfs.vhd:4329]
+INFO: [Synth 8-4471] merging register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[1][24:0]' into 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][24:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-3936] Found unconnected internal register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg' and it is trimmed from '30' to '25' bits. [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/mult_gen_v12_0_vh_rfs.vhd:4173]
+INFO: [Synth 8-3936] Found unconnected internal register 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg' and it is trimmed from '30' to '25' bits. [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/mult_gen_v12_0_vh_rfs.vhd:4173]
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[5] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[4] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[3] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[2] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[1] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port SCALE_OUT[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[8] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[7] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[6] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[5] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[4] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[3] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[2] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[1] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port XK_LOAD_OUT[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port D[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port pe_ovflo_out_we_3 driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port pe_ovflo_start_out_3 driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port O1[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB0 has port pe_ovflo_out_we_4 driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][17]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][18]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][19]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][20]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][21]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][22]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[0][24]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][17]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][18]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][19]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][20]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][21]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][22]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[0][24]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[1][24]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][0]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][1]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][2]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][3]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][4]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][5]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][5]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][6]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][7]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][7]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][8]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][8]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][9]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][9]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][10]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][10]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][11]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][11]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][12]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][12]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][13]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][13]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][14]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][14]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][15]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][15]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][24]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][0]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][1]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][2]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][2]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][3]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][3]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][4]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][4]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][5]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][5]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][6]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][7]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][8]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][8]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][9]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][9]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][10]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][10]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][11]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][11]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][12]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][12]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][13]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][13]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][14]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][14]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][15]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][15]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_1.reg_mult1_preadd_d/dN.std_srl.shift_reg_reg[2][24]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.iAdelx[0].iAdely[0].use_delay_line.Adelay/dN.std_srl.shift_reg_reg[1][24]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][16]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][17]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][18]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][19]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][20]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][21]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][22]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][23]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/dsp_preadder_3.reg_mult3_preadd_d/dN.std_srl.shift_reg_reg[2][24]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[0]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[1]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[2]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[3]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[4]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[5]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[6]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[7]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[8]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_a.mult1/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[9]' (FDE) to 'pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_a.mult3/mult/use_prim.appDSP48[0].bppDSP48[1].use_dsp.d1.Ddelay/d1.dout_i_reg[9]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[1].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\lut_rom.q1_read_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[1].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\COSINE_reg[16] )
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-4471] merging register 'pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][10:0]' into 'pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][10:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][10:0]' into 'pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][10:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][12:0]' into 'pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[0][12:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-4471] merging register 'pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][12:0]' into 'pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/use_fabric_adder.reg_c_high/dN.std_srl.shift_reg_reg[1][12:0]' [g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/hdl/cmpy_v6_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[15] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[14] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[13] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[12] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[11] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[10] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[9] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[8] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[7] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[6] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[5] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[4] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[3] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[2] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[1] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[15] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[14] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[13] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[12] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[11] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[10] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[9] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[8] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[7] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[6] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[5] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[4] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[3] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[2] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[1] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port MAX_N_MINUS_ONE[0] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port NFFT_OUT[4] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port NFFT_OUT[3] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port NFFT_OUT[2] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port NFFT_OUT[1] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port NFFT_OUT[0] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[9] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[8] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[7] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[6] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[5] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[4] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[3] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[2] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[1] driven by constant 1
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port SCALE_SCH_OUT[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[8] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[7] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[6] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[5] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[4] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[3] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[2] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[1] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port XK_LOAD[0] driven by constant 0
+INFO: [Synth 8-3917] design xfft_v9_1_9_d__GB1 has port RFS driven by constant 1
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[2].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\lut_rom.q1_read_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[2].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\COSINE_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\lut_rom.q2_read_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\COSINE_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.TW/twiddle_generator/tw2.twgen2 /\COSINE_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/optionally_negate_inputs/apply_negation.registered_twos_comp_hblknm.gen_full_slices[0].gen_fdre[0].ff_bi )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/optionally_negate_inputs/apply_negation.registered_twos_comp_hblknm.gen_full_slices[0].gen_fdre[0].ff_br )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/fabric_adder_3.registered_preadder.mult3_preadd_sum_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/fabric_adder_1.registered_preadder.mult1_preadd_sum_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/mult/use_prim.iBdelx[0].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/mult/use_prim.iBdelx[0].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult3_preadder_d_minus_b.mult3/mult/use_prim.iBdelx[0].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[1][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/three_mult_structure.use_dsp.i_dsp48/mult1_preadder_d_plus_b.mult1/mult/use_prim.iBdelx[0].iBdely[0].need_delay_line.Bdelay/dN.std_srl.shift_reg_reg[1][0] )
+DSP Report: Generating DSP mult_result0, operation Mode is: A*B.
+DSP Report: operator mult_result0 is absorbed into DSP mult_result0.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 5 [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:76]
+DSP Report: Generating DSP im_square0, operation Mode is: A*B.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: Generating DSP im_square0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: Generating DSP im_square0, operation Mode is: A*B.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: Generating DSP im_square0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+DSP Report: operator im_square0 is absorbed into DSP im_square0.
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_trig/shift_cap_strg_qual_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/slaveRegDo_ff7_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE.PROBE_STATUS[0].probe_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_4 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_3 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE.PROBE_STATUS[1].probe_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_0 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_1 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/slaveRegDo_ff8_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/CNT_WIDTH_STATUS[0].cnt_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/CNT_WIDTH_STATUS[1].cnt_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/CNT_WIDTH_STATUS[2].cnt_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/CNT_WIDTH_STATUS[3].cnt_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_88f /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_892 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_88d /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_88c /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_887 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE.PROBE_STATUS[0].probe_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE_MU1.MU_STATUS[0].mu_tpid_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE.PROBE_STATUS[1].probe_width_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/N_DDR_MODE_MU1.MU_STATUS[1].mu_tpid_reg /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_86 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_14 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_13 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_12 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_11 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_10 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_f /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_e /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_d /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_c /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_b /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_a /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_9 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_8 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_5 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_4 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_3 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_2 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_1 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/reg_0 /\I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/slaveRegDo_mux_6_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_trig/shift_cap_strg_qual_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/slaveRegDo_mux_1_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg0_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (spectrum/inst/ila_core_inst/\u_ila_regs/shift_reg1_reg[1023] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v:75]
+DSP Report: Generating DSP re_square0, operation Mode is: A*B.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: Generating DSP re_square0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: Generating DSP re_square0, operation Mode is: A*B.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: Generating DSP re_square0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+DSP Report: operator re_square0 is absorbed into DSP re_square0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:03:02 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:48 ; elapsed = 00:03:13 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:51 ; elapsed = 00:03:16 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:54 ; elapsed = 00:03:29 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin dummy_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[83] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[82] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[81] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[80] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[79] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[78] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[77] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[76] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[75] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[74] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[73] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[72] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[71] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[70] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[69] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[68] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[67] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[66] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[65] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[64] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[63] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[62] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[61] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[60] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[59] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[58] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[57] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[56] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[55] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[54] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[53] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[52] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[51] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[50] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[49] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[48] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[47] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[46] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[45] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[44] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[43] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[42] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[41] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[40] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[39] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[38] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[37] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin logic_fft:probe4[24] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:59 ; elapsed = 00:03:35 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:59 ; elapsed = 00:03:35 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:02 ; elapsed = 00:03:37 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:02 ; elapsed = 00:03:37 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:02 ; elapsed = 00:03:38 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:02 ; elapsed = 00:03:38 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name          | DSP Mapping                   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dsp                  | (C'-(((D'+A'')'*B'')'))'      | 25     | 17     | 46     | 25     | 17     | 2    | 2    | 2    | 2    | 1     | 1    | 1    | 
+|dsp                  | (PCIN>>17-(((D'+A')'*B'')'))' | 0      | 18     | -      | 25     | 43     | 1    | 2    | -    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized0  | (C+(A''*B')')'                | 25     | 17     | 8      | -      | 17     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|dsp__parameterized0  | (PCIN>>17+(A'*B'')')'         | 0      | 18     | -      | -      | 43     | 1    | 2    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized1  | (C'+((D'-A'')'*B'')')'        | 25     | 17     | 46     | 25     | 17     | 2    | 2    | 2    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized1  | (PCIN>>17+((D'-A')'*B'')')'   | 0      | 18     | -      | 25     | 43     | 1    | 2    | -    | 2    | 1     | 1    | 1    | 
+|dsp__parameterized2  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized2  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized3  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized3  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized4  | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized4  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized5  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized5  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized6  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized6  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized7  | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized7  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized8  | (C'-((A''*B'')'))'            | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized8  | (PCIN>>17-((A''*B')'))'       | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized9  | (C+(A'*B'')')'                | 17     | 18     | 8      | -      | 17     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized9  | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|dsp__parameterized10 | (C'+(A''*B'')')'              | 17     | 18     | 46     | -      | 17     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|dsp__parameterized10 | (PCIN>>17+(A''*B')')'         | 25     | 0      | -      | -      | 43     | 2    | 1    | -    | -    | -     | 1    | 1    | 
+|mult_hanning         | (A*B)'                        | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|power_spectrum__GCB0 | A*B                           | 30     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB0 | PCIN>>17+A*B                  | 30     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB0 | A*B                           | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB0 | PCIN>>17+A*B                  | 30     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB1 | A*B                           | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB1 | (PCIN>>17+A*B)'               | 30     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|power_spectrum__GCB1 | A*B                           | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|power_spectrum__GCB1 | (PCIN>>17+A*B)'               | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++---------------------+-------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |ila      |     1|
+|2     |BUFG     |     1|
+|3     |CARRY4   |   225|
+|4     |CFGLUT5  |   199|
+|5     |DSP48E1  |    33|
+|14    |LUT1     |   111|
+|15    |LUT2     |  1653|
+|16    |LUT3     |  2186|
+|17    |LUT4     |   584|
+|18    |LUT5     |   247|
+|19    |LUT6     |  1001|
+|20    |MUXCY    |  1461|
+|21    |MUXF7    |     7|
+|22    |RAMB18E1 |    10|
+|26    |RAMB36E1 |     7|
+|27    |SRL16E   |  2063|
+|28    |SRLC16E  |     4|
+|29    |SRLC32E  |   273|
+|30    |XORCY    |  1450|
+|31    |FD       |     4|
+|32    |FDCE     |   428|
+|33    |FDE      |   318|
+|34    |FDPE     |     3|
+|35    |FDR      |    35|
+|36    |FDRE     | 10254|
+|37    |FDSE     |    48|
+|38    |IBUF     |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:02 ; elapsed = 00:03:38 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 366 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:51 ; elapsed = 00:03:26 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+Synthesis Optimization Complete : Time (s): cpu = 00:03:02 ; elapsed = 00:03:39 . Memory (MB): peak = 3625.938 ; gain = 2702.957
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.495 . Memory (MB): peak = 3625.938 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3749 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: fft_inst/logic_fft UUID: 40cf9016-4b63-5ba6-9fb8-fcd92106ac6e 
+INFO: [Chipscope 16-324] Core: spectrum UUID: e1d53758-a65c-5ce7-9766-84bcb6ebec2c 
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3625.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 972 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 416 instances
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 184 instances
+  CFGLUT5 => SRLC32E: 15 instances
+  FD => FDRE: 4 instances
+  FDE => FDRE: 318 instances
+  FDR => FDRE: 35 instances
+
+Synth Design complete | Checksum: af817017
+INFO: [Common 17-83] Releasing license: Synthesis
+545 Infos, 247 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold, tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint 'G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/synth_1/power_spectrum.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file power_spectrum_utilization_synth.rpt -pb power_spectrum_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 26 19:44:36 2025...

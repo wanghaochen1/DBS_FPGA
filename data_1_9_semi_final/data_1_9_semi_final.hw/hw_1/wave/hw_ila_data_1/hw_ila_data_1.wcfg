@@ -10,44 +10,43 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0"></ZoomStartTime>
-      <ZoomEndTime time="1,025"></ZoomEndTime>
-      <Cursor1Time time="0"></Cursor1Time>
+      <ZoomEndTime time="6,143"></ZoomEndTime>
+      <Cursor1Time time="824"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="594"></NameColumnWidth>
-      <ValueColumnWidth column_width="139"></ValueColumnWidth>
+      <NameColumnWidth column_width="578"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="4" />
    <wave_markers>
    </wave_markers>
-   <wvobject fp_name="fft_im_out" type="array">
+   <wvobject fp_name="fft_inst/&lt;const0&gt;_29" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">fft_im_out[41:0]</obj_property>
-      <obj_property name="ObjectShortName">fft_im_out[41:0]</obj_property>
+      <obj_property name="ElementShortName">fft_inst/&lt;const0&gt;_29</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_29</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="fft_inst/fft_im_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">fft_inst/fft_im_out[36:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_im_out[36:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="fft_m_data_tuser" type="array">
+   <wvobject fp_name="fft_inst/fft_re_out" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">fft_m_data_tuser[15:0]</obj_property>
-      <obj_property name="ObjectShortName">fft_m_data_tuser[15:0]</obj_property>
+      <obj_property name="ElementShortName">fft_inst/fft_re_out[28:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_re_out[28:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="fft_m_data_tvalid" type="logic">
+   <wvobject fp_name="fft_inst/fft_m_data_tvalid" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">fft_m_data_tvalid</obj_property>
+      <obj_property name="ElementShortName">fft_inst/fft_m_data_tvalid</obj_property>
       <obj_property name="ObjectShortName">fft_m_data_tvalid</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="fft_re_out" type="array">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">fft_re_out[41:0]</obj_property>
-      <obj_property name="ObjectShortName">fft_re_out[41:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

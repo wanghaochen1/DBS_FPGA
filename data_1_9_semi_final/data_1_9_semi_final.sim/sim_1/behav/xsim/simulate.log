@@ -1,519 +1,524 @@
 Time resolution is 1 ps
  Block Memory Generator module loading initial data...
  Block Memory Generator data initialization complete.
-Block Memory Generator module fft_tb.fft_inst.source_inst.hanning.bram_inst.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module power_spectrum_tb.uut.fft_inst.source_inst.hanning.bram_inst.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
  Block Memory Generator module loading initial data...
  Block Memory Generator data initialization complete.
-Block Memory Generator module fft_tb.fft_inst.source_inst.lfp.bram_inst2.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
-Time=11595000 FFT Output: Real=00000000000, Imag=00000000000
-Time=11605000 FFT Output: Real=00000000000, Imag=009e7de4e40
-Time=11615000 FFT Output: Real=00000d5a434, Imag=3fb08f6875e
-Time=11625000 FFT Output: Real=3fff2cbe379, Imag=0000a8dfdfc
-Time=11635000 FFT Output: Real=00003a312e2, Imag=3fff931907e
-Time=11645000 FFT Output: Real=3fffef0a432, Imag=00003d833a9
-Time=11655000 FFT Output: Real=3ffff44aa96, Imag=3fffbb73ca4
-Time=11665000 FFT Output: Real=3fffd834651, Imag=000008fa06e
-Time=11675000 FFT Output: Real=00002c73327, Imag=000008ffe80
-Time=11685000 FFT Output: Real=3fffff5ab81, Imag=3fffcbc8335
-Time=11695000 FFT Output: Real=3fffdc2c6ed, Imag=000043c2798
-Time=11705000 FFT Output: Real=0000169c377, Imag=3fffe791ad9
-Time=11715000 FFT Output: Real=00000012d40, Imag=000005d1e91
-Time=11725000 FFT Output: Real=000020372e2, Imag=3fffee9eb3e
-Time=11735000 FFT Output: Real=3fffdb8951c, Imag=3ffff318f71
-Time=11745000 FFT Output: Real=00002b9a0a8, Imag=0000185583e
-Time=11755000 FFT Output: Real=3fffaaa44e7, Imag=0000088ae96
-Time=11765000 FFT Output: Real=00006419b11, Imag=3fffff3cb0f
-Time=11775000 FFT Output: Real=3fffa4e37b8, Imag=0000070f3ec
-Time=11785000 FFT Output: Real=000039f6e0c, Imag=3fffeb5964d
-Time=11795000 FFT Output: Real=3fffc52c480, Imag=3fffc4629ee
-Time=11805000 FFT Output: Real=000063997dc, Imag=000094d68e8
-Time=11815000 FFT Output: Real=3fffa1acbe0, Imag=3fff99b3fb3
-Time=11825000 FFT Output: Real=3fffdcf54ea, Imag=3fffb56b583
-Time=11835000 FFT Output: Real=00007417329, Imag=0000a135e31
-Time=11845000 FFT Output: Real=00002778fe7, Imag=3fffa6e6f5e
-Time=11855000 FFT Output: Real=3fff6cb035b, Imag=3ffff94d53b
-Time=11865000 FFT Output: Real=0000587b969, Imag=0000052484d
-Time=11875000 FFT Output: Real=3ffff5ac239, Imag=00002e49433
-Time=11885000 FFT Output: Real=3fff97b9792, Imag=3ffffcde26b
-Time=11895000 FFT Output: Real=0000965b157, Imag=3fffc72959e
-Time=11905000 FFT Output: Real=3fffb6b0740, Imag=00000e0d547
-Time=11915000 FFT Output: Real=3fffde310d2, Imag=00002eb22fe
-Time=11925000 FFT Output: Real=000041a797c, Imag=3fffcede26e
-Time=11935000 FFT Output: Real=000021573d6, Imag=0000249f72f
-Time=11945000 FFT Output: Real=3fffba50b1c, Imag=3ffff0dd19f
-Time=11955000 FFT Output: Real=3fffc55b268, Imag=3ffffede8cc
-Time=11965000 FFT Output: Real=0000967e342, Imag=3fffe3ceb46
-Time=11975000 FFT Output: Real=3fffb1e3afc, Imag=0000246ee4d
-Time=11985000 FFT Output: Real=3fffc4020fc, Imag=3fffde7549f
-Time=11995000 FFT Output: Real=00005926e3b, Imag=00004740a55
-Time=12005000 FFT Output: Real=3fffecb48f1, Imag=3fffc8b2687
-Time=12015000 FFT Output: Real=00001607cee, Imag=3fffd905994
-Time=12025000 FFT Output: Real=3fffccc47af, Imag=00003a24736
-Time=12035000 FFT Output: Real=000031c58d8, Imag=000018fff57
-Time=12045000 FFT Output: Real=3fffc8fcea0, Imag=3ffff54430f
-Time=12055000 FFT Output: Real=3ffff615f74, Imag=3fffac207d9
-Time=12065000 FFT Output: Real=00002d06649, Imag=0000549a39b
-Time=12075000 FFT Output: Real=3ffff5a3109, Imag=3fffd414519
-Time=12085000 FFT Output: Real=00001742dda, Imag=00003e30a58
-Time=12095000 FFT Output: Real=3fffbfaac08, Imag=3fffa331b12
-Time=12105000 FFT Output: Real=0000461afbf, Imag=000030a78a6
-Time=12115000 FFT Output: Real=3fffdf53581, Imag=0000086f320
-Time=12125000 FFT Output: Real=00001342182, Imag=3ffff1db64f
-Time=12135000 FFT Output: Real=3fffdd6172b, Imag=0000009d97c
-Time=12145000 FFT Output: Real=00004712b0e, Imag=3fffe95d13b
-Time=12155000 FFT Output: Real=3fffa1c9dcf, Imag=000026f0662
-Time=12165000 FFT Output: Real=000016662b3, Imag=00001a91804
-Time=12175000 FFT Output: Real=00001efd27f, Imag=3fffc1a4fb1
-Time=12185000 FFT Output: Real=3fffe5d3413, Imag=0000179158d
-Time=12195000 FFT Output: Real=0000239d54c, Imag=00001224764
-Time=12205000 FFT Output: Real=3fffebbf390, Imag=3fffe5c4078
-Time=12215000 FFT Output: Real=0000027116c, Imag=000002c2a9f
-Time=12225000 FFT Output: Real=3ffffa7ab1d, Imag=3ffffc62e70
-Time=12235000 FFT Output: Real=0000009e3da, Imag=3ffffd5187f
-Time=12245000 FFT Output: Real=3ffff58a694, Imag=00001359641
-Time=12255000 FFT Output: Real=000012becd7, Imag=3fffe79da64
-Time=12265000 FFT Output: Real=3ffffeb90be, Imag=00001fcb9ce
-Time=12275000 FFT Output: Real=3ffffc3570c, Imag=3ffff17f1a2
-Time=12285000 FFT Output: Real=3ffff0c3623, Imag=000002286f6
-Time=12295000 FFT Output: Real=00001e59827, Imag=3ffffb59e21
-Time=12305000 FFT Output: Real=3fffe0468cc, Imag=00000532a3c
-Time=12315000 FFT Output: Real=00001d9b7f8, Imag=3ffff05015e
-Time=12325000 FFT Output: Real=3ffff103114, Imag=00000a2173a
-Time=12335000 FFT Output: Real=3ffff4740c2, Imag=00000afc391
-Time=12345000 FFT Output: Real=00001828583, Imag=3fffe9e2052
-Time=12355000 FFT Output: Real=3ffffb2aff6, Imag=00001a35684
-Time=12365000 FFT Output: Real=3ffff069622, Imag=3fffe38fcf4
-Time=12375000 FFT Output: Real=00000a68344, Imag=000011ddf88
-Time=12385000 FFT Output: Real=000009a2f3f, Imag=3ffff247cd7
-Time=12395000 FFT Output: Real=3ffff34ed20, Imag=0000115e0ed
-Time=12405000 FFT Output: Real=3ffff3d4168, Imag=3fffff147e8
-Time=12415000 FFT Output: Real=00000abe488, Imag=3ffff26b461
-Time=12425000 FFT Output: Real=0000081b05e, Imag=00001154cd6
-Time=12435000 FFT Output: Real=3ffff398233, Imag=3fffe51590f
-Time=12445000 FFT Output: Real=00000076369, Imag=000014b3623
-Time=12455000 FFT Output: Real=00001a5025f, Imag=000004fbab2
-Time=12465000 FFT Output: Real=3fffe3dd3a5, Imag=3fffefdfdcd
-Time=12475000 FFT Output: Real=000001add8d, Imag=00001684ff6
-Time=12485000 FFT Output: Real=0000070c6db, Imag=3fffe7e2d85
-Time=12495000 FFT Output: Real=00000401e54, Imag=00000efecb0
-Time=12505000 FFT Output: Real=3ffff390eac, Imag=3fffebb636c
-Time=12515000 FFT Output: Real=00000d4a8bb, Imag=00000989e93
-Time=12525000 FFT Output: Real=3ffffb646b2, Imag=0000089beb3
-Time=12535000 FFT Output: Real=3ffffc4915d, Imag=3ffff709296
-Time=12545000 FFT Output: Real=00000428a57, Imag=000013b28bd
-Time=12555000 FFT Output: Real=0000010dd9a, Imag=3fffee1dbca
-Time=12565000 FFT Output: Real=3ffff605fc2, Imag=3ffffdd9ac1
-Time=12575000 FFT Output: Real=000004a1091, Imag=00000a67d21
-Time=12585000 FFT Output: Real=000007bab91, Imag=3ffff1fbe51
-Time=12595000 FFT Output: Real=3ffff48489b, Imag=000009e671b
-Time=12605000 FFT Output: Real=000002ac9f0, Imag=00000194646
-Time=12615000 FFT Output: Real=00000e255aa, Imag=3ffffcb3389
-Time=12625000 FFT Output: Real=3ffff427d97, Imag=3ffff73f46b
-Time=12635000 FFT Output: Real=000000c8d4f, Imag=00001bba388
-Time=12645000 FFT Output: Real=3fffff47d49, Imag=3fffe1aa77b
-Time=12655000 FFT Output: Real=000003d96a5, Imag=00000d48ca8
-Time=12665000 FFT Output: Real=3ffffb30416, Imag=0000006e864
-Time=12675000 FFT Output: Real=000001996b0, Imag=3ffffd75da8
-Time=12685000 FFT Output: Real=3fffff544ed, Imag=3ffffe16d03
-Time=12695000 FFT Output: Real=3fffffa7dc0, Imag=000001b0ca1
-Time=12705000 FFT Output: Real=3fffffad4be, Imag=3ffff844d97
-Time=12715000 FFT Output: Real=0000077e217, Imag=00000927c02
-Time=12725000 FFT Output: Real=3ffff857445, Imag=0000012723f
-Time=12735000 FFT Output: Real=00000986c01, Imag=0000023dbe5
-Time=12745000 FFT Output: Real=3ffff1b605e, Imag=3ffff8c6a5e
-Time=12755000 FFT Output: Real=0000056f07c, Imag=00000a4ce9d
-Time=12765000 FFT Output: Real=000004baab3, Imag=3ffff760df4
-Time=12775000 FFT Output: Real=3ffffc8bff6, Imag=000000f1f0a
-Time=12785000 FFT Output: Real=3ffffea5e08, Imag=3ffffb7f1c6
-Time=12795000 FFT Output: Real=00000024474, Imag=000005a3856
-Time=12805000 FFT Output: Real=00000282295, Imag=000002a88a0
-Time=12815000 FFT Output: Real=3ffffe74580, Imag=3ffff8f8bfc
-Time=12825000 FFT Output: Real=000003b2943, Imag=3ffffee93b5
-Time=12835000 FFT Output: Real=3ffff841111, Imag=000003a3869
-Time=12845000 FFT Output: Real=000006e8023, Imag=000002a1a2c
-Time=12855000 FFT Output: Real=3ffffd31dc3, Imag=3fffff358e7
-Time=12865000 FFT Output: Real=3ffffd7a51c, Imag=3fffff11420
-Time=12875000 FFT Output: Real=3fffffbed11, Imag=000006fb9b2
-Time=12885000 FFT Output: Real=000008cfec0, Imag=3ffff2d0e00
-Time=12895000 FFT Output: Real=3ffff7b3b09, Imag=000002fc1e7
-Time=12905000 FFT Output: Real=000002ef20b, Imag=0000053972a
-Time=12915000 FFT Output: Real=3ffffe471d4, Imag=3ffffc3e5c2
-Time=12925000 FFT Output: Real=000003c80c0, Imag=0000025fb9f
-Time=12935000 FFT Output: Real=3ffffd1b3e1, Imag=0000002f26b
-Time=12945000 FFT Output: Real=3fffff75a58, Imag=3ffffd52f09
-Time=12955000 FFT Output: Real=000000b0e9a, Imag=00000252a45
-Time=12965000 FFT Output: Real=0000015aaa7, Imag=0000004fd43
-Time=12975000 FFT Output: Real=3ffffdf231a, Imag=3ffffd04a33
-Time=12985000 FFT Output: Real=00000166b5c, Imag=000001a631a
-Time=12995000 FFT Output: Real=000000567fc, Imag=0000017c383
-Time=13005000 FFT Output: Real=3ffffe6e762, Imag=3ffffc9832a
-Time=13015000 FFT Output: Real=0000011749a, Imag=000002a1cb3
-Time=13025000 FFT Output: Real=3fffff0ba00, Imag=3ffffecf84c
-Time=13035000 FFT Output: Real=000001e96dd, Imag=0000002fcaa
-Time=13045000 FFT Output: Real=3ffffe52751, Imag=3fffffb64c7
-Time=13055000 FFT Output: Real=00000135fc4, Imag=000001e7860
-Time=13065000 FFT Output: Real=3ffffe18fe6, Imag=3ffffe2bab3
-Time=13075000 FFT Output: Real=00000263d20, Imag=3fffff8d330
-Time=13085000 FFT Output: Real=3ffffd9cdf1, Imag=00000188217
-Time=13095000 FFT Output: Real=0000010f605, Imag=3ffffeecd56
-Time=13105000 FFT Output: Real=000000e5f4c, Imag=000001216b5
-Time=13115000 FFT Output: Real=3ffffecd696, Imag=3ffffe39b1c
-Time=13125000 FFT Output: Real=0000010d261, Imag=000001c823a
-Time=13135000 FFT Output: Real=3ffffee48e8, Imag=3ffffdc0556
-Time=13145000 FFT Output: Real=3ffffec50ea, Imag=000002d23c2
-Time=13155000 FFT Output: Real=0000040a8ba, Imag=3ffffdd3278
-Time=13165000 FFT Output: Real=3ffffcc49ef, Imag=3fffff5cd90
-Time=13175000 FFT Output: Real=0000013879d, Imag=000001ebd88
-Time=13185000 FFT Output: Real=3ffffee387a, Imag=3ffffe57fd5
-Time=13195000 FFT Output: Real=00000111795, Imag=000001f64c9
-Time=13205000 FFT Output: Real=00000039167, Imag=000000a024f
-Time=13215000 FFT Output: Real=3ffffe07de8, Imag=3ffffcd4c29
-Time=13225000 FFT Output: Real=000002f6967, Imag=000000f3d9e
-Time=13235000 FFT Output: Real=3ffffed5d4d, Imag=0000018fb0f
-Time=13245000 FFT Output: Real=3ffffea7cc3, Imag=3ffffe4ab85
-Time=13255000 FFT Output: Real=000001df832, Imag=3fffffa2d0b
-Time=13265000 FFT Output: Real=3ffffe0ff99, Imag=000002271a2
-Time=13275000 FFT Output: Real=00000085819, Imag=3ffffdd9727
-Time=13285000 FFT Output: Real=0000010d981, Imag=00000217bdb
-Time=13295000 FFT Output: Real=3fffffed0a2, Imag=3fffff16e16
-Time=13305000 FFT Output: Real=3fffffd5e59, Imag=3fffff3466a
-Time=13315000 FFT Output: Real=3ffffea1934, Imag=000000ea98f
-Time=13325000 FFT Output: Real=000001c32db, Imag=3fffff9cb3c
-Time=13335000 FFT Output: Real=3ffffef8926, Imag=3fffffa240d
-Time=13345000 FFT Output: Real=3fffffceadc, Imag=3fffff5db64
-Time=13355000 FFT Output: Real=00000031b6b, Imag=000001f9ad7
-Time=13365000 FFT Output: Real=0000019200f, Imag=3ffffe1a277
-Time=13375000 FFT Output: Real=3ffffeb684e, Imag=3fffffe300e
-Time=13385000 FFT Output: Real=0000003ad5d, Imag=0000019e126
-Time=13395000 FFT Output: Real=3ffffea359c, Imag=3fffff4e77d
-Time=13405000 FFT Output: Real=00000166074, Imag=000000966af
-Time=13415000 FFT Output: Real=3fffff33e23, Imag=3ffffe80ab8
-Time=13425000 FFT Output: Real=000001e7873, Imag=0000015b3dc
-Time=13435000 FFT Output: Real=3ffffdf7965, Imag=3ffffe8d080
-Time=13445000 FFT Output: Real=00000088593, Imag=000001cce1c
-Time=13455000 FFT Output: Real=0000006ddf1, Imag=3ffffe04299
-Time=13465000 FFT Output: Real=3fffff7b4e3, Imag=0000020a103
-Time=13475000 FFT Output: Real=0000000a9a3, Imag=3ffffe12b67
-Time=13485000 FFT Output: Real=0000005eb68, Imag=00000202748
-Time=13495000 FFT Output: Real=00000144a8f, Imag=3ffffdb1c92
-Time=13505000 FFT Output: Real=3ffffec364f, Imag=000001b2fc4
-Time=13515000 FFT Output: Real=3fffff752fe, Imag=000000933c7
-Time=13525000 FFT Output: Real=0000008cf34, Imag=3ffffdf9dde
-Time=13535000 FFT Output: Real=3fffff49bc6, Imag=0000017b316
-Time=13545000 FFT Output: Real=00000172ce5, Imag=3fffff898c6
-Time=13555000 FFT Output: Real=3ffffe980dd, Imag=000000a854f
-Time=13565000 FFT Output: Real=000000ed086, Imag=3fffff5a329
-Time=13575000 FFT Output: Real=3ffffddc02d, Imag=000000b2c12
-Time=13585000 FFT Output: Real=0000034b53d, Imag=3ffffeb191a
-Time=13595000 FFT Output: Real=3ffffe00cfe, Imag=00000214b81
-Time=13605000 FFT Output: Real=000000bfa77, Imag=3ffffc24b6d
-Time=13615000 FFT Output: Real=3fffff39b54, Imag=00000358cf5
-Time=13625000 FFT Output: Real=000001bd44c, Imag=3ffffd6a1c6
-Time=13635000 FFT Output: Real=3ffffd1cd13, Imag=0000024d0c5
-Time=13645000 FFT Output: Real=00000230f3f, Imag=3fffff805c4
-Time=13655000 FFT Output: Real=3fffff94911, Imag=3ffffe92c74
-Time=13665000 FFT Output: Real=3fffff86579, Imag=00000348f57
-Time=13675000 FFT Output: Real=000000fc436, Imag=3ffffb6b3b7
-Time=13685000 FFT Output: Real=3ffffefce4a, Imag=00000404e18
-Time=13695000 FFT Output: Real=3fffff5677e, Imag=3ffffdf4780
-Time=13705000 FFT Output: Real=00000161ccc, Imag=000000eeb98
-Time=13715000 FFT Output: Real=000000d3797, Imag=3fffffc4534
-Time=13725000 FFT Output: Real=3ffffe34999, Imag=3fffff36462
-Time=13735000 FFT Output: Real=0000019a88d, Imag=00000045ae4
-Time=13745000 FFT Output: Real=3ffffe93583, Imag=0000003efba
-Time=13755000 FFT Output: Real=0000004c1fd, Imag=0000005ffbf
-Time=13765000 FFT Output: Real=0000005e56b, Imag=3ffffefa038
-Time=13775000 FFT Output: Real=3fffffb002e, Imag=00000054845
-Time=13785000 FFT Output: Real=3fffff69dba, Imag=3ffffff9208
-Time=13795000 FFT Output: Real=0000005db68, Imag=000000ca28c
-Time=13805000 FFT Output: Real=0000001d69d, Imag=0000006691d
-Time=13815000 FFT Output: Real=0000004b8af, Imag=3ffffdba884
-Time=13825000 FFT Output: Real=3fffff36444, Imag=00000167983
-Time=13835000 FFT Output: Real=000001195d6, Imag=3ffffed58d1
-Time=13845000 FFT Output: Real=00000032162, Imag=000000f839f
-Time=13855000 FFT Output: Real=3fffff58abc, Imag=000000c7a0f
-Time=13865000 FFT Output: Real=3fffffc0830, Imag=00000033416
-Time=13875000 FFT Output: Real=0000007178b, Imag=3ffffd14d50
-Time=13885000 FFT Output: Real=3ffffff3bc5, Imag=000002661a9
-Time=13895000 FFT Output: Real=3fffff6761c, Imag=3fffff8a8ec
-Time=13905000 FFT Output: Real=0000009ec26, Imag=3fffff32aa9
-Time=13915000 FFT Output: Real=3ffffea83cb, Imag=0000006557c
-Time=13925000 FFT Output: Real=0000014347e, Imag=000000c2928
-Time=13935000 FFT Output: Real=00000189882, Imag=3fffffa5197
-Time=13945000 FFT Output: Real=3ffffcde2fc, Imag=0000000031d
-Time=13955000 FFT Output: Real=00000248209, Imag=3ffffea0fd5
-Time=13965000 FFT Output: Real=3ffffeb67bd, Imag=000001df8d2
-Time=13975000 FFT Output: Real=000001b69bc, Imag=3ffffec3037
-Time=13985000 FFT Output: Real=3ffffdcbc04, Imag=3ffffffc4fc
-Time=13995000 FFT Output: Real=0000016ce1f, Imag=0000008a829
-Time=14005000 FFT Output: Real=3fffff03728, Imag=000000187f9
-Time=14015000 FFT Output: Real=0000004ce61, Imag=3fffffdc58b
-Time=14025000 FFT Output: Real=3fffffe494a, Imag=3fffffe2227
-Time=14035000 FFT Output: Real=000001609fc, Imag=3fffffe8ffa
-Time=14045000 FFT Output: Real=3ffffed16e0, Imag=000000495bf
-Time=14055000 FFT Output: Real=000000936c4, Imag=3fffff5515b
-Time=14065000 FFT Output: Real=000000321e1, Imag=3fffffd46c6
-Time=14075000 FFT Output: Real=000000430c0, Imag=000000b5396
-Time=14085000 FFT Output: Real=3ffffdfef98, Imag=3fffffcf77e
-Time=14095000 FFT Output: Real=000001462eb, Imag=0000005db5d
-Time=14105000 FFT Output: Real=000000c315c, Imag=3ffffed338f
-Time=14115000 FFT Output: Real=3fffff51c9e, Imag=0000008e7e9
-Time=14125000 FFT Output: Real=3fffffb9f25, Imag=3fffffe450e
-Time=14135000 FFT Output: Real=000000a8bf8, Imag=000001910ef
-Time=14145000 FFT Output: Real=000000a82f4, Imag=3ffffe8d9c0
-Time=14155000 FFT Output: Real=3ffffde6b3a, Imag=000000b4a12
-Time=14165000 FFT Output: Real=00000000000, Imag=3ffffe41b80
-Time=14175000 FFT Output: Real=0000021933e, Imag=000000e3f26
-Time=14185000 FFT Output: Real=3fffff5847d, Imag=3ffffe8d6d0
-Time=14195000 FFT Output: Real=3fffff570c8, Imag=00000198790
-Time=14205000 FFT Output: Real=00000046000, Imag=3fffffe40cf
-Time=14215000 FFT Output: Real=000000adf72, Imag=00000095e0e
-Time=14225000 FFT Output: Real=3fffff3d43b, Imag=3ffffed37ae
-Time=14235000 FFT Output: Real=3ffffeb9aad, Imag=00000060054
-Time=14245000 FFT Output: Real=0000020104f, Imag=3fffffcf9cb
-Time=14255000 FFT Output: Real=3fffffbcc11, Imag=000000b08ee
-Time=14265000 FFT Output: Real=3fffffcdc45, Imag=3fffffd4825
-Time=14275000 FFT Output: Real=3fffff6c7f6, Imag=3fffff5f923
-Time=14285000 FFT Output: Real=0000012e6ae, Imag=000000498f2
-Time=14295000 FFT Output: Real=3ffffe9f840, Imag=3fffffef375
-Time=14305000 FFT Output: Real=0000001b858, Imag=3fffffe25ea
-Time=14315000 FFT Output: Real=3fffffb35bf, Imag=3fffffc102e
-Time=14325000 FFT Output: Real=000000fc395, Imag=00000018a47
-Time=14335000 FFT Output: Real=3ffffe93372, Imag=0000009ba8e
-Time=14345000 FFT Output: Real=00000234444, Imag=3ffffffc895
-Time=14355000 FFT Output: Real=3ffffe4985a, Imag=3ffffec8124
-Time=14365000 FFT Output: Real=000001496d6, Imag=000001df8d8
-Time=14375000 FFT Output: Real=3ffffdb7fe8, Imag=3ffffea45a1
-Time=14385000 FFT Output: Real=00000321bd4, Imag=00000000349
-Time=14395000 FFT Output: Real=3ffffe76989, Imag=3fffff9db1f
-Time=14405000 FFT Output: Real=3ffffebcbf9, Imag=000000c27e0
-Time=14415000 FFT Output: Real=00000157a6f, Imag=0000006f709
-Time=14425000 FFT Output: Real=3fffff618d1, Imag=3fffff3294b
-Time=14435000 FFT Output: Real=00000098c65, Imag=3fffff8e57d
-Time=14445000 FFT Output: Real=0000000bff8, Imag=00000265f57
-Time=14455000 FFT Output: Real=3fffff8e9e5, Imag=3ffffd1d9b0
-Time=14465000 FFT Output: Real=0000003fe74, Imag=0000003353f
-Time=14475000 FFT Output: Real=000000a7010, Imag=000000c1bbe
-Time=14485000 FFT Output: Real=3fffffcdbf6, Imag=000000f85b2
-Time=14495000 FFT Output: Real=3ffffee6864, Imag=3ffffec9329
-Time=14505000 FFT Output: Real=000000c9b4e, Imag=00000167bff
-Time=14515000 FFT Output: Real=3fffffb5524, Imag=3ffffdc100e
-Time=14525000 FFT Output: Real=3fffffe1574, Imag=0000006693e
-Time=14535000 FFT Output: Real=3fffffa2dce, Imag=000000dbc4f
-Time=14545000 FFT Output: Real=000000967e2, Imag=3ffffff9113
-Time=14555000 FFT Output: Real=0000004f065, Imag=00000050dd3
-Time=14565000 FFT Output: Real=3fffffa1d2f, Imag=3ffffefa7ad
-Time=14575000 FFT Output: Real=3fffffb408e, Imag=00000056e68
-Time=14585000 FFT Output: Real=0000016cfaf, Imag=0000003eb16
-Time=14595000 FFT Output: Real=3ffffe64eba, Imag=0000003eb99
-Time=14605000 FFT Output: Real=000001cbb00, Imag=3fffff36255
-Time=14615000 FFT Output: Real=3fffff2cc78, Imag=3fffffc4eb5
-Time=14625000 FFT Output: Real=3ffffe9dc49, Imag=000000ee63d
-Time=14635000 FFT Output: Real=000000a96c5, Imag=3ffffe09d45
-Time=14645000 FFT Output: Real=00000103356, Imag=00000404b9e
-Time=14655000 FFT Output: Real=3fffff03d82, Imag=3ffffb5cf54
-Time=14665000 FFT Output: Real=00000079603, Imag=00000348f9a
-Time=14675000 FFT Output: Real=0000006ba3f, Imag=3ffffe93b2c
-Time=14685000 FFT Output: Real=3ffffdceabc, Imag=3fffff8093d
-Time=14695000 FFT Output: Real=000002e3967, Imag=000002477d0
-Time=14705000 FFT Output: Real=3ffffe42d16, Imag=3ffffd6a59d
-Time=14715000 FFT Output: Real=000000c6681, Imag=000003597b0
-Time=14725000 FFT Output: Real=3fffff40427, Imag=3ffffc249f4
-Time=14735000 FFT Output: Real=000001ff2b3, Imag=00000217ed1
-Time=14745000 FFT Output: Real=3ffffcb4c6b, Imag=3ffffeb15fd
-Time=14755000 FFT Output: Real=00000223f10, Imag=000000a8d5a
-Time=14765000 FFT Output: Real=3fffff12d86, Imag=3fffff5a4d6
-Time=14775000 FFT Output: Real=00000168254, Imag=000000b6cd9
-Time=14785000 FFT Output: Real=3ffffe8d5c7, Imag=3fffff89d4a
-Time=14795000 FFT Output: Real=000000b66c4, Imag=00000179f0d
-Time=14805000 FFT Output: Real=3fffff730cc, Imag=3ffffdf9ddf
-Time=14815000 FFT Output: Real=0000008ab27, Imag=0000007be28
-Time=14825000 FFT Output: Real=0000013c498, Imag=000001b31a6
-Time=14835000 FFT Output: Real=3ffffebb7a8, Imag=3ffffda8fde
-Time=14845000 FFT Output: Real=3fffffa160f, Imag=0000020276a
-Time=14855000 FFT Output: Real=3ffffff53b1, Imag=3ffffe15fd9
-Time=14865000 FFT Output: Real=00000084960, Imag=0000020a120
-Time=14875000 FFT Output: Real=3fffff923d4, Imag=3ffffdfd5f2
-Time=14885000 FFT Output: Real=3fffff77918, Imag=000001cce26
-Time=14895000 FFT Output: Real=000002081f4, Imag=3ffffe82ddd
-Time=14905000 FFT Output: Real=3ffffe188bb, Imag=0000015b1da
-Time=14915000 FFT Output: Real=000000cc3ae, Imag=3ffffe77e02
-Time=14925000 FFT Output: Real=3ffffe99d9e, Imag=000000962c8
-Time=14935000 FFT Output: Real=0000015ccea, Imag=3fffff4bac8
-Time=14945000 FFT Output: Real=3fffffc556f, Imag=0000019e15b
-Time=14955000 FFT Output: Real=00000149506, Imag=3fffffe4a8b
-Time=14965000 FFT Output: Real=3ffffe6e31e, Imag=3ffffe1a272
-Time=14975000 FFT Output: Real=3fffffce5c6, Imag=0000020aaf9
-Time=14985000 FFT Output: Real=00000031cee, Imag=3fffff5d7a8
-Time=14995000 FFT Output: Real=000001073d7, Imag=3fffffa7053
-Time=15005000 FFT Output: Real=3ffffe3cfb1, Imag=3fffff9ceb1
-Time=15015000 FFT Output: Real=0000015e967, Imag=000000f83c0
-Time=15025000 FFT Output: Real=00000029d5b, Imag=3fffff3406d
-Time=15035000 FFT Output: Real=00000012d09, Imag=3fffff15e7a
-Time=15045000 FFT Output: Real=3ffffef2767, Imag=00000217943
-Time=15055000 FFT Output: Real=3fffff7a106, Imag=3ffffde3dfc
-Time=15065000 FFT Output: Real=000001effe2, Imag=00000227058
-Time=15075000 FFT Output: Real=3ffffe2044b, Imag=3fffff9c4b9
-Time=15085000 FFT Output: Real=00000157ff4, Imag=3ffffe4aeaf
-Time=15095000 FFT Output: Real=0000012a7eb, Imag=0000019754c
-Time=15105000 FFT Output: Real=3ffffd08d95, Imag=000000f3c41
-Time=15115000 FFT Output: Real=000001f81dc, Imag=3ffffce3a02
-Time=15125000 FFT Output: Real=3fffffc6d72, Imag=000000a019d
-Time=15135000 FFT Output: Real=3ffffeeec49, Imag=000001f1ebf
-Time=15145000 FFT Output: Real=0000011cd83, Imag=3ffffe581db
-Time=15155000 FFT Output: Real=3ffffec737d, Imag=000001f9247
-Time=15165000 FFT Output: Real=0000033b64a, Imag=3fffff5cb36
-Time=15175000 FFT Output: Real=3ffffbf5ae0, Imag=3ffffddceb3
-Time=15185000 FFT Output: Real=0000013aaf3, Imag=000002d212f
-Time=15195000 FFT Output: Real=0000011bc39, Imag=3ffffdcf568
-Time=15205000 FFT Output: Real=3ffffef2b3b, Imag=000001c7d91
-Time=15215000 FFT Output: Real=00000132337, Imag=3ffffe3dd6c
-Time=15225000 FFT Output: Real=3fffff1a60a, Imag=00000120cf2
-Time=15235000 FFT Output: Real=3ffffef0b98, Imag=3ffffefef6a
-Time=15245000 FFT Output: Real=00000262ab3, Imag=00000188dc9
-Time=15255000 FFT Output: Real=3ffffd9c636, Imag=3fffff86d33
-Time=15265000 FFT Output: Real=000001e7198, Imag=3ffffe2b995
-Time=15275000 FFT Output: Real=3ffffeca69d, Imag=000001dcc56
-Time=15285000 FFT Output: Real=000001ad837, Imag=3fffffb6397
-Time=15295000 FFT Output: Real=3ffffe1669b, Imag=00000028b7f
-Time=15305000 FFT Output: Real=000000f488e, Imag=3ffffecf88c
-Time=15315000 FFT Output: Real=3ffffee8a4e, Imag=0000029d1e5
-Time=15325000 FFT Output: Real=00000191877, Imag=3ffffc98394
-Time=15335000 FFT Output: Real=3fffffa9a24, Imag=000001717fa
-Time=15345000 FFT Output: Real=3ffffe993ea, Imag=000001a6498
-Time=15355000 FFT Output: Real=0000020dfac, Imag=3ffffcfdca4
-Time=15365000 FFT Output: Real=3ffffea5645, Imag=0000004fd34
-Time=15375000 FFT Output: Real=3fffff4ec08, Imag=000002569c4
-Time=15385000 FFT Output: Real=0000008a435, Imag=3ffffd52fd7
-Time=15395000 FFT Output: Real=000002e4b3b, Imag=00000029625
-Time=15405000 FFT Output: Real=3ffffc381a1, Imag=0000025fafc
-Time=15415000 FFT Output: Real=000001b8e27, Imag=3ffffc4acab
-Time=15425000 FFT Output: Real=3ffffd10718, Imag=00000539012
-Time=15435000 FFT Output: Real=0000084c455, Imag=0000032a222
-Time=15445000 FFT Output: Real=3ffff730140, Imag=3ffff2d0e00
-Time=15455000 FFT Output: Real=000000412f5, Imag=000006ef631
-Time=15465000 FFT Output: Real=00000285933, Imag=3fffff1127a
-Time=15475000 FFT Output: Real=000002cdeea, Imag=3fffff3ccec
-Time=15485000 FFT Output: Real=3ffff917f5e, Imag=000002a1b2d
-Time=15495000 FFT Output: Real=000007bee8b, Imag=0000039adeb
-Time=15505000 FFT Output: Real=3ffffc4d8c8, Imag=3ffffee93c7
-Time=15515000 FFT Output: Real=0000018b95e, Imag=3ffff8f3a23
-Time=15525000 FFT Output: Real=3ffffd7dd19, Imag=000002a85c5
-Time=15535000 FFT Output: Real=3fffffdb610, Imag=000005a5807
-Time=15545000 FFT Output: Real=0000015a674, Imag=3ffffb7f2b4
-Time=15555000 FFT Output: Real=000003742de, Imag=000000f7021
-Time=15565000 FFT Output: Real=3ffffb457b2, Imag=3ffff760d6a
-Time=15575000 FFT Output: Real=3ffffa90f2e, Imag=00000a3d383
-Time=15585000 FFT Output: Real=00000e4a2e0, Imag=3ffff8c6888
-Time=15595000 FFT Output: Real=3ffff678ca5, Imag=00000231876
-Time=15605000 FFT Output: Real=000007a8c35, Imag=0000012710f
-Time=15615000 FFT Output: Real=3ffff88217a, Imag=0000092d816
-Time=15625000 FFT Output: Real=00000052baa, Imag=3ffff844b47
-Time=15635000 FFT Output: Real=000000582ce, Imag=000001b53fe
-Time=15645000 FFT Output: Real=000000abbfd, Imag=3ffffe169bd
-Time=15655000 FFT Output: Real=3ffffe66b17, Imag=3ffffd745ce
-Time=15665000 FFT Output: Real=000004cf872, Imag=0000006ead3
-Time=15675000 FFT Output: Real=3ffffc26b70, Imag=00000d48590
-Time=15685000 FFT Output: Real=000000b8313, Imag=3fffe1aa634
-Time=15695000 FFT Output: Real=3fffff3762e, Imag=00001bb5d42
-Time=15705000 FFT Output: Real=00000bd7fdc, Imag=3ffff73f5c2
-Time=15715000 FFT Output: Real=3ffff1da934, Imag=3ffffcb5668
-Time=15725000 FFT Output: Real=3ffffd53a53, Imag=0000019431a
-Time=15735000 FFT Output: Real=00000b7aeab, Imag=000009ed5da
-Time=15745000 FFT Output: Real=3ffff8454f6, Imag=3ffff1fbefd
-Time=15755000 FFT Output: Real=3ffffb5eee9, Imag=00000a675bf
-Time=15765000 FFT Output: Real=000009fa167, Imag=3ffffdd9a11
-Time=15775000 FFT Output: Real=3ffffef2526, Imag=3fffee118bb
-Time=15785000 FFT Output: Real=3ffffbd713b, Imag=000013b2754
-Time=15795000 FFT Output: Real=000003b6d57, Imag=3ffff711303
-Time=15805000 FFT Output: Real=0000049c6ff, Imag=0000089bd0b
-Time=15815000 FFT Output: Real=3ffff2b4d74, Imag=0000099133d
-Time=15825000 FFT Output: Real=00000c6eeed, Imag=3fffebb60e8
-Time=15835000 FFT Output: Real=3ffffbff043, Imag=00000f04565
-Time=15845000 FFT Output: Real=3ffff8f360b, Imag=3fffe7e275d
-Time=15855000 FFT Output: Real=3ffffe5262a, Imag=0000168472e
-Time=15865000 FFT Output: Real=00001c22a51, Imag=3fffefe0162
-Time=15875000 FFT Output: Real=3fffe5afda2, Imag=000004f3db1
-Time=15885000 FFT Output: Real=3fffff89779, Imag=000014b352c
-Time=15895000 FFT Output: Real=00000c680ba, Imag=3fffe519741
-Time=15905000 FFT Output: Real=3ffff7e4d6a, Imag=00001155120
-Time=15915000 FFT Output: Real=3ffff541d63, Imag=3ffff2680cb
-Time=15925000 FFT Output: Real=00000c2bb6d, Imag=3fffff147e3
-Time=15935000 FFT Output: Real=00000cb159c, Imag=00001178f1c
-Time=15945000 FFT Output: Real=3ffff65cf2d, Imag=3ffff247766
-Time=15955000 FFT Output: Real=3ffff597ca0, Imag=000011e5fff
-Time=15965000 FFT Output: Real=00000f96b7a, Imag=3fffe38fb65
-Time=15975000 FFT Output: Real=000004d55db, Imag=00001a29a68
-Time=15985000 FFT Output: Real=3fffe7d76b5, Imag=3fffe9e2484
-Time=15995000 FFT Output: Real=00000b8c99f, Imag=00000af866e
-Time=16005000 FFT Output: Real=00000efcf97, Imag=00000a2133c
-Time=16015000 FFT Output: Real=3fffe26429d, Imag=3ffff04e3c9
-Time=16025000 FFT Output: Real=00001fb9613, Imag=00000532cf3
-Time=16035000 FFT Output: Real=3fffe1a65ad, Imag=3ffffb4b1eb
-Time=16045000 FFT Output: Real=00000f3caa2, Imag=00000228746
-Time=16055000 FFT Output: Real=000003ca4f1, Imag=3ffff186dba
-Time=16065000 FFT Output: Real=00000147405, Imag=00001fcbf7e
-Time=16075000 FFT Output: Real=3fffed410b4, Imag=3fffe7777a1
-Time=16085000 FFT Output: Real=00000a7596c, Imag=00001359642
-Time=16095000 FFT Output: Real=3fffff61e4c, Imag=3ffffd7651a
-Time=16105000 FFT Output: Real=00000585921, Imag=3ffffc62b0e
-Time=16115000 FFT Output: Real=3ffffd8efdf, Imag=000002cb305
-Time=16125000 FFT Output: Real=00001440bf0, Imag=3fffe5c4243
-Time=16135000 FFT Output: Real=3fffdc62fff, Imag=00001226c34
-Time=16145000 FFT Output: Real=00001a2cfa3, Imag=00001791746
-Time=16155000 FFT Output: Real=3fffe103002, Imag=3fffc1a048b
-Time=16165000 FFT Output: Real=3fffe999d9d, Imag=00001a915a3
-Time=16175000 FFT Output: Real=00005e36156, Imag=000026f1a15
-Time=16185000 FFT Output: Real=3fffb8ed1b2, Imag=3fffe95d602
-Time=16195000 FFT Output: Real=0000229e829, Imag=000000a8b5d
-Time=16205000 FFT Output: Real=3fffecbe005, Imag=3ffff1db8c4
-Time=16215000 FFT Output: Real=000020ac595, Imag=00000875438
-Time=16225000 FFT Output: Real=3fffb9e4d59, Imag=000030a7293
-Time=16235000 FFT Output: Real=00004055344, Imag=3fffa331b45
-Time=16245000 FFT Output: Real=3fffe8bd084, Imag=00003e307e2
-Time=16255000 FFT Output: Real=00000a5d03c, Imag=3fffd4132ee
-Time=16265000 FFT Output: Real=3fffd2fa1a8, Imag=00005499e06
-Time=16275000 FFT Output: Real=000009ea18f, Imag=3fffac1ba8a
-Time=16285000 FFT Output: Real=0000370315d, Imag=3ffff54457e
-Time=16295000 FFT Output: Real=3fffce3aab1, Imag=000018f9e6a
-Time=16305000 FFT Output: Real=0000333b221, Imag=00003a24468
-Time=16315000 FFT Output: Real=3fffe9f8e45, Imag=3fffd90a6c5
-Time=16325000 FFT Output: Real=0000134b6d7, Imag=3fffc8b27d4
-Time=16335000 FFT Output: Real=3fffa6d97e8, Imag=00004735f93
-Time=16345000 FFT Output: Real=00003bfdca0, Imag=3fffde754a8
-Time=16355000 FFT Output: Real=00004e1c15e, Imag=0000246dfc0
-Time=16365000 FFT Output: Real=3fff69824f1, Imag=3fffe3ceca5
-Time=16375000 FFT Output: Real=00003aa4a5d, Imag=3ffffee1182
-Time=16385000 FFT Output: Real=000045aefdc, Imag=3ffff0dccdf
-Time=16395000 FFT Output: Real=3fffdea8cec, Imag=000024a8d27
-Time=16405000 FFT Output: Real=3fffbe5892a, Imag=3fffcede483
-Time=16415000 FFT Output: Real=000021cf0a2, Imag=00002ea7ecd
-Time=16425000 FFT Output: Real=0000494f2a0, Imag=00000e0d466
-Time=16435000 FFT Output: Real=3fff69a51e5, Imag=3fffc71eb12
-Time=16445000 FFT Output: Real=00006846991, Imag=3ffffcde557
-Time=16455000 FFT Output: Real=00000a53782, Imag=00002e3a69c
-Time=16465000 FFT Output: Real=3fffa784734, Imag=00000524549
-Time=16475000 FFT Output: Real=0000934fc79, Imag=3ffff9509d8
-Time=16485000 FFT Output: Real=3fffd887182, Imag=3fffa6e6ee8
-Time=16495000 FFT Output: Real=3fff8be8ef2, Imag=0000a131fcd
-Time=16505000 FFT Output: Real=0000230a734, Imag=3fffb56b9e5
-Time=16515000 FFT Output: Real=00005e53157, Imag=3fff99bbff9
-Time=16525000 FFT Output: Real=3fff9c66e07, Imag=000094d62de
-Time=16535000 FFT Output: Real=00003ad354a, Imag=3fffc461121
-Time=16545000 FFT Output: Real=3fffc60951e, Imag=3fffeb59784
-Time=16555000 FFT Output: Real=00005b1c3a9, Imag=0000071b887
-Time=16565000 FFT Output: Real=3fff9be6a30, Imag=3fffff3cd61
-Time=16575000 FFT Output: Real=0000555b65f, Imag=00000881559
-Time=16585000 FFT Output: Real=3fffd465dbe, Imag=00001855dfb
-Time=16595000 FFT Output: Real=00002476316, Imag=3ffff31e43c
-Time=16605000 FFT Output: Real=3fffdfc921a, Imag=3fffee9ea31
-Time=16615000 FFT Output: Real=3fffffece9a, Imag=000005d1aed
-Time=16625000 FFT Output: Real=3fffe964341, Imag=3fffe791aa4
-Time=16635000 FFT Output: Real=000023d32bc, Imag=000043bb0d0
-Time=16645000 FFT Output: Real=000000a55b2, Imag=3fffcbc85de
-Time=16655000 FFT Output: Real=3fffd38c89d, Imag=000008fa98f
-Time=16665000 FFT Output: Real=000027cb850, Imag=000008fa2e5
-Time=16675000 FFT Output: Real=00000bb5732, Imag=3fffbb7bc21
-Time=16685000 FFT Output: Real=000010f5af7, Imag=00003d8310e
-Time=16695000 FFT Output: Real=3fffc5cecc6, Imag=3fff9318b63
-Time=16705000 FFT Output: Real=0000d341740, Imag=0000a8df91a
+Block Memory Generator module power_spectrum_tb.uut.fft_inst.source_inst.lfp.bram_inst2.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Time=                   0, fft_m_data_tvalid=0, fft_re_out=             0, fft_im_out=             0, power_spectrum_result=                  0, power_result_valid=0
+Simulation finished
+$finish called at time : 11050 ns : File "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/power_spectrum_tb.v" Line 71
+Time=            11535000, fft_m_data_tvalid=1, fft_re_out=             0, fft_im_out=             0, power_spectrum_result=                  0, power_result_valid=0
+Time=            11545000, fft_m_data_tvalid=1, fft_re_out=             0, fft_im_out=   42544811584, power_spectrum_result=                  0, power_result_valid=1
+Time=            11555000, fft_m_data_tvalid=1, fft_re_out=      14001204, fft_im_out=  -21324462242, power_spectrum_result=                  0, power_result_valid=1
+Time=            11565000, fft_m_data_tvalid=1, fft_re_out=    -221518983, fft_im_out=     177077756, power_spectrum_result= -25769514689163264, power_result_valid=1
+Time=            11575000, fft_m_data_tvalid=1, fft_re_out=      61018850, fft_im_out=    -114192258, power_spectrum_result=  49467564871840020, power_result_valid=1
+Time=            11585000, fft_m_data_tvalid=1, fft_re_out=     -17783758, fft_im_out=      64500649, power_spectrum_result= -63687996576506047, power_result_valid=1
+Time=            11595000, fft_m_data_tvalid=1, fft_re_out=     -12277098, fft_im_out=     -71877468, power_spectrum_result=  16763171842461064, power_result_valid=1
+Time=            11605000, fft_m_data_tvalid=1, fft_re_out=     -41728431, fft_im_out=       9412718, power_spectrum_result=   4476595770023765, power_result_valid=1
+Time=            11615000, fft_m_data_tvalid=1, fft_re_out=      46609191, fft_im_out=       9436800, power_spectrum_result=   5317097541392628, power_result_valid=1
+Time=            11625000, fft_m_data_tvalid=1, fft_re_out=       -676991, fft_im_out=     -54754507, power_spectrum_result=   1829861213869285, power_result_valid=1
+Time=            11635000, fft_m_data_tvalid=1, fft_re_out=     -37566739, fft_im_out=      71051160, power_spectrum_result=   2261469879914481, power_result_valid=1
+Time=            11645000, fft_m_data_tvalid=1, fft_re_out=      23708535, fft_im_out=     -25617703, power_spectrum_result=   2998514353627130, power_result_valid=1
+Time=            11655000, fft_m_data_tvalid=1, fft_re_out=         77120, fft_im_out=       6102673, power_spectrum_result=   6459527216439721, power_result_valid=1
+Time=            11665000, fft_m_data_tvalid=1, fft_re_out=      33780450, fft_im_out=     -18224322, power_spectrum_result=   1218361338842434, power_result_valid=1
+Time=            11675000, fft_m_data_tvalid=1, fft_re_out=     -38234852, fft_im_out=     -13529231, power_spectrum_result=     37248565239329, power_result_valid=1
+Time=            11685000, fft_m_data_tvalid=1, fft_re_out=      45719720, fft_im_out=      25516094, power_spectrum_result=   1473244714562184, power_result_valid=1
+Time=            11695000, fft_m_data_tvalid=1, fft_re_out=     -89504537, fft_im_out=       8957590, power_spectrum_result=   1644943998913265, power_result_valid=1
+Time=            11705000, fft_m_data_tvalid=1, fft_re_out=     104962833, fft_im_out=       -799985, power_spectrum_result=   2741363849895236, power_result_valid=1
+Time=            11715000, fft_m_data_tvalid=1, fft_re_out=     -95537224, fft_im_out=       7402476, power_spectrum_result=   8091300562192469, power_result_valid=1
+Time=            11725000, fft_m_data_tvalid=1, fft_re_out=      60780044, fft_im_out=     -21653939, power_spectrum_result=  11017836287386114, power_result_valid=1
+Time=            11735000, fft_m_data_tvalid=1, fft_re_out=     -61684608, fft_im_out=     -62510610, power_spectrum_result=   9182157820556752, power_result_valid=1
+Time=            11745000, fft_m_data_tvalid=1, fft_re_out=     104437724, fft_im_out=     156068072, power_spectrum_result=   4163106822857657, power_result_valid=1
+Time=            11755000, fft_m_data_tvalid=1, fft_re_out=     -98907168, fft_im_out=    -107266125, power_spectrum_result=   7712567226685764, power_result_valid=1
+Time=            11765000, fft_m_data_tvalid=1, fft_re_out=     -36743958, fft_im_out=     -78203517, power_spectrum_result=  35264481292097360, power_result_valid=1
+Time=            11775000, fft_m_data_tvalid=1, fft_re_out=     121729833, fft_im_out=     169041457, power_spectrum_result=  21288649454295849, power_result_valid=1
+Time=            11785000, fft_m_data_tvalid=1, fft_re_out=      41390055, fft_im_out=     -93425826, power_spectrum_result=   7465908520675053, power_result_valid=1
+Time=            11795000, fft_m_data_tvalid=1, fft_re_out=    -154467493, fft_im_out=      -7023301, power_spectrum_result=  43393166426890738, power_result_valid=1
+Time=            11805000, fft_m_data_tvalid=1, fft_re_out=      92780905, fft_im_out=       5392461, power_spectrum_result=  10441521616685301, power_result_valid=1
+Time=            11815000, fft_m_data_tvalid=1, fft_re_out=     -10829255, fft_im_out=      48534579, power_spectrum_result=  23909533150641650, power_result_valid=1
+Time=            11825000, fft_m_data_tvalid=1, fft_re_out=    -109340782, fft_im_out=      -3284373, power_spectrum_result=   8637374968255546, power_result_valid=1
+Time=            11835000, fft_m_data_tvalid=1, fft_re_out=     157659479, fft_im_out=     -59599458, power_spectrum_result=   2472878122562266, power_result_valid=1
+Time=            11845000, fft_m_data_tvalid=1, fft_re_out=     -76871872, fft_im_out=      14734663, power_spectrum_result=  11966193714374653, power_result_valid=1
+Time=            11855000, fft_m_data_tvalid=1, fft_re_out=     -35450670, fft_im_out=      48964350, power_spectrum_result=  28408606712445205, power_result_valid=1
+Time=            11865000, fft_m_data_tvalid=1, fft_re_out=      68843900, fft_im_out=     -51518866, power_spectrum_result=   6126394998507953, power_result_valid=1
+Time=            11875000, fft_m_data_tvalid=1, fft_re_out=      34960342, fft_im_out=      38401839, power_spectrum_result=   3654257574371400, power_result_valid=1
+Time=            11885000, fft_m_data_tvalid=1, fft_re_out=     -73069796, fft_im_out=     -15871585, power_spectrum_result=   7393676121135956, power_result_valid=1
+Time=            11895000, fft_m_data_tvalid=1, fft_re_out=     -61492632, fft_im_out=      -1185588, power_spectrum_result=   2696926751338885, power_result_valid=1
+Time=            11905000, fft_m_data_tvalid=1, fft_re_out=     157803330, fft_im_out=     -29562042, power_spectrum_result=   5591102297893841, power_result_valid=1
+Time=            11915000, fft_m_data_tvalid=1, fft_re_out=     -81904900, fft_im_out=      38202957, power_spectrum_result=   3782749409193168, power_result_valid=1
+Time=            11925000, fft_m_data_tvalid=1, fft_re_out=     -62906116, fft_im_out=     -35171169, power_spectrum_result=  25775805286298664, power_result_valid=1
+Time=            11935000, fft_m_data_tvalid=1, fft_re_out=      93482555, fft_im_out=      74713685, power_spectrum_result=   8167878567553849, power_result_valid=1
+Time=            11945000, fft_m_data_tvalid=1, fft_re_out=     -20231951, fft_im_out=     -57989497, power_spectrum_result=   5194190559032017, power_result_valid=1
+Time=            11955000, fft_m_data_tvalid=1, fft_re_out=      23100654, fft_im_out=     -40871532, power_spectrum_result=  14321122815607250, power_result_valid=1
+Time=            11965000, fft_m_data_tvalid=1, fft_re_out=     -53721169, fft_im_out=      60966710, power_spectrum_result=   3772113603579410, power_result_valid=1
+Time=            11975000, fft_m_data_tvalid=1, fft_re_out=      52189400, fft_im_out=      26214231, power_spectrum_result=   2204122343254740, power_result_valid=1
+Time=            11985000, fft_m_data_tvalid=1, fft_re_out=     -57684320, fft_im_out=     -11255025, power_spectrum_result=   6602903726950661, power_result_valid=1
+Time=            11995000, fft_m_data_tvalid=1, fft_re_out=     -10395788, fft_im_out=     -87947303, power_spectrum_result=   3410919379281361, power_result_valid=1
+Time=            12005000, fft_m_data_tvalid=1, fft_re_out=      47212105, fft_im_out=      88712091, power_spectrum_result=   3454156361613025, power_result_valid=1
+Time=            12015000, fft_m_data_tvalid=1, fft_re_out=     -10866423, fft_im_out=     -46054119, power_spectrum_result=   7842800513114753, power_result_valid=1
+Time=            12025000, fft_m_data_tvalid=1, fft_re_out=      24391130, fft_im_out=      65210968, power_spectrum_result=  10098817948123306, power_result_valid=1
+Time=            12035000, fft_m_data_tvalid=1, fft_re_out=     -67458040, fft_im_out=     -97314030, power_spectrum_result=   2239061025681090, power_result_valid=1
+Time=            12045000, fft_m_data_tvalid=1, fft_re_out=      73510847, fft_im_out=      51017894, power_spectrum_result=   4847397570173924, power_result_valid=1
+Time=            12055000, fft_m_data_tvalid=1, fft_re_out=     -34261631, fft_im_out=       8844064, power_spectrum_result=  14020607595482500, power_result_valid=1
+Time=            12065000, fft_m_data_tvalid=1, fft_re_out=      20193666, fft_im_out=     -14830001, power_spectrum_result=   8006670134852645, power_result_valid=1
+Time=            12075000, fft_m_data_tvalid=1, fft_re_out=     -36301013, fft_im_out=        645500, power_spectrum_result=   1252076826816257, power_result_valid=1
+Time=            12085000, fft_m_data_tvalid=1, fft_re_out=      74525454, fft_im_out=     -23736005, power_spectrum_result=    627713076179557, power_result_valid=1
+Time=            12095000, fft_m_data_tvalid=1, fft_re_out=     -98787889, fft_im_out=      40830562, power_spectrum_result=   1318180215076169, power_result_valid=1
+Time=            12105000, fft_m_data_tvalid=1, fft_re_out=      23487155, fft_im_out=      27858948, power_spectrum_result=   6117441227266141, power_result_valid=1
+Time=            12115000, fft_m_data_tvalid=1, fft_re_out=      32494207, fft_im_out=     -65384527, power_spectrum_result=  11426181806312165, power_result_valid=1
+Time=            12125000, fft_m_data_tvalid=1, fft_re_out=     -27446253, fft_im_out=      24712589, power_spectrum_result=   1327767433660729, power_result_valid=1
+Time=            12135000, fft_m_data_tvalid=1, fft_re_out=      37344588, fft_im_out=      19023716, power_spectrum_result=   5331009859572578, power_result_valid=1
+Time=            12145000, fft_m_data_tvalid=1, fft_re_out=     -21236848, fft_im_out=     -27508616, power_spectrum_result=   1364008858822930, power_result_valid=1
+Time=            12155000, fft_m_data_tvalid=1, fft_re_out=       2560364, fft_im_out=       2894495, power_spectrum_result=   1756520023338400, power_result_valid=1
+Time=            12165000, fft_m_data_tvalid=1, fft_re_out=      -5788899, fft_im_out=      -3789200, power_spectrum_result=   1207727667210560, power_result_valid=1
+Time=            12175000, fft_m_data_tvalid=1, fft_re_out=        648154, fft_im_out=      -2811777, power_spectrum_result=     14933565117521, power_result_valid=1
+Time=            12185000, fft_m_data_tvalid=1, fft_re_out=     -10967404, fft_im_out=      20289089, power_spectrum_result=     47869388272201, power_result_valid=1
+Time=            12195000, fft_m_data_tvalid=1, fft_re_out=      19655895, fft_im_out=     -25568668, power_spectrum_result=      8326193505445, power_result_valid=1
+Time=            12205000, fft_m_data_tvalid=1, fft_re_out=      -1339202, fft_im_out=      33339854, power_spectrum_result=    531931082949137, power_result_valid=1
+Time=            12215000, fft_m_data_tvalid=1, fft_re_out=      -3975412, fft_im_out=     -15208030, power_spectrum_result=   1040110991545249, power_result_valid=1
+Time=            12225000, fft_m_data_tvalid=1, fft_re_out=     -15976925, fft_im_out=       2262774, power_spectrum_result=   1113339326738120, power_result_valid=1
+Time=            12235000, fft_m_data_tvalid=1, fft_re_out=      31823911, fft_im_out=      -4874719, power_spectrum_result=    247088077050644, power_result_valid=1
+Time=            12245000, fft_m_data_tvalid=1, fft_re_out=     -33265460, fft_im_out=       5450300, power_spectrum_result=    260382278630701, power_result_valid=1
+Time=            12255000, fft_m_data_tvalid=1, fft_re_out=      31045624, fft_im_out=     -16449186, power_spectrum_result=   1036524196664882, power_result_valid=1
+Time=            12265000, fft_m_data_tvalid=1, fft_re_out=     -15716076, fft_im_out=      10622778, power_spectrum_result=   1136296599101600, power_result_valid=1
+Time=            12275000, fft_m_data_tvalid=1, fft_re_out=     -12107582, fft_im_out=      11518865, power_spectrum_result=   1234406489611972, power_result_valid=1
+Time=            12285000, fft_m_data_tvalid=1, fft_re_out=      25331075, fft_im_out=     -23191470, power_spectrum_result=    359838457275060, power_result_valid=1
+Time=            12295000, fft_m_data_tvalid=1, fft_re_out=      -5066762, fft_im_out=      27481732, power_spectrum_result=    279277792774949, power_result_valid=1
+Time=            12305000, fft_m_data_tvalid=1, fft_re_out=     -16345566, fft_im_out=     -29819660, power_spectrum_result=   1179507641416525, power_result_valid=1
+Time=            12315000, fft_m_data_tvalid=1, fft_re_out=      10912580, fft_im_out=      18734984, power_spectrum_result=    780917670884468, power_result_valid=1
+Time=            12325000, fft_m_data_tvalid=1, fft_re_out=      10104639, fft_im_out=     -14385961, power_spectrum_result=   1156389650375956, power_result_valid=1
+Time=            12335000, fft_m_data_tvalid=1, fft_re_out=     -13308640, fft_im_out=      18211053, power_spectrum_result=    470084027736656, power_result_valid=1
+Time=            12345000, fft_m_data_tvalid=1, fft_re_out=     -12762776, fft_im_out=       -964632, power_spectrum_result=    309059603213842, power_result_valid=1
+Time=            12355000, fft_m_data_tvalid=1, fft_re_out=      11265160, fft_im_out=     -14240671, power_spectrum_result=    508762350018409, power_result_valid=1
+Time=            12365000, fft_m_data_tvalid=1, fft_re_out=       8499294, fft_im_out=      18173142, power_spectrum_result=    163818966121600, power_result_valid=1
+Time=            12375000, fft_m_data_tvalid=1, fft_re_out=     -13008333, fft_im_out=     -28223217, power_spectrum_result=    329700540355841, power_result_valid=1
+Time=            12385000, fft_m_data_tvalid=1, fft_re_out=        484201, fft_im_out=      21706275, power_spectrum_result=    402501088650600, power_result_valid=1
+Time=            12395000, fft_m_data_tvalid=1, fft_re_out=      27591263, fft_im_out=       5225138, power_spectrum_result=    965766705267978, power_result_valid=1
+Time=            12405000, fft_m_data_tvalid=1, fft_re_out=     -29502555, fft_im_out=     -16908851, power_spectrum_result=    471396824984026, power_result_valid=1
+Time=            12415000, fft_m_data_tvalid=1, fft_re_out=       1760653, fft_im_out=      23613430, power_spectrum_result=    788579861054213, power_result_valid=1
+Time=            12425000, fft_m_data_tvalid=1, fft_re_out=       7390939, fft_im_out=     -25285243, power_spectrum_result=   1156309993668226, power_result_valid=1
+Time=            12435000, fft_m_data_tvalid=1, fft_re_out=       4202068, fft_im_out=      15723696, power_spectrum_result=    560693975351309, power_result_valid=1
+Time=            12445000, fft_m_data_tvalid=1, fft_re_out=     -13037908, fft_im_out=     -21273748, power_spectrum_result=    693969492870770, power_result_valid=1
+Time=            12455000, fft_m_data_tvalid=1, fft_re_out=      13936827, fft_im_out=      10002067, power_spectrum_result=    264891991377040, power_result_valid=1
+Time=            12465000, fft_m_data_tvalid=1, fft_re_out=      -4831566, fft_im_out=       9027251, power_spectrum_result=    622559398983968, power_result_valid=1
+Time=            12475000, fft_m_data_tvalid=1, fft_re_out=      -3894947, fft_im_out=      -9399658, power_spectrum_result=    294276491100418, power_result_valid=1
+Time=            12485000, fft_m_data_tvalid=1, fft_re_out=       4360791, fft_im_out=      20654269, power_spectrum_result=    104835290629357, power_result_valid=1
+Time=            12495000, fft_m_data_tvalid=1, fft_re_out=       1105306, fft_im_out=     -18752566, power_spectrum_result=    103524182649773, power_result_valid=1
+Time=            12505000, fft_m_data_tvalid=1, fft_re_out=     -10461246, fft_im_out=      -2254143, power_spectrum_result=    445615326070042, power_result_valid=1
+Time=            12515000, fft_m_data_tvalid=1, fft_re_out=       4853905, fft_im_out=      10911009, power_spectrum_result=    352880432937992, power_result_valid=1
+Time=            12525000, fft_m_data_tvalid=1, fft_re_out=       8104849, fft_im_out=     -14696879, power_spectrum_result=    114518828536965, power_result_valid=1
+Time=            12535000, fft_m_data_tvalid=1, fft_re_out=     -12040037, fft_im_out=      10381083, power_spectrum_result=    142610511147106, power_result_valid=1
+Time=            12545000, fft_m_data_tvalid=1, fft_re_out=       2804208, fft_im_out=       1656390, power_spectrum_result=    281686829653442, power_result_valid=1
+Time=            12555000, fft_m_data_tvalid=1, fft_re_out=      14833066, fft_im_out=      -3460215, power_spectrum_result=    252729375214258, power_result_valid=1
+Time=            12565000, fft_m_data_tvalid=1, fft_re_out=     -12419689, fft_im_out=      -9178005, power_spectrum_result=     10607210339364, power_result_valid=1
+Time=            12575000, fft_m_data_tvalid=1, fft_re_out=        822607, fft_im_out=      29074312, power_spectrum_result=    231992934806581, power_result_valid=1
+Time=            12585000, fft_m_data_tvalid=1, fft_re_out=       -754359, fft_im_out=     -31807621, power_spectrum_result=    238484450636746, power_result_valid=1
+Time=            12595000, fft_m_data_tvalid=1, fft_re_out=       4036261, fft_im_out=      13929640, power_spectrum_result=    845992300549793, power_result_valid=1
+Time=            12605000, fft_m_data_tvalid=1, fft_re_out=      -5045226, fft_im_out=        452708, power_spectrum_result=   1012293811180522, power_result_valid=1
+Time=            12615000, fft_m_data_tvalid=1, fft_re_out=       1676976, fft_im_out=      -2663000, power_spectrum_result=    210326273389721, power_result_valid=1
+Time=            12625000, fft_m_data_tvalid=1, fft_re_out=       -703251, fft_im_out=      -2003709, power_spectrum_result=     25659249924340, power_result_valid=1
+Time=            12635000, fft_m_data_tvalid=1, fft_re_out=       -361024, fft_im_out=       1772705, power_spectrum_result=      9903817504576, power_result_valid=1
+Time=            12645000, fft_m_data_tvalid=1, fft_re_out=       -338754, fft_im_out=      -8106601, power_spectrum_result=      4509411725682, power_result_valid=1
+Time=            12655000, fft_m_data_tvalid=1, fft_re_out=       7856663, fft_im_out=       9600002, power_spectrum_result=      3272821345601, power_result_valid=1
+Time=            12665000, fft_m_data_tvalid=1, fft_re_out=      -8031163, fft_im_out=       1208895, power_spectrum_result=     65831734045717, power_result_valid=1
+Time=            12675000, fft_m_data_tvalid=1, fft_re_out=       9989121, fft_im_out=       2350053, power_spectrum_result=    153887191895573, power_result_valid=1
+Time=            12685000, fft_m_data_tvalid=1, fft_re_out=     -14983074, fft_im_out=      -7574946, power_spectrum_result=     65961006253594, power_result_valid=1
+Time=            12695000, fft_m_data_tvalid=1, fft_re_out=       5697660, fft_im_out=      10800797, power_spectrum_result=    105305287455450, power_result_valid=1
+Time=            12705000, fft_m_data_tvalid=1, fft_re_out=       4958899, fft_im_out=      -9040396, power_spectrum_result=    281872313392392, power_result_valid=1
+Time=            12715000, fft_m_data_tvalid=1, fft_re_out=      -3620874, fft_im_out=        990986, power_spectrum_result=    149120545310809, power_result_valid=1
+Time=            12725000, fft_m_data_tvalid=1, fft_re_out=      -1417720, fft_im_out=      -4722234, power_spectrum_result=    106319439129017, power_result_valid=1
+Time=            12735000, fft_m_data_tvalid=1, fft_re_out=        148596, fft_im_out=       5912662, power_spectrum_result=     14092781776072, power_result_valid=1
+Time=            12745000, fft_m_data_tvalid=1, fft_re_out=       2630293, fft_im_out=       2787488, power_spectrum_result=     24309423949156, power_result_valid=1
+Time=            12755000, fft_m_data_tvalid=1, fft_re_out=      -1620608, fft_im_out=      -7369732, power_spectrum_result=     34981652697460, power_result_valid=1
+Time=            12765000, fft_m_data_tvalid=1, fft_re_out=       3877187, fft_im_out=      -1141835, power_spectrum_result=     14688530615993, power_result_valid=1
+Time=            12775000, fft_m_data_tvalid=1, fft_re_out=      -8122095, fft_im_out=       3815529, power_spectrum_result=     56939320041488, power_result_valid=1
+Time=            12785000, fft_m_data_tvalid=1, fft_re_out=       7241763, fft_im_out=       2759212, power_spectrum_result=     16336366200194, power_result_valid=1
+Time=            12795000, fft_m_data_tvalid=1, fft_re_out=      -2941501, fft_im_out=       -829209, power_spectrum_result=     80526688738866, power_result_valid=1
+Time=            12805000, fft_m_data_tvalid=1, fft_re_out=      -2644708, fft_im_out=       -977888, power_spectrum_result=     60056382209113, power_result_valid=1
+Time=            12815000, fft_m_data_tvalid=1, fft_re_out=       -266991, fft_im_out=       7322034, power_spectrum_result=      9340015698682, power_result_valid=1
+Time=            12825000, fft_m_data_tvalid=1, fft_re_out=       9240256, fft_im_out=     -13824512, power_spectrum_result=      7950745345808, power_result_valid=1
+Time=            12835000, fft_m_data_tvalid=1, fft_re_out=      -8701175, fft_im_out=       3129831, power_spectrum_result=     53683466091237, power_result_valid=1
+Time=            12845000, fft_m_data_tvalid=1, fft_re_out=       3076619, fft_im_out=       5478186, power_spectrum_result=    276499462983680, power_result_valid=1
+Time=            12855000, fft_m_data_tvalid=1, fft_re_out=      -1805868, fft_im_out=      -3938878, power_spectrum_result=     85506288469186, power_result_valid=1
+Time=            12865000, fft_m_data_tvalid=1, fft_re_out=       3965120, fft_im_out=       2489247, power_spectrum_result=     39476106321757, power_result_valid=1
+Time=            12875000, fft_m_data_tvalid=1, fft_re_out=      -3034143, fft_im_out=        193131, power_spectrum_result=     18775919132308, power_result_valid=1
+Time=            12885000, fft_m_data_tvalid=1, fft_re_out=       -566696, fft_im_out=      -2806007, power_spectrum_result=     21918527241409, power_result_valid=1
+Time=            12895000, fft_m_data_tvalid=1, fft_re_out=        724634, fft_im_out=       2435653, power_spectrum_result=      9243323327610, power_result_valid=1
+Time=            12905000, fft_m_data_tvalid=1, fft_re_out=       1419943, fft_im_out=        326979, power_spectrum_result=      8194819640465, power_result_valid=1
+Time=            12915000, fft_m_data_tvalid=1, fft_re_out=      -2153702, fft_im_out=      -3126733, power_spectrum_result=      6457499970365, power_result_valid=1
+Time=            12925000, fft_m_data_tvalid=1, fft_re_out=       1469276, fft_im_out=       1729306, power_spectrum_result=      2123153389690, power_result_valid=1
+Time=            12935000, fft_m_data_tvalid=1, fft_re_out=        354300, fft_im_out=       1557379, power_spectrum_result=     14414891558093, power_result_valid=1
+Time=            12945000, fft_m_data_tvalid=1, fft_re_out=      -1644702, fft_im_out=      -3570902, power_spectrum_result=      5149271205812, power_result_valid=1
+Time=            12955000, fft_m_data_tvalid=1, fft_re_out=       1143962, fft_im_out=       2759859, power_spectrum_result=      2550957839641, power_result_valid=1
+Time=            12965000, fft_m_data_tvalid=1, fft_re_out=      -1000960, fft_im_out=      -1247156, power_spectrum_result=     15456385762408, power_result_valid=1
+Time=            12975000, fft_m_data_tvalid=1, fft_re_out=       2004701, fft_im_out=        195754, power_spectrum_result=      8925470757325, power_result_valid=1
+Time=            12985000, fft_m_data_tvalid=1, fft_re_out=      -1759407, fft_im_out=       -301881, power_spectrum_result=      2557319009936, power_result_valid=1
+Time=            12995000, fft_m_data_tvalid=1, fft_re_out=       1269700, fft_im_out=       1996896, power_spectrum_result=      4057145727917, power_result_valid=1
+Time=            13005000, fft_m_data_tvalid=1, fft_re_out=      -1994778, fft_im_out=      -1918285, power_spectrum_result=      3186645129810, power_result_valid=1
+Time=            13015000, fft_m_data_tvalid=1, fft_re_out=       2506016, fft_im_out=       -470224, power_spectrum_result=      5599731724816, power_result_valid=1
+Time=            13025000, fft_m_data_tvalid=1, fft_re_out=      -2503183, fft_im_out=       1606167, power_spectrum_result=      7658956610509, power_result_valid=1
+Time=            13035000, fft_m_data_tvalid=1, fft_re_out=       1111557, fft_im_out=      -1127082, power_spectrum_result=      6501226802432, power_result_valid=1
+Time=            13045000, fft_m_data_tvalid=1, fft_re_out=        941900, fft_im_out=       1185461, power_spectrum_result=      8845697563378, power_result_valid=1
+Time=            13055000, fft_m_data_tvalid=1, fft_re_out=      -1255786, fft_im_out=      -1860836, power_spectrum_result=      2505872798973, power_result_valid=1
+Time=            13065000, fft_m_data_tvalid=1, fft_re_out=       1102433, fft_im_out=       1868346, power_spectrum_result=      2292493392521, power_result_valid=1
+Time=            13075000, fft_m_data_tvalid=1, fft_re_out=      -1160984, fft_im_out=      -2357930, power_spectrum_result=      5039709096692, power_result_valid=1
+Time=            13085000, fft_m_data_tvalid=1, fft_re_out=      -1290006, fft_im_out=       2958274, power_spectrum_result=      4706075295205, power_result_valid=1
+Time=            13095000, fft_m_data_tvalid=1, fft_re_out=       4237498, fft_im_out=      -2280840, power_spectrum_result=      6907717733156, power_result_valid=1
+Time=            13105000, fft_m_data_tvalid=1, fft_re_out=      -3388945, fft_im_out=       -668272, power_spectrum_result=     10415500539112, power_result_valid=1
+Time=            13115000, fft_m_data_tvalid=1, fft_re_out=       1279901, fft_im_out=       2014600, power_spectrum_result=     23158620405604, power_result_valid=1
+Time=            13125000, fft_m_data_tvalid=1, fft_re_out=      -1165190, fft_im_out=      -1736747, power_spectrum_result=     11931535679009, power_result_valid=1
+Time=            13135000, fft_m_data_tvalid=1, fft_re_out=       1120149, fft_im_out=       2057417, power_spectrum_result=      5696759729801, power_result_valid=1
+Time=            13145000, fft_m_data_tvalid=1, fft_re_out=        233831, fft_im_out=        655951, power_spectrum_result=      4373957878109, power_result_valid=1
+Time=            13155000, fft_m_data_tvalid=1, fft_re_out=      -2064920, fft_im_out=      -3322839, power_spectrum_result=      5487698494090, power_result_valid=1
+Time=            13165000, fft_m_data_tvalid=1, fft_re_out=       3107175, fft_im_out=        998814, power_spectrum_result=       484948650962, power_result_valid=1
+Time=            13175000, fft_m_data_tvalid=1, fft_re_out=      -1221299, fft_im_out=       1637135, power_spectrum_result=     15305153626321, power_result_valid=1
+Time=            13185000, fft_m_data_tvalid=1, fft_re_out=      -1409853, fft_im_out=      -1791099, power_spectrum_result=     10652165887221, power_result_valid=1
+Time=            13195000, fft_m_data_tvalid=1, fft_re_out=       1964082, fft_im_out=       -381685, power_spectrum_result=      4171782255626, power_result_valid=1
+Time=            13205000, fft_m_data_tvalid=1, fft_re_out=      -2031719, fft_im_out=       2257314, power_spectrum_result=      5195721109410, power_result_valid=1
+Time=            13215000, fft_m_data_tvalid=1, fft_re_out=        546841, fft_im_out=      -2255065, power_spectrum_result=      4003301541949, power_result_valid=1
+Time=            13225000, fft_m_data_tvalid=1, fft_re_out=       1104257, fft_im_out=       2194395, power_spectrum_result=      9223348589557, power_result_valid=1
+Time=            13235000, fft_m_data_tvalid=1, fft_re_out=        -77662, fft_im_out=       -954858, power_spectrum_result=      5384353233506, power_result_valid=1
+Time=            13245000, fft_m_data_tvalid=1, fft_re_out=       -172455, fft_im_out=       -833942, power_spectrum_result=      6034752938074, power_result_valid=1
+Time=            13255000, fft_m_data_tvalid=1, fft_re_out=      -1435340, fft_im_out=        960911, power_spectrum_result=       917785186408, power_result_valid=1
+Time=            13265000, fft_m_data_tvalid=1, fft_re_out=       1848027, fft_im_out=       -406724, power_spectrum_result=       725199986389, power_result_valid=1
+Time=            13275000, fft_m_data_tvalid=1, fft_re_out=      -1079002, fft_im_out=       -383987, power_spectrum_result=      2983550865521, power_result_valid=1
+Time=            13285000, fft_m_data_tvalid=1, fft_re_out=       -202020, fft_im_out=       -664732, power_spectrum_result=      3580628204905, power_result_valid=1
+Time=            13295000, fft_m_data_tvalid=1, fft_re_out=        203627, fft_im_out=       2071255, power_spectrum_result=      1311691332173, power_result_valid=1
+Time=            13305000, fft_m_data_tvalid=1, fft_re_out=       1646607, fft_im_out=      -1990025, power_spectrum_result=       482680712224, power_result_valid=1
+Time=            13315000, fft_m_data_tvalid=1, fft_re_out=      -1349554, fft_im_out=       -118770, power_spectrum_result=      4331561230154, power_result_valid=1
+Time=            13325000, fft_m_data_tvalid=1, fft_re_out=        240989, fft_im_out=       1696038, power_spectrum_result=      6671514113074, power_result_valid=1
+Time=            13335000, fft_m_data_tvalid=1, fft_re_out=      -1428068, fft_im_out=       -727171, power_spectrum_result=      1835402311816, power_result_valid=1
+Time=            13345000, fft_m_data_tvalid=1, fft_re_out=       1466484, fft_im_out=        616111, power_spectrum_result=      2934620595565, power_result_valid=1
+Time=            13355000, fft_m_data_tvalid=1, fft_re_out=       -836061, fft_im_out=      -1570120, power_spectrum_result=      2568155875865, power_result_valid=1
+Time=            13365000, fft_m_data_tvalid=1, fft_re_out=       1996915, fft_im_out=       1422300, power_spectrum_result=      2530168086577, power_result_valid=1
+Time=            13375000, fft_m_data_tvalid=1, fft_re_out=      -2131611, fft_im_out=      -1519488, power_spectrum_result=      3164274810121, power_result_valid=1
+Time=            13385000, fft_m_data_tvalid=1, fft_re_out=        558483, fft_im_out=       1887772, power_spectrum_result=      6010606807225, power_result_valid=1
+Time=            13395000, fft_m_data_tvalid=1, fft_re_out=        450033, fft_im_out=      -2080103, power_spectrum_result=      6852609237465, power_result_valid=1
+Time=            13405000, fft_m_data_tvalid=1, fft_re_out=       -543517, fft_im_out=       2138371, power_spectrum_result=      3875586385273, power_result_valid=1
+Time=            13415000, fft_m_data_tvalid=1, fft_re_out=         43427, fft_im_out=      -2020505, power_spectrum_result=      4529358191698, power_result_valid=1
+Time=            13425000, fft_m_data_tvalid=1, fft_re_out=        387944, fft_im_out=       2107208, power_spectrum_result=      4868041262930, power_result_valid=1
+Time=            13435000, fft_m_data_tvalid=1, fft_re_out=       1329807, fft_im_out=      -2417518, power_spectrum_result=      4084326359354, power_result_valid=1
+Time=            13445000, fft_m_data_tvalid=1, fft_re_out=      -1296817, fft_im_out=       1781700, power_spectrum_result=      4590826102400, power_result_valid=1
+Time=            13455000, fft_m_data_tvalid=1, fft_re_out=       -568578, fft_im_out=        603079, power_spectrum_result=      7612779937573, power_result_valid=1
+Time=            13465000, fft_m_data_tvalid=1, fft_re_out=        577332, fft_im_out=      -2122274, power_spectrum_result=      4856189221489, power_result_valid=1
+Time=            13475000, fft_m_data_tvalid=1, fft_re_out=       -746554, fft_im_out=       1553174, power_spectrum_result=       686985222325, power_result_valid=1
+Time=            13485000, fft_m_data_tvalid=1, fft_re_out=       1518821, fft_im_out=       -485178, power_spectrum_result=      4837359169300, power_result_valid=1
+Time=            13495000, fft_m_data_tvalid=1, fft_re_out=      -1474339, fft_im_out=        689487, power_spectrum_result=      2969692349192, power_result_valid=1
+Time=            13505000, fft_m_data_tvalid=1, fft_re_out=        970886, fft_im_out=       -679127, power_spectrum_result=      2542214921725, power_result_valid=1
+Time=            13515000, fft_m_data_tvalid=1, fft_re_out=      -2244563, fft_im_out=        732178, power_spectrum_result=      2649067810090, power_result_valid=1
+Time=            13525000, fft_m_data_tvalid=1, fft_re_out=       3454269, fft_im_out=      -1369830, power_spectrum_result=      1403833107125, power_result_valid=1
+Time=            13535000, fft_m_data_tvalid=1, fft_re_out=      -2093826, fft_im_out=       2182017, power_spectrum_result=      5574147684653, power_result_valid=1
+Time=            13545000, fft_m_data_tvalid=1, fft_re_out=        785015, fft_im_out=      -4043923, power_spectrum_result=     13808408553261, power_result_valid=1
+Time=            13555000, fft_m_data_tvalid=1, fft_re_out=       -812204, fft_im_out=       3509493, power_spectrum_result=      9145305506565, power_result_valid=1
+Time=            13565000, fft_m_data_tvalid=1, fft_re_out=       1823820, fft_im_out=      -2711098, power_spectrum_result=     16969561780154, power_result_valid=1
+Time=            13575000, fft_m_data_tvalid=1, fft_re_out=      -3027693, fft_im_out=       2412741, power_spectrum_result=     12976216454665, power_result_valid=1
+Time=            13585000, fft_m_data_tvalid=1, fft_re_out=       2297663, fft_im_out=       -522812, power_spectrum_result=     10676371758004, power_result_valid=1
+Time=            13595000, fft_m_data_tvalid=1, fft_re_out=       -440047, fft_im_out=      -1495948, power_spectrum_result=     14988244035330, power_result_valid=1
+Time=            13605000, fft_m_data_tvalid=1, fft_re_out=       -498311, fft_im_out=       3444567, power_spectrum_result=      5552587648913, power_result_valid=1
+Time=            13615000, fft_m_data_tvalid=1, fft_re_out=       1033270, fft_im_out=      -4803657, power_spectrum_result=      2431501780913, power_result_valid=1
+Time=            13625000, fft_m_data_tvalid=1, fft_re_out=      -1061302, fft_im_out=       4214296, power_spectrum_result=     12113355670210, power_result_valid=1
+Time=            13635000, fft_m_data_tvalid=1, fft_re_out=       -694402, fft_im_out=      -2144384, power_spectrum_result=     24142767466549, power_result_valid=1
+Time=            13645000, fft_m_data_tvalid=1, fft_re_out=       1449164, fft_im_out=        977816, power_spectrum_result=     18886652710820, power_result_valid=1
+Time=            13655000, fft_m_data_tvalid=1, fft_re_out=        866199, fft_im_out=       -244428, power_spectrum_result=      5080576877060, power_result_valid=1
+Time=            13665000, fft_m_data_tvalid=1, fft_re_out=      -1881703, fft_im_out=       -826270, power_spectrum_result=      3056200428752, power_result_valid=1
+Time=            13675000, fft_m_data_tvalid=1, fft_re_out=       1681549, fft_im_out=        285412, power_spectrum_result=       810045754785, power_result_valid=1
+Time=            13685000, fft_m_data_tvalid=1, fft_re_out=      -1493629, fft_im_out=        257978, power_spectrum_result=      4223528293109, power_result_valid=1
+Time=            13695000, fft_m_data_tvalid=1, fft_re_out=        311805, fft_im_out=        393151, power_spectrum_result=      2909067049145, power_result_valid=1
+Time=            13705000, fft_m_data_tvalid=1, fft_re_out=        386411, fft_im_out=      -1073096, power_spectrum_result=      2297480238125, power_result_valid=1
+Time=            13715000, fft_m_data_tvalid=1, fft_re_out=       -327634, fft_im_out=        346181, power_spectrum_result=       251790066826, power_result_valid=1
+Time=            13725000, fft_m_data_tvalid=1, fft_re_out=       -614982, fft_im_out=        -28152, power_spectrum_result=      1300848486137, power_result_valid=1
+Time=            13735000, fft_m_data_tvalid=1, fft_re_out=        383848, fft_im_out=        828044, power_spectrum_result=       227185322717, power_result_valid=1
+Time=            13745000, fft_m_data_tvalid=1, fft_re_out=        120477, fft_im_out=        420125, power_spectrum_result=       378995395428, power_result_valid=1
+Time=            13755000, fft_m_data_tvalid=1, fft_re_out=        309423, fft_im_out=      -2381692, power_spectrum_result=       832996153040, power_result_valid=1
+Time=            13765000, fft_m_data_tvalid=1, fft_re_out=       -826300, fft_im_out=       1472899, power_spectrum_result=       191019723154, power_result_valid=1
+Time=            13775000, fft_m_data_tvalid=1, fft_re_out=       1152470, fft_im_out=      -1222447, power_spectrum_result=      5768199375793, power_result_valid=1
+Time=            13785000, fft_m_data_tvalid=1, fft_re_out=        205154, fft_im_out=       1016735, power_spectrum_result=      2852203154201, power_result_valid=1
+Time=            13795000, fft_m_data_tvalid=1, fft_re_out=       -685380, fft_im_out=        817679, power_spectrum_result=      2822563768709, power_result_valid=1
+Time=            13805000, fft_m_data_tvalid=1, fft_re_out=       -260048, fft_im_out=        209942, power_spectrum_result=      1075838223941, power_result_valid=1
+Time=            13815000, fft_m_data_tvalid=1, fft_re_out=        464779, fft_im_out=      -3060400, power_spectrum_result=      1138344691441, power_result_valid=1
+Time=            13825000, fft_m_data_tvalid=1, fft_re_out=        -50235, fft_im_out=       2515369, power_spectrum_result=       111700605668, power_result_valid=1
+Time=            13835000, fft_m_data_tvalid=1, fft_re_out=       -625124, fft_im_out=       -481044, power_spectrum_result=      9582067678841, power_result_valid=1
+Time=            13845000, fft_m_data_tvalid=1, fft_re_out=        650278, fft_im_out=       -841047, power_spectrum_result=      6329604761386, power_result_valid=1
+Time=            13855000, fft_m_data_tvalid=1, fft_re_out=      -1408053, fft_im_out=        415100, power_spectrum_result=       622183345312, power_result_valid=1
+Time=            13865000, fft_m_data_tvalid=1, fft_re_out=       1324158, fft_im_out=        796968, power_spectrum_result=      1130221533493, power_result_valid=1
+Time=            13875000, fft_m_data_tvalid=1, fft_re_out=       1611906, fft_im_out=       -372329, power_spectrum_result=      2154921260809, power_result_valid=1
+Time=            13885000, fft_m_data_tvalid=1, fft_re_out=      -3284228, fft_im_out=           797, power_spectrum_result=      2388552401988, power_result_valid=1
+Time=            13895000, fft_m_data_tvalid=1, fft_re_out=       2392585, fft_im_out=      -1437739, power_spectrum_result=      2736869837077, power_result_valid=1
+Time=            13905000, fft_m_data_tvalid=1, fft_re_out=      -1349699, fft_im_out=       1964242, power_spectrum_result=     10786154191193, power_result_valid=1
+Time=            13915000, fft_m_data_tvalid=1, fft_re_out=       1796540, fft_im_out=      -1298377, power_spectrum_result=      7791556414346, power_result_valid=1
+Time=            13925000, fft_m_data_tvalid=1, fft_re_out=      -2311164, fft_im_out=        -15108, power_spectrum_result=      5679934025165, power_result_valid=1
+Time=            13935000, fft_m_data_tvalid=1, fft_re_out=       1494559, fft_im_out=        567337, power_spectrum_result=      4913338805729, power_result_valid=1
+Time=            13945000, fft_m_data_tvalid=1, fft_re_out=      -1034456, fft_im_out=        100345, power_spectrum_result=      5341707286560, power_result_valid=1
+Time=            13955000, fft_m_data_tvalid=1, fft_re_out=        314977, fft_im_out=       -146037, power_spectrum_result=      2555577876050, power_result_valid=1
+Time=            13965000, fft_m_data_tvalid=1, fft_re_out=       -112310, fft_im_out=       -122329, power_spectrum_result=      1080168334961, power_result_valid=1
+Time=            13975000, fft_m_data_tvalid=1, fft_re_out=       1444348, fft_im_out=        -94214, power_spectrum_result=       120537315898, power_result_valid=1
+Time=            13985000, fft_m_data_tvalid=1, fft_re_out=      -1239328, fft_im_out=        300479, power_spectrum_result=        27577920341, power_result_valid=1
+Time=            13995000, fft_m_data_tvalid=1, fft_re_out=        603844, fft_im_out=       -700069, power_spectrum_result=      2095017422900, power_result_valid=1
+Time=            14005000, fft_m_data_tvalid=1, fft_re_out=        205281, fft_im_out=       -178490, power_spectrum_result=      1626221521025, power_result_valid=1
+Time=            14015000, fft_m_data_tvalid=1, fft_re_out=        274624, fft_im_out=        742294, power_spectrum_result=       854724181097, power_result_valid=1
+Time=            14025000, fft_m_data_tvalid=1, fft_re_out=      -2101352, fft_im_out=       -198786, power_spectrum_result=        73998969061, power_result_valid=1
+Time=            14035000, fft_m_data_tvalid=1, fft_re_out=       1336043, fft_im_out=        383837, power_spectrum_result=       626418723812, power_result_valid=1
+Time=            14045000, fft_m_data_tvalid=1, fft_re_out=        799068, fft_im_out=      -1231985, power_spectrum_result=      4455196101700, power_result_valid=1
+Time=            14055000, fft_m_data_tvalid=1, fft_re_out=       -713570, fft_im_out=        583657, power_spectrum_result=      1932341740418, power_result_valid=1
+Time=            14065000, fft_m_data_tvalid=1, fft_re_out=       -286939, fft_im_out=       -113394, power_spectrum_result=      2156296708849, power_result_valid=1
+Time=            14075000, fft_m_data_tvalid=1, fft_re_out=        691192, fft_im_out=       1642735, power_spectrum_result=       849837638549, power_result_valid=1
+Time=            14085000, fft_m_data_tvalid=1, fft_re_out=        688884, fft_im_out=      -1517120, power_spectrum_result=        95192188957, power_result_valid=1
+Time=            14095000, fft_m_data_tvalid=1, fft_re_out=      -2200774, fft_im_out=        739858, power_spectrum_result=      3176324661089, power_result_valid=1
+Time=            14105000, fft_m_data_tvalid=1, fft_re_out=             0, fft_im_out=      -1827968, power_spectrum_result=      2776214259856, power_result_valid=1
+Time=            14115000, fft_m_data_tvalid=1, fft_re_out=       2200382, fft_im_out=        933670, power_spectrum_result=      5390796059240, power_result_valid=1
+Time=            14125000, fft_m_data_tvalid=1, fft_re_out=       -686979, fft_im_out=      -1517872, power_spectrum_result=      3341467009024, power_result_valid=1
+Time=            14135000, fft_m_data_tvalid=1, fft_re_out=       -692024, fft_im_out=       1673104, power_spectrum_result=      5713420614824, power_result_valid=1
+Time=            14145000, fft_m_data_tvalid=1, fft_re_out=        286720, fft_im_out=       -114481, power_spectrum_result=      2775875554825, power_result_valid=1
+Time=            14155000, fft_m_data_tvalid=1, fft_re_out=        712562, fft_im_out=        613902, power_spectrum_result=      3278174211392, power_result_valid=1
+Time=            14165000, fft_m_data_tvalid=1, fft_re_out=       -797637, fft_im_out=      -1230930, power_spectrum_result=        95314257761, power_result_valid=1
+Time=            14175000, fft_m_data_tvalid=1, fft_re_out=      -1336659, fft_im_out=        393300, power_spectrum_result=       884620269448, power_result_valid=1
+Time=            14185000, fft_m_data_tvalid=1, fft_re_out=       2101327, fft_im_out=       -198197, power_spectrum_result=      2151413448669, power_result_valid=1
+Time=            14195000, fft_m_data_tvalid=1, fft_re_out=       -275439, fft_im_out=        723182, power_spectrum_result=      1941342172281, power_result_valid=1
+Time=            14205000, fft_m_data_tvalid=1, fft_re_out=       -205755, fft_im_out=       -178139, power_spectrum_result=      4454857211738, power_result_valid=1
+Time=            14215000, fft_m_data_tvalid=1, fft_re_out=       -604170, fft_im_out=       -657117, power_spectrum_result=       598858847845, power_result_valid=1
+Time=            14225000, fft_m_data_tvalid=1, fft_re_out=       1238702, fft_im_out=        301298, power_spectrum_result=        74068623346, power_result_valid=1
+Time=            14235000, fft_m_data_tvalid=1, fft_re_out=      -1443776, fft_im_out=        -68747, power_spectrum_result=       796824140589, power_result_valid=1
+Time=            14245000, fft_m_data_tvalid=1, fft_re_out=        112728, fft_im_out=       -121366, power_spectrum_result=      1625163129608, power_result_valid=1
+Time=            14255000, fft_m_data_tvalid=1, fft_re_out=       -313921, fft_im_out=       -258002, power_spectrum_result=      2089215288185, power_result_valid=1
+Time=            14265000, fft_m_data_tvalid=1, fft_re_out=       1033109, fft_im_out=        100935, power_spectrum_result=        27437307940, power_result_valid=1
+Time=            14275000, fft_m_data_tvalid=1, fft_re_out=      -1494158, fft_im_out=        637582, power_spectrum_result=       165111426245, power_result_valid=1
+Time=            14285000, fft_m_data_tvalid=1, fft_re_out=       2311236, fft_im_out=        -14187, power_spectrum_result=      1077502080106, power_result_valid=1
+Time=            14295000, fft_m_data_tvalid=1, fft_re_out=      -1796006, fft_im_out=      -1277660, power_spectrum_result=      2639018935688, power_result_valid=1
+Time=            14305000, fft_m_data_tvalid=1, fft_re_out=       1349334, fft_im_out=       1964248, power_spectrum_result=      5342013118665, power_result_valid=1
+Time=            14315000, fft_m_data_tvalid=1, fft_re_out=      -2392088, fft_im_out=      -1423967, power_spectrum_result=      4858052627636, power_result_valid=1
+Time=            14325000, fft_m_data_tvalid=1, fft_re_out=       3283924, fft_im_out=           841, power_spectrum_result=      5678972449060, power_result_valid=1
+Time=            14335000, fft_m_data_tvalid=1, fft_re_out=      -1611383, fft_im_out=       -402657, power_spectrum_result=      7749767016833, power_result_valid=1
+Time=            14345000, fft_m_data_tvalid=1, fft_re_out=      -1324039, fft_im_out=        796640, power_spectrum_result=     10784157545057, power_result_valid=1
+Time=            14355000, fft_m_data_tvalid=1, fft_re_out=       1407599, fft_im_out=        456457, power_spectrum_result=      2758687832338, power_result_valid=1
+Time=            14365000, fft_m_data_tvalid=1, fft_re_out=       -649007, fft_im_out=       -841397, power_spectrum_result=      2387714563121, power_result_valid=1
+Time=            14375000, fft_m_data_tvalid=1, fft_re_out=        625765, fft_im_out=       -465539, power_spectrum_result=      2189687937650, power_result_valid=1
+Time=            14385000, fft_m_data_tvalid=1, fft_re_out=         49144, fft_im_out=       2514775, power_spectrum_result=      1129158997658, power_result_valid=1
+Time=            14395000, fft_m_data_tvalid=1, fft_re_out=       -464411, fft_im_out=      -3024464, power_spectrum_result=       608308395746, power_result_valid=1
+Time=            14405000, fft_m_data_tvalid=1, fft_re_out=        261748, fft_im_out=        210239, power_spectrum_result=      6326508433361, power_result_valid=1
+Time=            14415000, fft_m_data_tvalid=1, fft_re_out=        684048, fft_im_out=        793534, power_spectrum_result=      9363060064217, power_result_valid=1
+Time=            14425000, fft_m_data_tvalid=1, fft_re_out=       -205834, fft_im_out=       1017266, power_spectrum_result=       112712452625, power_result_valid=1
+Time=            14435000, fft_m_data_tvalid=1, fft_re_out=      -1152924, fft_im_out=      -1273047, power_spectrum_result=      1097617875460, power_result_valid=1
+Time=            14445000, fft_m_data_tvalid=1, fft_re_out=        826190, fft_im_out=       1473535, power_spectrum_result=      1077197750312, power_result_valid=1
+Time=            14455000, fft_m_data_tvalid=1, fft_re_out=       -305884, fft_im_out=      -2355186, power_spectrum_result=      2949882413985, power_result_valid=1
+Time=            14465000, fft_m_data_tvalid=1, fft_re_out=       -125580, fft_im_out=        420158, power_spectrum_result=      2853895312325, power_result_valid=1
+Time=            14475000, fft_m_data_tvalid=1, fft_re_out=       -381490, fft_im_out=        900175, power_spectrum_result=      5640466116052, power_result_valid=1
+Time=            14485000, fft_m_data_tvalid=1, fft_re_out=        616418, fft_im_out=        -28397, power_spectrum_result=       192303081364, power_result_valid=1
+Time=            14495000, fft_m_data_tvalid=1, fft_re_out=        323685, fft_im_out=        331219, power_spectrum_result=       955849650725, power_result_valid=1
+Time=            14505000, fft_m_data_tvalid=1, fft_re_out=       -385745, fft_im_out=      -1071187, power_spectrum_result=       380777540333, power_result_valid=1
+Time=            14515000, fft_m_data_tvalid=1, fft_re_out=       -311154, fft_im_out=        355944, power_spectrum_result=       214478005186, power_result_valid=1
+Time=            14525000, fft_m_data_tvalid=1, fft_re_out=       1494959, fft_im_out=        256790, power_spectrum_result=      1296240793994, power_result_valid=1
+Time=            14535000, fft_m_data_tvalid=1, fft_re_out=      -1683782, fft_im_out=        256921, power_spectrum_result=       223512942852, power_result_valid=1
+Time=            14545000, fft_m_data_tvalid=1, fft_re_out=       1882880, fft_im_out=       -826795, power_spectrum_result=      2300843515781, power_result_valid=1
+Time=            14555000, fft_m_data_tvalid=1, fft_re_out=       -865160, fft_im_out=       -241995, power_spectrum_result=      2901130223765, power_result_valid=1
+Time=            14565000, fft_m_data_tvalid=1, fft_re_out=      -1450935, fft_im_out=        976445, power_spectrum_result=      4228827066425, power_result_valid=1
+Time=            14575000, fft_m_data_tvalid=1, fft_re_out=        693957, fft_im_out=      -2056891, power_spectrum_result=       807063405625, power_result_valid=1
+Time=            14585000, fft_m_data_tvalid=1, fft_re_out=       1061718, fft_im_out=       4213662, power_spectrum_result=      3058657212250, power_result_valid=1
+Time=            14595000, fft_m_data_tvalid=1, fft_re_out=      -1032830, fft_im_out=      -4862124, power_spectrum_result=      4712376903730, power_result_valid=1
+Time=            14605000, fft_m_data_tvalid=1, fft_re_out=        497155, fft_im_out=       3444634, power_spectrum_result=     18882192561768, power_result_valid=1
+Time=            14615000, fft_m_data_tvalid=1, fft_re_out=        440895, fft_im_out=      -1492180, power_spectrum_result=     24706987600276, power_result_valid=1
+Time=            14625000, fft_m_data_tvalid=1, fft_re_out=      -2299204, fft_im_out=       -521923, power_spectrum_result=     12112666487981, power_result_valid=1
+Time=            14635000, fft_m_data_tvalid=1, fft_re_out=       3029351, fft_im_out=       2389968, power_spectrum_result=      2420989553425, power_result_valid=1
+Time=            14645000, fft_m_data_tvalid=1, fft_re_out=      -1823466, fft_im_out=      -2710115, power_spectrum_result=      5558742651545, power_result_valid=1
+Time=            14655000, fft_m_data_tvalid=1, fft_re_out=        812673, fft_im_out=       3512240, power_spectrum_result=     14888914522225, power_result_valid=1
+Time=            14665000, fft_m_data_tvalid=1, fft_re_out=       -785369, fft_im_out=      -4044300, power_spectrum_result=     10669751566381, power_result_valid=1
+Time=            14675000, fft_m_data_tvalid=1, fft_re_out=       2093747, fft_im_out=       2195153, power_spectrum_result=     12996267222529, power_result_valid=1
+Time=            14685000, fft_m_data_tvalid=1, fft_re_out=      -3453845, fft_im_out=      -1370627, power_spectrum_result=     16973166956161, power_result_valid=1
+Time=            14695000, fft_m_data_tvalid=1, fft_re_out=       2244368, fft_im_out=        691546, power_spectrum_result=      9202473193418, power_result_valid=1
+Time=            14705000, fft_m_data_tvalid=1, fft_re_out=       -971386, fft_im_out=       -678698, power_spectrum_result=     13807663657154, power_result_valid=1
+Time=            14715000, fft_m_data_tvalid=1, fft_re_out=       1475156, fft_im_out=        748761, power_spectrum_result=      5515423589540, power_result_valid=1
+Time=            14725000, fft_m_data_tvalid=1, fft_re_out=      -1518137, fft_im_out=       -484022, power_spectrum_result=      1404221736200, power_result_valid=1
+Time=            14735000, fft_m_data_tvalid=1, fft_re_out=        747204, fft_im_out=       1548045, power_spectrum_result=      2736728259457, power_result_valid=1
+Time=            14745000, fft_m_data_tvalid=1, fft_re_out=       -577332, fft_im_out=      -2122273, power_spectrum_result=      2539017247253, power_result_valid=1
+Time=            14755000, fft_m_data_tvalid=1, fft_re_out=        568103, fft_im_out=        507432, power_spectrum_result=      2954757139641, power_result_valid=1
+Time=            14765000, fft_m_data_tvalid=1, fft_re_out=       1295512, fft_im_out=       1782182, power_spectrum_result=      4837354924753, power_result_valid=1
+Time=            14775000, fft_m_data_tvalid=1, fft_re_out=      -1329240, fft_im_out=      -2453538, power_spectrum_result=       580228253233, power_result_valid=1
+Time=            14785000, fft_m_data_tvalid=1, fft_re_out=       -387569, fft_im_out=       2107242, power_spectrum_result=      4854524023268, power_result_valid=1
+Time=            14795000, fft_m_data_tvalid=1, fft_re_out=        -44111, fft_im_out=      -2007079, power_spectrum_result=      7786727695044, power_result_valid=1
+Time=            14805000, fft_m_data_tvalid=1, fft_re_out=        543072, fft_im_out=       2138400, power_spectrum_result=      4590678576325, power_result_valid=1
+Time=            14815000, fft_m_data_tvalid=1, fft_re_out=       -449580, fft_im_out=      -2107918, power_spectrum_result=      4030311892562, power_result_valid=1
+Time=            14825000, fft_m_data_tvalid=1, fft_re_out=       -558824, fft_im_out=       1887782, power_spectrum_result=      4867681757184, power_result_valid=1
+Time=            14835000, fft_m_data_tvalid=1, fft_re_out=       2130420, fft_im_out=      -1561123, power_spectrum_result=      4645440471124, power_result_valid=1
+Time=            14845000, fft_m_data_tvalid=1, fft_re_out=      -1996613, fft_im_out=       1421786, power_spectrum_result=      3876005142500, power_result_valid=1
+Time=            14855000, fft_m_data_tvalid=1, fft_re_out=        836526, fft_im_out=      -1606142, power_spectrum_result=      6975794397529, power_result_valid=1
+Time=            14865000, fft_m_data_tvalid=1, fft_re_out=      -1466978, fft_im_out=        615112, power_spectrum_result=      6007938901565, power_result_valid=1
+Time=            14875000, fft_m_data_tvalid=1, fft_re_out=       1428714, fft_im_out=       -738616, power_spectrum_result=      3279467872840, power_result_valid=1
+Time=            14885000, fft_m_data_tvalid=1, fft_re_out=       -240273, fft_im_out=       1696091, power_spectrum_result=      2530387225028, power_result_valid=1
+Time=            14895000, fft_m_data_tvalid=1, fft_re_out=       1348870, fft_im_out=       -111989, power_spectrum_result=      2586777289252, power_result_valid=1
+Time=            14905000, fft_m_data_tvalid=1, fft_re_out=      -1645794, fft_im_out=      -1990030, power_spectrum_result=      2934455794810, power_result_valid=1
+Time=            14915000, fft_m_data_tvalid=1, fft_re_out=       -203322, fft_im_out=       2140921, power_spectrum_result=      1831991813021, power_result_valid=1
+Time=            14925000, fft_m_data_tvalid=1, fft_re_out=        204014, fft_im_out=       -665688, power_spectrum_result=      6668857291336, power_result_valid=1
+Time=            14935000, fft_m_data_tvalid=1, fft_re_out=       1078231, fft_im_out=       -364461, power_spectrum_result=      4624882563925, power_result_valid=1
+Time=            14945000, fft_m_data_tvalid=1, fft_re_out=      -1847375, fft_im_out=       -405839, power_spectrum_result=       484762225540, power_result_valid=1
+Time=            14955000, fft_m_data_tvalid=1, fft_re_out=       1436007, fft_im_out=       1016768, power_spectrum_result=      1295413909882, power_result_valid=1
+Time=            14965000, fft_m_data_tvalid=1, fft_re_out=        171355, fft_im_out=       -835475, power_spectrum_result=      3577499684546, power_result_valid=1
+Time=            14975000, fft_m_data_tvalid=1, fft_re_out=         77065, fft_im_out=       -958854, power_spectrum_result=      3095933269873, power_result_valid=1
+Time=            14985000, fft_m_data_tvalid=1, fft_re_out=      -1104025, fft_im_out=       2193731, power_spectrum_result=       727381011650, power_result_valid=1
+Time=            14995000, fft_m_data_tvalid=1, fft_re_out=       -548602, fft_im_out=      -2212356, power_spectrum_result=       925340007541, power_result_valid=1
+Time=            15005000, fft_m_data_tvalid=1, fft_re_out=       2031586, fft_im_out=       2256984, power_spectrum_result=      6031326900986, power_result_valid=1
+Time=            15015000, fft_m_data_tvalid=1, fft_re_out=      -1964981, fft_im_out=       -408391, power_spectrum_result=      5195483225140, power_result_valid=1
+Time=            15025000, fft_m_data_tvalid=1, fft_re_out=       1409012, fft_im_out=      -1790289, power_spectrum_result=      9221318451652, power_result_valid=1
+Time=            15035000, fft_m_data_tvalid=1, fft_re_out=       1222635, fft_im_out=       1668428, power_spectrum_result=      4027933539242, power_result_valid=1
+Time=            15045000, fft_m_data_tvalid=1, fft_re_out=      -3109483, fft_im_out=        998465, power_spectrum_result=      5190449519665, power_result_valid=1
+Time=            15055000, fft_m_data_tvalid=1, fft_re_out=       2064860, fft_im_out=      -3261950, power_spectrum_result=      4278488334409, power_result_valid=1
+Time=            15065000, fft_m_data_tvalid=1, fft_re_out=       -234126, fft_im_out=        655773, power_spectrum_result=     10665816883514, power_result_valid=1
+Time=            15075000, fft_m_data_tvalid=1, fft_re_out=      -1119159, fft_im_out=       2039487, power_spectrum_result=     14903964622100, power_result_valid=1
+Time=            15085000, fft_m_data_tvalid=1, fft_re_out=       1166723, fft_im_out=      -1736229, power_spectrum_result=       484853211405, power_result_valid=1
+Time=            15095000, fft_m_data_tvalid=1, fft_re_out=      -1281155, fft_im_out=       2069063, power_spectrum_result=      5412024090450, power_result_valid=1
+Time=            15105000, fft_m_data_tvalid=1, fft_re_out=       3389002, fft_im_out=       -668874, power_spectrum_result=      4375733699170, power_result_valid=1
+Time=            15115000, fft_m_data_tvalid=1, fft_re_out=      -4236576, fft_im_out=      -2240845, power_spectrum_result=      5922379831994, power_result_valid=1
+Time=            15125000, fft_m_data_tvalid=1, fft_re_out=       1288947, fft_im_out=       2957615, power_spectrum_result=     11932726983880, power_result_valid=1
+Time=            15135000, fft_m_data_tvalid=1, fft_re_out=       1162297, fft_im_out=      -2296472, power_spectrum_result=     22969962517801, power_result_valid=1
+Time=            15145000, fft_m_data_tvalid=1, fft_re_out=      -1103045, fft_im_out=       1867153, power_spectrum_result=     10408870857034, power_result_valid=1
+Time=            15155000, fft_m_data_tvalid=1, fft_re_out=       1254199, fft_im_out=      -1843860, power_spectrum_result=      6624717962993, power_result_valid=1
+Time=            15165000, fft_m_data_tvalid=1, fft_re_out=       -940534, fft_im_out=       1182962, power_spectrum_result=      4702968597434, power_result_valid=1
+Time=            15175000, fft_m_data_tvalid=1, fft_re_out=      -1111144, fft_im_out=      -1052822, power_spectrum_result=      4972834831201, power_result_valid=1
+Time=            15185000, fft_m_data_tvalid=1, fft_re_out=       2501299, fft_im_out=       1609161, power_spectrum_result=      2284003298600, power_result_valid=1
+Time=            15195000, fft_m_data_tvalid=1, fft_re_out=      -2505162, fft_im_out=       -496333, power_spectrum_result=      2343075152420, power_result_valid=1
+Time=            15205000, fft_m_data_tvalid=1, fft_re_out=       1995160, fft_im_out=      -1918571, power_spectrum_result=      8845895811322, power_result_valid=1
+Time=            15215000, fft_m_data_tvalid=1, fft_re_out=      -1268067, fft_im_out=       1952854, power_spectrum_result=      6522183093133, power_result_valid=1
+Time=            15225000, fft_m_data_tvalid=1, fft_re_out=       1759287, fft_im_out=       -302185, power_spectrum_result=      7661578107641, power_result_valid=1
+Time=            15235000, fft_m_data_tvalid=1, fft_re_out=      -2005349, fft_im_out=        166783, power_spectrum_result=      5421632661805, power_result_valid=1
+Time=            15245000, fft_m_data_tvalid=1, fft_re_out=       1001614, fft_im_out=      -1247092, power_spectrum_result=      3186406522594, power_result_valid=1
+Time=            15255000, fft_m_data_tvalid=1, fft_re_out=      -1144242, fft_im_out=       2740709, power_spectrum_result=      4049241180890, power_result_valid=1
+Time=            15265000, fft_m_data_tvalid=1, fft_re_out=       1644663, fft_im_out=      -3570796, power_spectrum_result=      2558469061460, power_result_valid=1
+Time=            15275000, fft_m_data_tvalid=1, fft_re_out=       -353756, fft_im_out=       1513466, power_spectrum_result=      8820775577245, power_result_valid=1
+Time=            15285000, fft_m_data_tvalid=1, fft_re_out=      -1469462, fft_im_out=       1729688, power_spectrum_result=     15455500457185, power_result_valid=1
+Time=            15295000, fft_m_data_tvalid=1, fft_re_out=       2154412, fft_im_out=      -3154780, power_spectrum_result=      2415722640692, power_result_valid=1
+Time=            15305000, fft_m_data_tvalid=1, fft_re_out=      -1419707, fft_im_out=        326964, power_spectrum_result=      5151139146788, power_result_valid=1
+Time=            15315000, fft_m_data_tvalid=1, fft_re_out=       -726008, fft_im_out=       2451908, power_spectrum_result=     14594127914144, power_result_valid=1
+Time=            15325000, fft_m_data_tvalid=1, fft_re_out=        566325, fft_im_out=      -2805801, power_spectrum_result=      2122473423145, power_result_valid=1
+Time=            15335000, fft_m_data_tvalid=1, fft_re_out=       3033915, fft_im_out=        169509, power_spectrum_result=      6538940456528, power_result_valid=1
+Time=            15345000, fft_m_data_tvalid=1, fft_re_out=      -3964511, fft_im_out=       2489084, power_spectrum_result=      8193243257226, power_result_valid=1
+Time=            15355000, fft_m_data_tvalid=1, fft_re_out=       1805863, fft_im_out=      -3887957, power_spectrum_result=      9233373528306, power_result_valid=1
+Time=            15365000, fft_m_data_tvalid=1, fft_re_out=      -3078376, fft_im_out=       5476370, power_spectrum_result=     21912886628177, power_result_valid=1
+Time=            15375000, fft_m_data_tvalid=1, fft_re_out=       8701013, fft_im_out=       3318306, power_spectrum_result=     18377350808618, power_result_valid=1
+Time=            15385000, fft_m_data_tvalid=1, fft_re_out=      -9240256, fft_im_out=     -13824512, power_spectrum_result=     39467027174276, power_result_valid=1
+Time=            15395000, fft_m_data_tvalid=1, fft_re_out=        266997, fft_im_out=       7271985, power_spectrum_result=     86718781935805, power_result_valid=1
+Time=            15405000, fft_m_data_tvalid=1, fft_re_out=       2644275, fft_im_out=       -978310, power_spectrum_result=    276499462983680, power_result_valid=1
+Time=            15415000, fft_m_data_tvalid=1, fft_re_out=       2940650, fft_im_out=       -799508, power_spectrum_result=     52953053238234, power_result_valid=1
+Time=            15425000, fft_m_data_tvalid=1, fft_re_out=      -7241890, fft_im_out=       2759469, power_spectrum_result=      7949280731725, power_result_valid=1
+Time=            15435000, fft_m_data_tvalid=1, fft_re_out=       8121995, fft_im_out=       3780075, power_spectrum_result=      9286635464564, power_result_valid=1
+Time=            15445000, fft_m_data_tvalid=1, fft_re_out=      -3876664, fft_im_out=      -1141817, power_spectrum_result=     60059639934061, power_result_valid=1
+Time=            15455000, fft_m_data_tvalid=1, fft_re_out=       1620318, fft_im_out=      -7390685, power_spectrum_result=     80255769785650, power_result_valid=1
+Time=            15465000, fft_m_data_tvalid=1, fft_re_out=      -2630375, fft_im_out=       2786757, power_spectrum_result=     16332269830385, power_result_valid=1
+Time=            15475000, fft_m_data_tvalid=1, fft_re_out=       -150000, fft_im_out=       5920775, power_spectrum_result=     57247655190349, power_result_valid=1
+Time=            15485000, fft_m_data_tvalid=1, fft_re_out=       1418868, fft_im_out=      -4721996, power_spectrum_result=     14684887217674, power_result_valid=1
+Time=            15495000, fft_m_data_tvalid=1, fft_re_out=       3621598, fft_im_out=       1011745, power_spectrum_result=     35078076600625, power_result_valid=1
+Time=            15505000, fft_m_data_tvalid=1, fft_re_out=      -4958286, fft_im_out=      -9040534, power_spectrum_result=     24310432625440, power_result_valid=1
+Time=            15515000, fft_m_data_tvalid=1, fft_re_out=      -5697746, fft_im_out=      10736515, power_spectrum_result=     14139600018629, power_result_valid=1
+Time=            15525000, fft_m_data_tvalid=1, fft_re_out=      14983904, fft_im_out=      -7575416, power_spectrum_result=    106315855062952, power_result_valid=1
+Time=            15535000, fft_m_data_tvalid=1, fft_re_out=      -9991003, fft_im_out=       2300022, power_spectrum_result=    147737063825741, power_result_valid=1
+Time=            15545000, fft_m_data_tvalid=1, fft_re_out=       8031285, fft_im_out=       1208591, power_spectrum_result=    281904306654272, power_result_valid=1
+Time=            15555000, fft_m_data_tvalid=1, fft_re_out=      -7855750, fft_im_out=       9623574, power_spectrum_result=    105110242146493, power_result_valid=1
+Time=            15565000, fft_m_data_tvalid=1, fft_re_out=        338858, fft_im_out=      -8107193, power_spectrum_result=     65962230956506, power_result_valid=1
+Time=            15575000, fft_m_data_tvalid=1, fft_re_out=        361166, fft_im_out=       1790974, power_spectrum_result=    154325984595976, power_result_valid=1
+Time=            15585000, fft_m_data_tvalid=1, fft_re_out=        703485, fft_im_out=      -2004547, power_spectrum_result=     65841403083413, power_result_valid=1
+Time=            15595000, fft_m_data_tvalid=1, fft_re_out=      -1676521, fft_im_out=      -2669106, power_spectrum_result=      3338028748232, power_result_valid=1
+Time=            15605000, fft_m_data_tvalid=1, fft_re_out=       5044338, fft_im_out=        453331, power_spectrum_result=      4513099820434, power_result_valid=1
+Time=            15615000, fft_m_data_tvalid=1, fft_re_out=      -4035728, fft_im_out=      13927824, power_spectrum_result=      9934849502677, power_result_valid=1
+Time=            15625000, fft_m_data_tvalid=1, fft_re_out=        754451, fft_im_out=     -31807948, power_spectrum_result=     25650854853805, power_result_valid=1
+Time=            15635000, fft_m_data_tvalid=1, fft_re_out=       -821714, fft_im_out=      29056322, power_spectrum_result=    210271381864960, power_result_valid=1
+Time=            15645000, fft_m_data_tvalid=1, fft_re_out=      12419036, fft_im_out=      -9177662, power_spectrum_result=   1012314752282105, power_result_valid=1
+Time=            15655000, fft_m_data_tvalid=1, fft_re_out=     -14833356, fft_im_out=      -3451288, power_spectrum_result=    844945062065480, power_result_valid=1
+Time=            15665000, fft_m_data_tvalid=1, fft_re_out=      -2803117, fft_im_out=       1655578, power_spectrum_result=    238461934955540, power_result_valid=1
+Time=            15675000, fft_m_data_tvalid=1, fft_re_out=      12037803, fft_im_out=      10409434, power_spectrum_result=    231939839081680, power_result_valid=1
+Time=            15685000, fft_m_data_tvalid=1, fft_re_out=      -8104714, fft_im_out=     -14696707, power_spectrum_result=     10598403429773, power_result_valid=1
+Time=            15695000, fft_m_data_tvalid=1, fft_re_out=      -4854039, fft_im_out=      10909119, power_spectrum_result=    253265017267165, power_result_valid=1
+Time=            15705000, fft_m_data_tvalid=1, fft_re_out=      10461543, fft_im_out=      -2254319, power_spectrum_result=    281679585665645, power_result_valid=1
+Time=            15715000, fft_m_data_tvalid=1, fft_re_out=      -1104602, fft_im_out=     -18802501, power_spectrum_result=    142570571969682, power_result_valid=1
+Time=            15725000, fft_m_data_tvalid=1, fft_re_out=      -4361925, fft_im_out=      20653908, power_spectrum_result=    114525836094610, power_result_valid=1
+Time=            15735000, fft_m_data_tvalid=1, fft_re_out=       3894615, fft_im_out=      -9366781, power_spectrum_result=    354754189433405, power_result_valid=1
+Time=            15745000, fft_m_data_tvalid=1, fft_re_out=       4835071, fft_im_out=       9026827, power_spectrum_result=    445610305378089, power_result_valid=1
+Time=            15755000, fft_m_data_tvalid=1, fft_re_out=     -13939340, fft_im_out=      10031933, power_spectrum_result=    102904612300186, power_result_valid=1
+Time=            15765000, fft_m_data_tvalid=1, fft_re_out=      13037293, fft_im_out=     -21274392, power_spectrum_result=    104861517262970, power_result_valid=1
+Time=            15775000, fft_m_data_tvalid=1, fft_re_out=      -4198333, fft_im_out=      15746405, power_spectrum_result=    294944879352089, power_result_valid=1
+Time=            15785000, fft_m_data_tvalid=1, fft_re_out=      -7391733, fft_im_out=     -25286819, power_spectrum_result=    622570763737513, power_result_valid=1
+Time=            15795000, fft_m_data_tvalid=1, fft_re_out=      -1759702, fft_im_out=      23611182, power_spectrum_result=    265575270402914, power_result_valid=1
+Time=            15805000, fft_m_data_tvalid=1, fft_re_out=      29502033, fft_im_out=     -16907934, power_spectrum_result=    694060931882050, power_result_valid=1
+Time=            15815000, fft_m_data_tvalid=1, fft_re_out=     -27591262, fft_im_out=       5193137, power_spectrum_result=    560584466565928, power_result_valid=1
+Time=            15825000, fft_m_data_tvalid=1, fft_re_out=       -485511, fft_im_out=      21706028, power_spectrum_result=   1156248183281445, power_result_valid=1
+Time=            15835000, fft_m_data_tvalid=1, fft_re_out=      13009082, fft_im_out=     -28207295, power_spectrum_result=    788246410653413, power_result_valid=1
+Time=            15845000, fft_m_data_tvalid=1, fft_re_out=      -8499862, fft_im_out=      18174240, power_spectrum_result=    471387372467905, power_result_valid=1
+Time=            15855000, fft_m_data_tvalid=1, fft_re_out=     -11264669, fft_im_out=     -14253877, power_spectrum_result=    964887705699749, power_result_valid=1
+Time=            15865000, fft_m_data_tvalid=1, fft_re_out=      12761965, fft_im_out=       -964637, power_spectrum_result=    402550653596644, power_result_valid=1
+Time=            15875000, fft_m_data_tvalid=1, fft_re_out=      13309340, fft_im_out=      18321180, power_spectrum_result=    330065777210690, power_result_valid=1
+Time=            15885000, fft_m_data_tvalid=1, fft_re_out=     -10105043, fft_im_out=     -14387354, power_spectrum_result=    163798275202994, power_result_valid=1
+Time=            15895000, fft_m_data_tvalid=1, fft_re_out=     -10912608, fft_im_out=      18767871, power_spectrum_result=    512804167828000, power_result_valid=1
+Time=            15905000, fft_m_data_tvalid=1, fft_re_out=      16345978, fft_im_out=     -29820059, power_spectrum_result=    309107849153165, power_result_valid=1
+Time=            15915000, fft_m_data_tvalid=1, fft_re_out=       5068251, fft_im_out=      27433576, power_spectrum_result=    471317995234305, power_result_valid=1
+Time=            15925000, fft_m_data_tvalid=1, fft_re_out=     -25332043, fft_im_out=     -23190396, power_spectrum_result=   1156426915539965, power_result_valid=1
+Time=            15935000, fft_m_data_tvalid=1, fft_re_out=      12110239, fft_im_out=      11503214, power_spectrum_result=    778288260346777, power_result_valid=1
+Time=            15945000, fft_m_data_tvalid=1, fft_re_out=      15716247, fft_im_out=      10621756, power_spectrum_result=   1179506869190665, power_result_valid=1
+Time=            15955000, fft_m_data_tvalid=1, fft_re_out=     -31047011, fft_im_out=     -16456759, power_spectrum_result=    278981820966917, power_result_valid=1
+Time=            15965000, fft_m_data_tvalid=1, fft_re_out=      33265171, fft_im_out=       5450995, power_spectrum_result=    359822120288545, power_result_valid=1
+Time=            15975000, fft_m_data_tvalid=1, fft_re_out=     -31824467, fft_im_out=      -4935189, power_spectrum_result=   1234741808818202, power_result_valid=1
+Time=            15985000, fft_m_data_tvalid=1, fft_re_out=      15977122, fft_im_out=       2262854, power_spectrum_result=   1136284948149266, power_result_valid=1
+Time=            15995000, fft_m_data_tvalid=1, fft_re_out=       3974385, fft_im_out=     -15176262, power_spectrum_result=   1037152790299810, power_result_valid=1
+Time=            16005000, fft_m_data_tvalid=1, fft_re_out=       1340421, fft_im_out=      33341310, power_spectrum_result=    260388935628200, power_result_valid=1
+Time=            16015000, fft_m_data_tvalid=1, fft_re_out=     -19656524, fft_im_out=     -25725023, power_spectrum_result=    246114664420869, power_result_valid=1
+Time=            16025000, fft_m_data_tvalid=1, fft_re_out=      10967404, fft_im_out=      20289090, power_spectrum_result=   1113439680973341, power_result_valid=1
+Time=            16035000, fft_m_data_tvalid=1, fft_re_out=       -647604, fft_im_out=      -2661094, power_spectrum_result=   1048155744113105, power_result_valid=1
+Time=            16045000, fft_m_data_tvalid=1, fft_re_out=       5789985, fft_im_out=      -3790066, power_spectrum_result=    531931123527316, power_result_valid=1
+Time=            16055000, fft_m_data_tvalid=1, fft_re_out=      -2560033, fft_im_out=       2929413, power_spectrum_result=      7500812217652, power_result_valid=1
+Time=            16065000, fft_m_data_tvalid=1, fft_re_out=      21236720, fft_im_out=     -27508157, power_spectrum_result=     47888526584581, power_result_valid=1
+Time=            16075000, fft_m_data_tvalid=1, fft_re_out=     -37343233, fft_im_out=      19033140, power_spectrum_result=     15135229485658, power_result_valid=1
+Time=            16085000, fft_m_data_tvalid=1, fft_re_out=      27447203, fft_im_out=      24713030, power_spectrum_result=   1207696977895049, power_result_valid=1
+Time=            16095000, fft_m_data_tvalid=1, fft_re_out=     -32493566, fft_im_out=     -65403765, power_spectrum_result=   1756777469151889, power_result_valid=1
+Time=            16105000, fft_m_data_tvalid=1, fft_re_out=     -23487075, fft_im_out=      27858339, power_spectrum_result=   1364082804304109, power_result_valid=1
+Time=            16115000, fft_m_data_tvalid=1, fft_re_out=      98787670, fft_im_out=      40835605, power_spectrum_result=   5333484307571581, power_result_valid=1
+Time=            16125000, fft_m_data_tvalid=1, fft_re_out=     -74526286, fft_im_out=     -23734782, power_spectrum_result=   1327729743894546, power_result_valid=1
+Time=            16135000, fft_m_data_tvalid=1, fft_re_out=      36300841, fft_im_out=        691037, power_spectrum_result=  11426550379744925, power_result_valid=1
+Time=            16145000, fft_m_data_tvalid=1, fft_re_out=     -20193275, fft_im_out=     -14829372, power_spectrum_result=   6117507181541320, power_result_valid=1
+Time=            16155000, fft_m_data_tvalid=1, fft_re_out=      34260373, fft_im_out=       8868920, power_spectrum_result=   1318228589442650, power_result_valid=1
+Time=            16165000, fft_m_data_tvalid=1, fft_re_out=     -73511591, fft_im_out=      51016339, power_spectrum_result=    627678629140009, power_result_valid=1
+Time=            16175000, fft_m_data_tvalid=1, fft_re_out=      67457860, fft_im_out=     -97313979, power_spectrum_result=   1252430900065529, power_result_valid=1
+Time=            16185000, fft_m_data_tvalid=1, fft_re_out=     -24391548, fft_im_out=      65210338, power_spectrum_result=   8006620856314202, power_result_valid=1
+Time=            16195000, fft_m_data_tvalid=1, fft_re_out=      10866748, fft_im_out=     -46058770, power_spectrum_result=  14020573384592041, power_result_valid=1
+Time=            16205000, fft_m_data_tvalid=1, fft_re_out=     -47210072, fft_im_out=      88710662, power_spectrum_result=   4847335795910548, power_result_valid=1
+Time=            16215000, fft_m_data_tvalid=1, fft_re_out=      10396047, fft_im_out=     -87967094, power_spectrum_result=   2239496506008404, power_result_valid=1
+Time=            16225000, fft_m_data_tvalid=1, fft_re_out=      57684317, fft_im_out=     -11254402, power_spectrum_result=  10098372450723428, power_result_valid=1
+Time=            16235000, fft_m_data_tvalid=1, fft_re_out=     -52188495, fft_im_out=      26189418, power_spectrum_result=   7846287420031045, power_result_valid=1
+Time=            16245000, fft_m_data_tvalid=1, fft_re_out=      53719585, fft_im_out=      60965992, power_spectrum_result=   3454141992134093, power_result_valid=1
+Time=            16255000, fft_m_data_tvalid=1, fft_re_out=     -23097787, fft_im_out=     -40851771, power_spectrum_result=   3409524625543749, power_result_valid=1
+Time=            16265000, fft_m_data_tvalid=1, fft_re_out=      20231895, fft_im_out=     -57989164, power_spectrum_result=   6602645993116289, power_result_valid=1
+Time=            16275000, fft_m_data_tvalid=1, fft_re_out=     -93480984, fft_im_out=      74669971, power_spectrum_result=   2202374958133810, power_result_valid=1
+Time=            16285000, fft_m_data_tvalid=1, fft_re_out=      62905504, fft_im_out=     -35171160, power_spectrum_result=   3772072716709921, power_result_valid=1
+Time=            16295000, fft_m_data_tvalid=1, fft_re_out=      81903966, fft_im_out=      38199232, power_spectrum_result=  14314298938749097, power_result_valid=1
+Time=            16305000, fft_m_data_tvalid=1, fft_re_out=    -157801231, fft_im_out=     -29561691, power_spectrum_result=   5194112929239616, power_result_valid=1
+Time=            16315000, fft_m_data_tvalid=1, fft_re_out=      61491805, fft_im_out=      -1175166, power_spectrum_result=   8167440971918980, power_result_valid=1
+Time=            16325000, fft_m_data_tvalid=1, fft_re_out=      73068508, fft_im_out=     -15872801, power_spectrum_result=  25775122079894842, power_result_valid=1
+Time=            16335000, fft_m_data_tvalid=1, fft_re_out=     -34960148, fft_im_out=      38440231, power_spectrum_result=   3782623097285581, power_result_valid=1
+Time=            16345000, fft_m_data_tvalid=1, fft_re_out=     -68843222, fft_im_out=     -51518333, power_spectrum_result=   5590952672931665, power_result_valid=1
+Time=            16355000, fft_m_data_tvalid=1, fft_re_out=      35451042, fft_im_out=      48922317, power_spectrum_result=   2699863307515265, power_result_valid=1
+Time=            16365000, fft_m_data_tvalid=1, fft_re_out=      76870304, fft_im_out=      14734438, power_spectrum_result=   7393527850440173, power_result_valid=1
+Time=            16375000, fft_m_data_tvalid=1, fft_re_out=    -157658651, fft_im_out=     -59643118, power_spectrum_result=   3650169479534253, power_result_valid=1
+Time=            16385000, fft_m_data_tvalid=1, fft_re_out=     109341073, fft_im_out=      -3283625, power_spectrum_result=   6126147300228260, power_result_valid=1
+Time=            16395000, fft_m_data_tvalid=1, fft_re_out=      10827650, fft_im_out=      48473756, power_spectrum_result=  28413551759901725, power_result_valid=1
+Time=            16405000, fft_m_data_tvalid=1, fft_re_out=     -92780748, fft_im_out=       5391689, power_spectrum_result=  11966252437931954, power_result_valid=1
+Time=            16415000, fft_m_data_tvalid=1, fft_re_out=     154467449, fft_im_out=      -7009832, power_spectrum_result=   2466943025270036, power_result_valid=1
+Time=            16425000, fft_m_data_tvalid=1, fft_re_out=     -41389694, fft_im_out=     -93425944, power_spectrum_result=   8637337509712225, power_result_valid=1
+Time=            16435000, fft_m_data_tvalid=1, fft_re_out=    -121729294, fft_im_out=     169025485, power_spectrum_result=  23909330545235825, power_result_valid=1
+Time=            16445000, fft_m_data_tvalid=1, fft_re_out=      36742964, fft_im_out=     -78202395, power_spectrum_result=  10441513781704772, power_result_valid=1
+Time=            16455000, fft_m_data_tvalid=1, fft_re_out=      98906455, fft_im_out=    -107233287, power_spectrum_result=  43387635597223661, power_result_valid=1
+Time=            16465000, fft_m_data_tvalid=1, fft_re_out=    -104436217, fft_im_out=     156066526, power_spectrum_result=   7465659987241321, power_result_valid=1
+Time=            16475000, fft_m_data_tvalid=1, fft_re_out=      61683018, fft_im_out=     -62516959, power_spectrum_result=  21281464681491394, power_result_valid=1
+Time=            16485000, fft_m_data_tvalid=1, fft_re_out=     -60779234, fft_im_out=     -21653628, power_spectrum_result=  35263683958979765, power_result_valid=1
+Time=            16495000, fft_m_data_tvalid=1, fft_re_out=      95536041, fft_im_out=       7452807, power_spectrum_result=   7713164872196005, power_result_valid=1
+Time=            16505000, fft_m_data_tvalid=1, fft_re_out=    -104961488, fft_im_out=       -799391, power_spectrum_result=   4162994891189140, power_result_valid=1
+Time=            16515000, fft_m_data_tvalid=1, fft_re_out=      89503327, fft_im_out=       8918361, power_spectrum_result=   9182679462132930, power_result_valid=1
+Time=            16525000, fft_m_data_tvalid=1, fft_re_out=     -45720130, fft_im_out=      25517563, power_spectrum_result=  11017552989145025, power_result_valid=1
+Time=            16535000, fft_m_data_tvalid=1, fft_re_out=      38232854, fft_im_out=     -13507524, power_spectrum_result=   8090382706995250, power_result_valid=1
+Time=            16545000, fft_m_data_tvalid=1, fft_re_out=     -33779174, fft_im_out=     -18224591, power_spectrum_result=   2741476308675869, power_result_valid=1
+Time=            16555000, fft_m_data_tvalid=1, fft_re_out=        -78182, fft_im_out=       6101741, power_spectrum_result=   1644204329595892, power_result_valid=1
+Time=            16565000, fft_m_data_tvalid=1, fft_re_out=     -23706815, fft_im_out=     -25617756, power_spectrum_result=   1473168313239557, power_result_valid=1
+Time=            16575000, fft_m_data_tvalid=1, fft_re_out=      37565116, fft_im_out=      71020752, power_spectrum_result=     37237355656205, power_result_valid=1
+Time=            16585000, fft_m_data_tvalid=1, fft_re_out=        677298, fft_im_out=     -54753826, power_spectrum_result=   1218282499919761, power_result_valid=1
+Time=            16595000, fft_m_data_tvalid=1, fft_re_out=     -46610275, fft_im_out=       9415055, power_spectrum_result=   6455085154738960, power_result_valid=1
+Time=            16605000, fft_m_data_tvalid=1, fft_re_out=      41728080, fft_im_out=       9413349, power_spectrum_result=   2998440194219080, power_result_valid=1
+Time=            16615000, fft_m_data_tvalid=1, fft_re_out=      12277554, fft_im_out=     -71844831, power_spectrum_result=   2261160996228650, power_result_valid=1
+Time=            16625000, fft_m_data_tvalid=1, fft_re_out=      17783543, fft_im_out=      64499982, power_spectrum_result=   1829843799882201, power_result_valid=1
+Time=            16635000, fft_m_data_tvalid=1, fft_re_out=     -61018938, fft_im_out=    -114193565, power_spectrum_result=   5312418073641477, power_result_valid=1
+Time=            16645000, fft_m_data_tvalid=1, fft_re_out=     221517632, fft_im_out=     177076506, power_spectrum_result=   4476502079633173, power_result_valid=1
+Time=            16655000, fft_m_data_tvalid=0, fft_re_out=     -14001096, fft_im_out=  -21324307234, power_spectrum_result=  16763481082057069, power_result_valid=1
+Time=            16665000, fft_m_data_tvalid=0, fft_re_out=     -14001096, fft_im_out=  -21324307234, power_spectrum_result=  16763481082057069, power_result_valid=0

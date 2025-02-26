@@ -1,0 +1,7 @@
+Running: xsim.dir/power_spectrum_tb_behav/xsimk.exe -simmode gui -wdb power_spectrum_tb_behav.wdb -simrunnum 0 -socket 52862
+Design successfully loaded
+Design Loading Memory Usage: 34908 KB (Peak: 34908 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 41056 KB (Peak: 41056 KB)
+Simulation CPU Usage: 2906 ms

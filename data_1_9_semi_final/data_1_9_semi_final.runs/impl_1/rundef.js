@@ -24,9 +24,9 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "write_bitstream", "begin" );
+ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log fft_512_only.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source fft_512_only.tcl -notrace" );
+         "-log power_spectrum.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source power_spectrum.tcl -notrace" );
 
 
 

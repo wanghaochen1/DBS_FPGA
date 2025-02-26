@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740474020" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/source_data_1_9.dcp">
-  <File Type="PA-TCL" Name="fft_512_only.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="fft_512_only_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="fft_512_only_reports.tcl"/>
-  <File Type="RDS-RDS" Name="fft_512_only.vds"/>
-  <File Type="RDS-UTIL" Name="fft_512_only_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="fft_512_only_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="fft_512_only.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="fft_512_only_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="fft_512_only_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740570027" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/source_data_1_9.dcp">
+  <File Type="PA-TCL" Name="power_spectrum.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="power_spectrum_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="power_spectrum_reports.tcl"/>
+  <File Type="RDS-RDS" Name="power_spectrum.vds"/>
+  <File Type="RDS-UTIL" Name="power_spectrum_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="power_spectrum_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="power_spectrum.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="power_spectrum_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="power_spectrum_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/ila_spectrum/ila_spectrum.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/ip/FFT_512/FFT_512.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -60,6 +67,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/fft_512_only.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/mult_hanning.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -74,7 +88,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/fft_512_only.v">
+    <File Path="$PSRCDIR/sources_1/new/power_spectrum.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -95,7 +109,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="fft_512_only"/>
+      <Option Name="TopModule" Val="power_spectrum"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

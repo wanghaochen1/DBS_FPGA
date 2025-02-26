@@ -3,6 +3,9 @@
 
 # XDC: new/date_1_25.xdc
 
+# IP: ip/ila_spectrum/ila_spectrum.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ila_spectrum || ORIG_REF_NAME==ila_spectrum} -quiet] -quiet
+
 # IP: ip/FFT_512/FFT_512.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==FFT_512 || ORIG_REF_NAME==FFT_512} -quiet] -quiet
 
@@ -14,6 +17,14 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==hanning_bra
 
 # IP: ip/ila_fft_only/ila_fft_only.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ila_fft_only || ORIG_REF_NAME==ila_fft_only} -quiet] -quiet
+
+# XDC: g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/ila_v6_2/constraints/ila_impl.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_spectrum || ORIG_REF_NAME==ila_spectrum} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/ila_v6_2/constraints/ila.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_spectrum || ORIG_REF_NAME==ila_spectrum} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_spectrum/ila_spectrum_ooc.xdc
 
 # XDC: g:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/lfp_bram/lfp_bram_ooc.xdc
 

@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 module fft_512_only(
     input wire clk,               
-    input wire rst_n
+    input wire rst_n,
     // debug //
         // output wire signed [95:0] fft_m_data_tdata,
         // output wire [31:0] mult_result,
@@ -17,10 +17,10 @@ module fft_512_only(
     // debug //
 
     // ILA //
-        // output wire signed [15:0]  fft_m_data_tuser,
-        // output wire fft_m_data_tvalid,
-        // output reg signed [41:0] fft_re_out,
-        // output reg signed [41:0] fft_im_out
+        output wire signed [15:0]  fft_m_data_tuser,
+        output wire fft_m_data_tvalid,
+        output reg signed [41:0] fft_re_out,
+        output reg signed [41:0] fft_im_out
     // ILA //
 );
 
@@ -65,8 +65,8 @@ always @ (posedge clk or negedge rst_n) begin
         fft_s_data_tlast  <= 1'b0;
         data_finish_flag  <= 1'b0;
         count <= 10'd0;
-        fft_re_out <= 42'd0;
-        fft_im_out <= 42'd0;
+        // fft_re_out <= 42'd0;
+        // fft_im_out <= 42'd0;
     end
     else if (fft_s_data_tready && mult_result_valid) begin   //如果IP已经准备好且乘法结果有效
         if(count == 10'd511) begin  //�?后一位的数据输入
@@ -89,7 +89,6 @@ always @ (posedge clk or negedge rst_n) begin
     else begin //如果IP没有准备好被输入或乘法结果无�?
         fft_s_data_tvalid <= 1'b0;
         fft_s_data_tlast  <= 1'b0;
-        fft_s_data_tdata <= fft_s_data_tdata;
     end
 end
 
@@ -115,11 +114,11 @@ always @ (posedge clk) begin
 end
 
 ///    // 实例化ILA模块,进行上板测试 //
-    wire signed [15:0]  fft_m_data_tuser;
-    wire fft_m_data_tvalid;
-    reg signed [41:0] fft_re_out;
-    reg signed [41:0] fft_im_out;
-    
+    // wire signed [15:0]  fft_m_data_tuser;
+    // wire fft_m_data_tvalid;
+    // reg signed [41:0] fft_re_out;
+    // reg signed [41:0] fft_im_out;
+//      
 ila_fft_only logic_fft (
 	.clk(clk), // input wire clk
 

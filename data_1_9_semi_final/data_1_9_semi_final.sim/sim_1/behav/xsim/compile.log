@@ -4,17 +4,28 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS
 INFO: [VRFC 10-311] analyzing module lfp_bram
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/hanning_bram/sim/hanning_bram.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module hanning_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/ila_fft_only/sim/ila_fft_only.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_fft_only
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/Hanning_read.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Hanning_read
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/LFP_read.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module LFP_read
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fft_512
+WARNING: [VRFC 10-3380] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:68]
+WARNING: [VRFC 10-3380] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:69]
+WARNING: [VRFC 10-3380] identifier 'fft_m_data_tvalid' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:111]
+WARNING: [VRFC 10-3380] identifier 'fft_re_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:112]
+WARNING: [VRFC 10-3380] identifier 'fft_im_out' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512.v:113]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/fft_512_only.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_512_only
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/mult_hanning.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mult_hanning
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/power_spectrum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module power_spectrum
 INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sources_1/new/source_data_1_9.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module source_data_1_9
-INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/fft_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fft_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.srcs/sim_1/new/power_spectrum_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module power_spectrum_tb
 INFO: [VRFC 10-163] Analyzing VHDL file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.gen/sources_1/ip/FFT_512/sim/FFT_512.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'FFT_512'

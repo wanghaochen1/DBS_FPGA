@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Feb 25 17:15:52 2025
-# Process ID: 1280
+# Start of session at: Wed Feb 26 19:44:44 2025
+# Process ID: 20232
 # Current directory: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/impl_1
-# Command line: vivado.exe -log fft_512_only.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fft_512_only.tcl -notrace
-# Log file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/impl_1/fft_512_only.vdi
+# Command line: vivado.exe -log power_spectrum.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source power_spectrum.tcl -notrace
+# Log file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/impl_1/power_spectrum.vdi
 # Journal file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.runs/impl_1\vivado.jou
 # Running On: Wanghaochen, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34090 MB
 #-----------------------------------------------------------
-source fft_512_only.tcl -notrace
+source power_spectrum.tcl -notrace

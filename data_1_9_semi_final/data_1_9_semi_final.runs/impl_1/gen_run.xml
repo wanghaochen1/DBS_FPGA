@@ -1,91 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740474307">
-  <File Type="ROUTE-PWR" Name="fft_512_only_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="fft_512_only.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="fft_512_only_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="fft_512_only_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="fft_512_only_rqa_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="fft_512_only.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="fft_512_only_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="fft_512_only_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="fft_512_only_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="fft_512_only_opt.dcp"/>
-  <File Type="OPT-DRC" Name="fft_512_only_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="fft_512_only.hwdef"/>
-  <File Type="PWROPT-DCP" Name="fft_512_only_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="fft_512_only_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="fft_512_only_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="fft_512_only_placed.dcp"/>
-  <File Type="PLACE-IO" Name="fft_512_only_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="fft_512_only_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="fft_512_only_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="fft_512_only_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="fft_512_only_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="fft_512_only_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="fft_512_only_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="fft_512_only.bin"/>
-  <File Type="PLACE-TIMING" Name="fft_512_only_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="fft_512_only_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="fft_512_only_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="fft_512_only_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="fft_512_only.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="fft_512_only_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="fft_512_only_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="fft_512_only_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="fft_512_only.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="fft_512_only_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="fft_512_only_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="fft_512_only_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="fft_512_only_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="fft_512_only_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="fft_512_only_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="fft_512_only_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="fft_512_only_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fft_512_only_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fft_512_only_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="fft_512_only_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="fft_512_only_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="fft_512_only_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="fft_512_only_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="fft_512_only_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="fft_512_only_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="fft_512_only_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="fft_512_only_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="fft_512_only_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="fft_512_only_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="fft_512_only_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fft_512_only_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fft_512_only_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fft_512_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fft_512_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fft_512_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fft_512_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="fft_512_only.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fft_512_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fft_512_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="fft_512_only.nky"/>
-  <File Type="BITSTR-BMM" Name="fft_512_only_bd.bmm"/>
-  <File Type="PDI-FILE" Name="fft_512_only.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="fft_512_only_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="fft_512_only_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="fft_512_only.rcfi"/>
-  <File Type="CFI_FILE" Name="fft_512_only.cfi"/>
-  <File Type="RNPI_FILE" Name="fft_512_only.rnpi"/>
-  <File Type="NPI_FILE" Name="fft_512_only.npi"/>
-  <File Type="RBD_FILE" Name="fft_512_only.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1740570027">
+  <File Type="ROUTE-PWR" Name="power_spectrum_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="power_spectrum.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="power_spectrum_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="power_spectrum_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="power_spectrum_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="power_spectrum.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="power_spectrum_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="power_spectrum_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="power_spectrum_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="power_spectrum_opt.dcp"/>
+  <File Type="OPT-DRC" Name="power_spectrum_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="power_spectrum.hwdef"/>
+  <File Type="PWROPT-DCP" Name="power_spectrum_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="power_spectrum_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="power_spectrum_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="power_spectrum_placed.dcp"/>
+  <File Type="PLACE-IO" Name="power_spectrum_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="power_spectrum_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="power_spectrum_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="power_spectrum_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="power_spectrum_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="power_spectrum_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="power_spectrum_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="power_spectrum.bin"/>
+  <File Type="PLACE-TIMING" Name="power_spectrum_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="power_spectrum_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="power_spectrum_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="power_spectrum_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="power_spectrum.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="power_spectrum_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="power_spectrum_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="power_spectrum_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="power_spectrum.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="power_spectrum_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="power_spectrum_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="power_spectrum_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="power_spectrum_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="power_spectrum_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="power_spectrum_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="power_spectrum_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="power_spectrum_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="power_spectrum_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="power_spectrum_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="power_spectrum_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="power_spectrum_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="power_spectrum_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="power_spectrum_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="power_spectrum_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="power_spectrum_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="power_spectrum_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="power_spectrum_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="power_spectrum_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="power_spectrum_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="power_spectrum_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="power_spectrum_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="power_spectrum_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="power_spectrum_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="power_spectrum_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="power_spectrum_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="power_spectrum_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="power_spectrum.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="power_spectrum_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="power_spectrum_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="power_spectrum.nky"/>
+  <File Type="BITSTR-BMM" Name="power_spectrum_bd.bmm"/>
+  <File Type="PDI-FILE" Name="power_spectrum.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="power_spectrum_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="power_spectrum_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="power_spectrum.rcfi"/>
+  <File Type="CFI_FILE" Name="power_spectrum.cfi"/>
+  <File Type="RNPI_FILE" Name="power_spectrum.rnpi"/>
+  <File Type="NPI_FILE" Name="power_spectrum.npi"/>
+  <File Type="RBD_FILE" Name="power_spectrum.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="fft_512_only.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="fft_512_only.sysdef"/>
-  <File Type="BG-BGN" Name="fft_512_only.bgn"/>
-  <File Type="BG-DRC" Name="fft_512_only.drc"/>
-  <File Type="RDI-RDI" Name="fft_512_only.vdi"/>
+  <File Type="BITSTR-LTX" Name="power_spectrum.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="power_spectrum.sysdef"/>
+  <File Type="BG-BGN" Name="power_spectrum.bgn"/>
+  <File Type="BG-DRC" Name="power_spectrum.drc"/>
+  <File Type="RDI-RDI" Name="power_spectrum.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="fft_512_only_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="fft_512_only_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="power_spectrum_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="power_spectrum_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/ila_spectrum/ila_spectrum.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/ip/FFT_512/FFT_512.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -135,6 +142,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/fft_512_only.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/mult_hanning.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -149,7 +163,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/fft_512_only.v">
+    <File Path="$PSRCDIR/sources_1/new/power_spectrum.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -170,7 +184,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="fft_512_only"/>
+      <Option Name="TopModule" Val="power_spectrum"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
