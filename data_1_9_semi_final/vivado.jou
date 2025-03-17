@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Mar  4 17:00:34 2025
+# Process ID: 18764
+# Current directory: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25136 G:\NERCN_LFP\FPGA_final project\DBS_FPGA\data_1_9_semi_final\data_1_9_semi_final.xpr
+# Log file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/vivado.log
+# Journal file: G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final\vivado.jou
+# Running On: Wanghaochen, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34090 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/NERCN_LFP/FPGA_final project/DBS_FPGA/data_1_9_semi_final/data_1_9_semi_final.xpr}
+update_compile_order -fileset sources_1

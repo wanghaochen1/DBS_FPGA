@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.gen/sources_1/ip/lfp_bram/sim/lfp_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfp_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sources_1/new/Goertzel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Goertzel
+WARNING: [VRFC 10-3380] identifier 'current_data' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sources_1/new/Goertzel.v:64]
+WARNING: [VRFC 10-3380] identifier 'current_data' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sources_1/new/Goertzel.v:65]
+WARNING: [VRFC 10-3380] identifier 'current_data' is used before its declaration [G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sources_1/new/Goertzel.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sources_1/new/LFP_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFP_read
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/NERCN_LFP/FPGA_final project/DBS_FPGA/Goertzel_FFT/Goertzel_FFT.srcs/sim_1/new/Goertzel_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Goertzel_tb

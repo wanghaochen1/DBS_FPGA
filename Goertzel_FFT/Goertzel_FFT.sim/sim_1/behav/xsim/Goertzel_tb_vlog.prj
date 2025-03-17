@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Goertzel_FFT.gen/sources_1/ip/lfp_bram/sim/lfp_bram.v" \
+"../../../../Goertzel_FFT.srcs/sources_1/new/Goertzel.v" \
+"../../../../Goertzel_FFT.srcs/sources_1/new/LFP_read.v" \
+"../../../../Goertzel_FFT.srcs/sim_1/new/Goertzel_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
